@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UngDungMayTinh</title>
+</head>
+<body>
+<form action="">
+    <input id="soThuNhat"><input id="soThuHai">
+    <br />
+    <button type="button" onclick="Cong();">Cong(+)</button>
+    <button type="button" onclick="Tru()">Tru(-)</button>
+    <button type="button" onclick="Nhan()">Nhan(X)</button>
+    <button type="button" onclick="Chia()">Chia(/)</button>
+    <p id="kq"></p>
+</form>
+<script>
+    var soThuNhat;
+    var soThuHai;
+    var tong;
+    var hieu;
+    var nhan;
+    var chia;
+
+
+    function Cong(){
+        soThuNhat=parseInt(document.getElementById("soThuNhat").value);
+        soThuHai=parseInt(document.getElementById("soThuHai").value);
+        tong=soThuHai+soThuNhat;
+        document.getElementById("kq").innerHTML = tong;
+    }
+
+    function Tru() {
+        soThuNhat=parseInt(document.getElementById("soThuNhat").value);
+        soThuHai=parseInt(document.getElementById("soThuHai").value);
+        hieu=soThuNhat-soThuHai;
+        document.getElementById("kq").innerHTML = hieu;
+
+
+    }
+    function Nhan() {
+        soThuNhat=parseInt(document.getElementById("soThuNhat").value);
+        soThuHai=parseInt(document.getElementById("soThuHai").value);
+        nhan=soThuNhat*soThuHai;
+        document.getElementById("kq").innerHTML = nhan;
+
+
+    }
+    function Chia() {
+        soThuNhat=parseInt(document.getElementById("soThuNhat").value);
+        soThuHai=parseInt(document.getElementById("soThuHai").value);
+        if(soThuHai==0){
+            alert("khong the chia cho 0");
+        }
+        else {
+            chia=soThuNhat/soThuHai;
+            document.getElementById("kq").innerHTML = chia;
+        }
+
+
+    }
+
+
+
+</script>
+
+
+</body>
+</html>

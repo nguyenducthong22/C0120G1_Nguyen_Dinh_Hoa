@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh dien tich hinh tron</title>
+</head>
+<body>
+<script>
+    inputR = prompt('nhap ban kinh hinh tron : ')
+    R = parseFloat(inputR)
+    if (R>0){
+        let pi = Math.PI
+        chuVi = 2*R*pi
+        dienTich = pi*R*R
+        document.write('chu vi hinh tron la ' +chuVi )
+        document.write('<br />')
+        document.write('dien tich hinh trong la '+dienTich)
+    }
+    else {
+        document.write('hinh tron` gi` ki` v :)) ')
+    }
+
+
+
+</script>
+
+</body>
+</html>

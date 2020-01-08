@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh diem trung binh</title>
+</head>
+<body>
+<script>
+    inputVL = prompt('nhap diem vat ly :');
+    inputHH = prompt('nhap diem hoa hoc :');
+    inputSH = prompt('nhap diem sinh hoc :');
+    vl = parseFloat(inputVL);
+    hh = parseFloat(inputHH);
+    sh = parseFloat(inputSH);
+    if(vl>=0&&hh>=0&&sh>=0&&vl<=10&&hh<=10&&sh<=10){
+        c = (vl+hh+sh)/3;
+        t = (vl+hh+sh);
+        document.write('diem trung binh la : '+c +"<br />");
+        document.write('tong diem la :' +t)
+    }
+    else
+        document.write('vui long nhap lai')
+</script>
+
+</body>
+</html>

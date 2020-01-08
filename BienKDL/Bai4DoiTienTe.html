@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyen Doi Tien Te</title>
+</head>
+<body>
+<form action="">
+    <input id="input1">
+    <select id="select1">
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+    </select>
+    <select id="select2">
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+    </select>
+    <button type="button" id="button" onclick="aaa()">Convert</button>
+    <p id="kq"></p>
+</form>
+
+
+<script>
+
+    function aaa(){
+        var x;
+        var y;
+        var doi;
+        x = document.getElementById("select1").value;
+        y = document.getElementById("select2").value;
+        doi = parseFloat(document.getElementById("input1").value);
+        if(x=="VND"&&y=="USD"){
+            doi = doi/20000;
+            document.getElementById("kq").innerHTML ="ket qua la : " +doi;
+        }
+        else if (x=="USD"&&y=="VND") {
+            doi = doi*20000;
+            document.getElementById("kq").innerHTML ="ket qua la : " + doi;
+        }
+        else {
+            document.getElementById("kq").innerHTML ="ket qua la : " + doi;
+        }
+
+
+
+    }
+
+</script>
+</body>
+</html>
