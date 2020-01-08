@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3996b01-82aa-4bb5-8080-db68b1648a1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai1TinhChiSoCanNangCoThe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/KiemTraNamNhuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/SuKienChuot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai2TinhSoNgayTrongThang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,17 +38,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/SuKienChuot.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
+            <state relative-caret-position="680">
               <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai1TinhChiSoCanNangCoThe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="176">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai2TinhSoNgayTrongThang.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -73,6 +81,7 @@
         <option value="$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/KiemTraNamNhuan.html" />
         <option value="$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/SuKienChuot.html" />
         <option value="$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai1TinhChiSoCanNangCoThe.html" />
+        <option value="$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai2TinhSoNgayTrongThang.html" />
       </list>
     </option>
   </component>
@@ -163,7 +172,8 @@
       <workItem from="1578456766966" duration="36000" />
       <workItem from="1578456948587" duration="33000" />
       <workItem from="1578457067235" duration="74000" />
-      <workItem from="1578457947429" duration="57000" />
+      <workItem from="1578457947429" duration="364000" />
+      <workItem from="1578462618188" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="sdsd">
       <created>1578456702555</created>
@@ -179,11 +189,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578456957680</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sdsd">
+      <created>1578458039581</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578458039581</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220000" />
+    <option name="totallyTimeSpent" value="549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="524" y="20" width="944" height="784" extended-state="0" />
@@ -232,15 +249,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/SuKienChuot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
+        <state relative-caret-position="680">
           <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai1TinhChiSoCanNangCoThe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="176">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai2TinhSoNgayTrongThang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
         </state>
       </provider>
     </entry>
