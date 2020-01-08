@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6726e0ef-2c3b-4035-83d5-8b5943154f42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BienKDL/Bai1DiemTB.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BienKDL/Bai2DoiCsangF.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BienKDL/Bai3HinhTron.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BienKDL/Bai4DoiTienTe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BienKDL/Bai5MayTinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/NhapMon/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/NhapMon/demo.html" afterDir="false" />
-    </list>
+    <list default="true" id="6726e0ef-2c3b-4035-83d5-8b5943154f42" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -32,16 +23,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BienKDL/Bai1DiemTB.html">
+        <entry file="file://$PROJECT_DIR$/BienKDL/BT/Bai1DiemTB.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BienKDL/Bai2DoiCsangF.html">
+        <entry file="file://$PROJECT_DIR$/BienKDL/BT/Bai2DoiCsangF.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
@@ -50,7 +41,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BienKDL/Bai3HinhTron.html">
+        <entry file="file://$PROJECT_DIR$/BienKDL/BT/Bai3HinhTron.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
@@ -59,16 +50,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BienKDL/Bai4DoiTienTe.html">
+        <entry file="file://$PROJECT_DIR$/BienKDL/BT/Bai4DoiTienTe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="595">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BienKDL/Bai5MayTinh.html">
+        <entry file="file://$PROJECT_DIR$/BienKDL/BT/Bai5MayTinh.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
               <caret line="50" column="28" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="28" />
@@ -86,12 +77,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../Module1/scr/C0120G1_NguyenDinhHoa/demo.html" />
+        <option value="$PROJECT_DIR$/scr/C0120G1_NguyenDinhHoa/demo.html" />
         <option value="$PROJECT_DIR$/demo.html" />
         <option value="$PROJECT_DIR$/NhapMon/BaiTap/Bai1DiemTB.html" />
         <option value="$PROJECT_DIR$/BienKDL/Bai1DiemTB.html" />
@@ -103,28 +94,34 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="657" />
+    <option name="x" value="656" />
     <option name="y" value="25" />
-    <option name="width" value="1178" />
+    <option name="width" value="1179" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ProjectCodegym" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectCodegym" type="462c0819:PsiDirectoryNode" />
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="BienKDL" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,12 +133,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dinhhoa\CodeGym\ProjectCodegym\NhapMon" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\dinhhoa\CodeGym\Module1\scr\C0120G1_NguyenDinhHoa" />
       <recent name="C:\dinhhoa\CodeGym\Module1\scr" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dinhhoa\C0120G1_Nguyen_Dinh_Hoa\Module1\BienKDL\BT" />
+      <recent name="C:\dinhhoa\CodeGym\ProjectCodegym\NhapMon" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -185,6 +183,7 @@
       <workItem from="1578289541787" duration="116000" />
       <workItem from="1578303803083" duration="24000" />
       <workItem from="1578451180362" duration="533000" />
+      <workItem from="1578456535747" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="commit file demo">
       <created>1578283039789</created>
@@ -211,13 +210,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3137000" />
+    <option name="totallyTimeSpent" value="3232000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="526" y="20" width="942" height="784" extended-state="0" />
-    <editor active="true" />
+    <frame x="525" y="20" width="943" height="784" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3756906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37527594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -244,16 +242,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit file demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Module1/scr/demo.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Module1/scr/C0120G1_NguyenDinhHoa/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scr/demo.html" />
+    <entry file="file://$PROJECT_DIR$/scr/C0120G1_NguyenDinhHoa/demo.html" />
     <entry file="file://$PROJECT_DIR$/NhapMon/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -262,13 +252,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NhapMon/BaiTap/Bai1DiemTB.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/NhapMon/BaiTap/Bai1DiemTB.html" />
     <entry file="file://$PROJECT_DIR$/NhapMon/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -276,35 +260,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BienKDL/Bai1DiemTB.html">
+    <entry file="file://$PROJECT_DIR$/BienKDL/BT/Bai1DiemTB.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BienKDL/Bai2DoiCsangF.html">
+    <entry file="file://$PROJECT_DIR$/BienKDL/BT/Bai2DoiCsangF.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BienKDL/Bai3HinhTron.html">
+    <entry file="file://$PROJECT_DIR$/BienKDL/BT/Bai3HinhTron.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BienKDL/Bai4DoiTienTe.html">
+    <entry file="file://$PROJECT_DIR$/BienKDL/BT/Bai4DoiTienTe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        <state relative-caret-position="595">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BienKDL/Bai5MayTinh.html">
+    <entry file="file://$PROJECT_DIR$/BienKDL/BT/Bai5MayTinh.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="50" column="28" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="28" />
