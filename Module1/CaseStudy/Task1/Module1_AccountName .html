@@ -7,17 +7,17 @@
 <body>
 <script>
 
-    let nameCustomer = prompt("Enter Name Customer: ");
-    let idCard = prompt("Enter Id Card Customer: ");
-    let birthdayCustomer = prompt("Enter Birthday Customer (dd/MM/YYYY): ");
-    let emailCustomer = prompt("Enter Email Customer: ");
-    let addressCustomer = prompt("Enter Address Customer: ");
-    let typeCustomer = prompt("Enter Type Customer: ");
-    let discount = prompt("Enter Discout: ");
-    let numberOfAccompanying = prompt("Enter Number of Accompanying: ");
-    let typeRoom = prompt("Enter Type Room: ");
-    let rentDays = prompt("Enter Rent Days: ");
-    let typeService = prompt("Enter Type Service: ");
+    let nameCustomer = prompt("Enter Name Customer: "); //ten
+    let idCard = prompt("Enter Id Card Customer: "); //CMND
+    let birthdayCustomer = prompt("Enter Birthday Customer (dd/MM/YYYY): "); //Ngaysinh
+    let emailCustomer = prompt("Enter Email Customer: "); //Email
+    let addressCustomer = prompt("Enter Address Customer: "); //dia chi
+    let typeCustomer = prompt("Enter Type Customer: "); // loại Customer (Diamond, Platinum, Gold, Silver, Member)
+    let discount = prompt("Enter Discout: "); //gia gia
+    let numberOfAccompanying = prompt("Enter Number of Accompanying: "); //so luong di kem
+    let typeRoom = prompt("Enter Type Room: "); //loại phòng thuê (Vip, Business,  Normal).
+    let rentDays = prompt("Enter Rent Days: "); //so ngay thue
+    let typeService = prompt("Enter Type Service: "); //loại dịch vụ (Villa, House, Room)
 
     let totalPays = 500 * Number.parseInt(rentDays) * (1 - Number.parseFloat(discount)) / 100;
 
