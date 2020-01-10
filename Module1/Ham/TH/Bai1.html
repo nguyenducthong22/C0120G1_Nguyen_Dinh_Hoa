@@ -10,16 +10,16 @@
 <p id="result"></p>
 
 <script>
-    var x;
+
     function squareNumber(x) {
-        var result;
+        let result;
         result = x*x;
         return result;
     }
     function calculator() {
-        var inputX = parseInt(document.getElementById("input").value);
-        var ketqua = squareNumber(inputX);
-        document.getElementById("result").innerHTML = ketqua;
+        let inputX = parseInt(document.getElementById("input").value);
+        let result = squareNumber(inputX);
+        document.getElementById("result").innerHTML = result;
     }
 
     
