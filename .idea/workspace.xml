@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3996b01-82aa-4bb5-8080-db68b1648a1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Module1/Mang/TH/TH5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/Mang/TH/TH5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/Ham/TH/Bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +30,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Module1/BienKDL/BT/Bai4DoiTienTe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="861">
               <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Module1/Mang/TH/TH5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Module1/Ham/TH/Bai1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -71,10 +90,11 @@
         <option value="$PROJECT_DIR$/Module1/Mang/TH/TH3.html" />
         <option value="$PROJECT_DIR$/Module1/Mang/TH/TH4.html" />
         <option value="$PROJECT_DIR$/Module1/Mang/TH/TH5.html" />
+        <option value="$PROJECT_DIR$/Module1/Ham/TH/Bai1.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="900" />
     <option name="y" value="30" />
     <option name="width" value="1105" />
@@ -102,27 +122,14 @@
               <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
               <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="BienKDL" type="462c0819:PsiDirectoryNode" />
+              <item name="Ham" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
               <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="BienKDL" type="462c0819:PsiDirectoryNode" />
-              <item name="BT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="BienKDL" type="462c0819:PsiDirectoryNode" />
+              <item name="Ham" type="462c0819:PsiDirectoryNode" />
               <item name="TH" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="NhapMon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,8 +158,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.TH5.html">
-    <configuration name="Bai4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CauTrucLap/TH/Bai4.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.Bai1.html">
+    <configuration name="Bai1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/Ham/TH/Bai1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Bai5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CauTrucLap/TH/Bai5.html" useBuiltInWebServerPort="true">
@@ -169,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Bai1.html" />
         <item itemvalue="JavaScript Debug.TH5.html" />
         <item itemvalue="JavaScript Debug.BangCuuChuong.html" />
         <item itemvalue="JavaScript Debug.SoNguyenTo.html" />
         <item itemvalue="JavaScript Debug.Bai5.html" />
-        <item itemvalue="JavaScript Debug.Bai4.html" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +207,7 @@
       <workItem from="1578539143348" duration="24000" />
       <workItem from="1578549968467" duration="606000" />
       <workItem from="1578551142819" duration="8000" />
-      <workItem from="1578619887730" duration="5913000" />
+      <workItem from="1578619887730" duration="8567000" />
     </task>
     <task id="LOCAL-00001" summary="sdsd">
       <created>1578456702555</created>
@@ -234,10 +241,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16926000" />
+    <option name="totallyTimeSpent" value="19580000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14937212" />
@@ -427,13 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Mang/TH/TH5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Module1/NhapMon/demo.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -446,8 +446,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Module1/BienKDL/BT/Bai4DoiTienTe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="861">
           <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/Mang/TH/TH5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/Ham/TH/Bai1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
