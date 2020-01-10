@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3996b01-82aa-4bb5-8080-db68b1648a1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/Mang/TH/TH1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Mang/TH/TH2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Mang/TH/TH3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Mang/TH/TH4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/Mang/TH/TH5.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Module1/Mang/TH/TH4.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
@@ -64,9 +60,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/BienKDL/BT/Bai5MayTinh.html">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Module1/Mang/TH/TH5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -125,6 +125,7 @@
         <option value="$PROJECT_DIR$/Module1/Mang/TH/TH2.html" />
         <option value="$PROJECT_DIR$/Module1/Mang/TH/TH3.html" />
         <option value="$PROJECT_DIR$/Module1/Mang/TH/TH4.html" />
+        <option value="$PROJECT_DIR$/Module1/Mang/TH/TH5.html" />
       </list>
     </option>
   </component>
@@ -192,10 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.BangCuuChuong.html">
-    <configuration name="Bai1DiemTB.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/BienKDL/BT/Bai1DiemTB.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.TH5.html">
     <configuration name="Bai4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CauTrucLap/TH/Bai4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -208,13 +206,16 @@
     <configuration name="SoNguyenTo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CauTrucLap/BT/SoNguyenTo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="TH5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/Mang/TH/TH5.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.TH5.html" />
         <item itemvalue="JavaScript Debug.BangCuuChuong.html" />
         <item itemvalue="JavaScript Debug.SoNguyenTo.html" />
         <item itemvalue="JavaScript Debug.Bai5.html" />
         <item itemvalue="JavaScript Debug.Bai4.html" />
-        <item itemvalue="JavaScript Debug.Bai1DiemTB.html" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +242,7 @@
       <workItem from="1578539143348" duration="24000" />
       <workItem from="1578549968467" duration="606000" />
       <workItem from="1578551142819" duration="8000" />
-      <workItem from="1578619887730" duration="710000" />
+      <workItem from="1578619887730" duration="3318000" />
     </task>
     <task id="LOCAL-00001" summary="sdsd">
       <created>1578456702555</created>
@@ -275,10 +276,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11723000" />
+    <option name="totallyTimeSpent" value="14331000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14937212" />
@@ -454,6 +455,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/Mang/TH/TH5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
