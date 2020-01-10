@@ -4,7 +4,7 @@
 <body>
 <h3>Caro Game Simple</h3>
 <p id="carogame" />
-<input type="button" value="Change Value" onclick="changeValue()">
+<!--<input type="button" value="Change Value" onclick="changeValue()">-->
 </body>
 <script>
     let b = document.getElementById("carogame");
@@ -21,7 +21,7 @@
         }
     }
 
-    data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>"
+    data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>";
     b.innerHTML = data;
 
     function changeValue() {
@@ -35,7 +35,7 @@
                 data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
             }
         }
-        data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>"
+        data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>";
         b.innerHTML = "<hr/>" + data;
     }
 </script>
