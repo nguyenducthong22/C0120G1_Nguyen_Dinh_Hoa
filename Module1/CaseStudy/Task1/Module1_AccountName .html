@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module1_AccountName</title>
+</head>
+<body>
+<script>
+
+    let nameCustomer = prompt("Enter Name Customer: ");
+    let idCard = prompt("Enter Id Card Customer: ");
+    let birthdayCustomer = prompt("Enter Birthday Customer (dd/MM/YYYY): ");
+    let emailCustomer = prompt("Enter Email Customer: ");
+    let addressCustomer = prompt("Enter Address Customer: ");
+    let typeCustomer = prompt("Enter Type Customer: ");
+    let discount = prompt("Enter Discout: ");
+    let numberOfAccompanying = prompt("Enter Number of Accompanying: ");
+    let typeRoom = prompt("Enter Type Room: ");
+    let rentDays = prompt("Enter Rent Days: ");
+    let typeService = prompt("Enter Type Service: ");
+
+    let totalPays = 500 * Number.parseInt(rentDays) * (1 - Number.parseFloat(discount)) / 100;
+
+    //hien thi thong tin
+
+    alert("Information Of Customer: \n" +
+        "Name " + nameCustomer +
+        "\nID card : " + idCard +
+        "\nBirthday : " + birthdayCustomer +
+        "\nEmail : " +emailCustomer+
+        "\nAddress : " +addressCustomer+
+        "\nType Customer : " +typeCustomer+
+        "\nDiscount : " +discount +
+        "\nAccompanying : " +numberOfAccompanying+
+        "\nID Room : " +typeRoom+
+        "\nID Days : " +rentDays+
+        "\nID Service : " +typeService+
+        "\nID Pays : " +totalPays
+    )
+
+
+</script>
+
+</body>
+</html>
