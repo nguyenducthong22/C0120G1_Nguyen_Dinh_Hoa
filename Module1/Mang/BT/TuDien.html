@@ -18,10 +18,15 @@
         inputEnglish1 = (document.getElementById("inputEnglish").value).toString();
         for (let i = 0;i<arrEnglish.length ; i++) {
             if (arrEnglish[i] == inputEnglish1) {
-                document.getElementById("kq").innerHTML = arrTiengViet[i];
+                document.getElementById("kq").innerHTML = arrEnglish[i] + " là " +arrTiengViet[i];
                 break;
             }
-            else document.getElementById("kq").innerHTML = "không tìm thấy";
+            else if (arrTiengViet[i] == inputEnglish1) {
+                document.getElementById("kq").innerHTML = arrTiengViet[i] + " là " +arrEnglish[i];
+                break;
+
+            } else {
+            }document.getElementById("kq").innerHTML = "không tìm thấy";
         }
 
 
