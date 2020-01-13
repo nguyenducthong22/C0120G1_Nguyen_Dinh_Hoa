@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TuDien</title>
+</head>
+<body>
+<input id="inputEnglish">
+<input type="button" value="Tra" onclick="timKiem()">
+<p id="kq"></p>
+
+<script>
+
+    function timKiem() {
+        let english = new Array("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
+        let tiengViet = new Array("Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy", "Chủ Nhật");
+        let inputEnglish1;
+        inputEnglish1 = (document.getElementById("inputEnglish").value).toString();
+        for (let i = 0;i<7 ; i++) {
+            if (english[i] == inputEnglish1) {
+                document.getElementById("kq").innerHTML = tiengViet[i];
+            }
+            else document.getElementById("kq").innerHTML = "không tìm thấy";
+        }
+
+
+    }
+
+</script>
+
+</body>
+</html>
