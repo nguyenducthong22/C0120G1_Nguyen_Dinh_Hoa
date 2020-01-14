@@ -9,9 +9,32 @@
     let checkValidate = false;
     let emailCustomer;
     let birthdayCustomer;
+    let idCard;
 
     // let nameCustomer = prompt("Enter Name Customer: "); //ten
     // let idCard = prompt("Enter Id Card Customer: "); //CMND
+    do {
+        checkValidate = false;
+        idCard = prompt("Enter Id Card Customer: "); //CMND
+        if (isNaN(idCard)) {
+            alert("Khong Hop Le");
+            continue;
+        }
+        idCard = Number.parseFloat(idCard);
+        if (!Number.isInteger(idCard)) {
+            alert("khong hop le");
+            continue;
+        }
+        if (idCard >= 100000000 && idCard <= 999999999) {
+            checkValidate = true;
+        } else {
+            alert("khong hop le,vui long nhap lai")
+        }
+
+
+    } while (!checkValidate);
+
+
     do {
         checkValidate = false;
         birthdayCustomer = prompt("Enter Birthday Customer (dd/MM/YYYY): "); //Ngaysinh
@@ -32,12 +55,10 @@
                 }
             }
         }
-        if (!checkValidate){
+        if (!checkValidate) {
             alert("khong hop le, vui long nhap lai");
         }
-
     } while (!checkValidate);
-
 
     do {
         checkValidate = true;
@@ -72,10 +93,10 @@
     //hien thi thong tin
     //
     alert("Information Of Customer: \n" +
-    //     "Name " + nameCustomer +
-    //     "\nID card : " + idCard +
+        //     "Name " + nameCustomer +
+        "\nID card : " + idCard +
         "\nBirthday : " + birthdayCustomer +
-        "\nEmail : " + emailCustomer )
+        "\nEmail : " + emailCustomer)
     //     "\nAddress : " + addressCustomer +
     //     "\nType Customer : " + typeCustomer +
     //     "\nDiscount : " + discount +
