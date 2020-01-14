@@ -6,7 +6,7 @@
 </head>
 <input type="text" id="inputNumber">
 <input type="button" value="kiem tra" onclick="kiemTra()">
-<!--<input type="button" value="hien thi" onclick="hienThi()">-->
+<input type="button" value="hien thi" onclick="hienThi()">
 <p id="kq"></p>
 <body>
 <script>
@@ -14,26 +14,40 @@
         let flag = true;
         if (n < 2) {
             flag = false;
-        }
-        else {
+        } else {
             for (let i = 2; i < n; i++) {
-                if (n%i==0) {
+                if (n % i == 0) {
                     flag = false;
                     break;
                 }
             }
         }
+
+        return flag;
+    }
+
+    function kiemTra() {
+        let inputNumber1;
+        inputNumber1 = parseInt(document.getElementById("inputNumber").value);
+        let flag = kiemTraSoNT(inputNumber1);
         if (flag == true) {
             document.getElementById("kq").innerHTML = "la so nguyen to \n";
         } else {
             document.getElementById("kq").innerHTML = "khong la so nguyen to \n";
         }
-        // return flag;
+
     }
-    function kiemTra() {
-        let inputNumber1;
-        inputNumber1 = parseInt(document.getElementById("inputNumber").value);
-        kiemTraSoNT(inputNumber1);
+    function hienThi() { //hien thi tat ca so nguyen to <=1000
+        let n = 2;
+        while (n<=1000)
+        {
+            let flag = kiemTraSoNT(n);
+            if (flag == true) {
+                document.write(n+"<br />");
+            }
+            n++;
+        }
+
     }
 
 
