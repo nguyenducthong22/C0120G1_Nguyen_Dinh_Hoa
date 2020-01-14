@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module1_AccountName</title>
+</head>
+<body>
+<script>
+    let checkValidate = false;
+    let emailCustomer;
+    let birthdayCustomer;
+
+    // let nameCustomer = prompt("Enter Name Customer: "); //ten
+    // let idCard = prompt("Enter Id Card Customer: "); //CMND
+    do {
+        checkValidate = false;
+        birthdayCustomer = prompt("Enter Birthday Customer (dd/MM/YYYY): "); //Ngaysinh
+        if (birthdayCustomer.charAt(2) != "/" || birthdayCustomer.charAt(5) != "/") {
+            alert("Khong Hop Le");
+            continue;
+        }
+        let day = birthdayCustomer.substring(0, 2);
+        let month = birthdayCustomer.substring(3, 5);
+        let year = birthdayCustomer.substring(6, 10);
+        if (!isNaN(day) && !isNaN(month) && !isNaN(year)) {
+            day = Number.parseFloat(day);
+            month = Number.parseFloat(month);
+            year = Number.parseFloat(year);
+            if (Number.isInteger(day) && Number.isInteger(year) && Number.isInteger(month)) {
+                if (day > 0 && day < 32 && month > 0 && month < 13 && year > 1989 && year < 2020) {
+                    checkValidate = true;
+                }
+            }
+        }
+        if (!checkValidate){
+            alert("khong hop le, vui long nhap lai");
+        }
+
+    } while (!checkValidate);
+
+
+    do {
+        checkValidate = true;
+        emailCustomer = prompt("Enter Email Customer: "); //Email
+        let countDoc = 0;
+        let countAt = 0;
+        for (let i = 0; i < emailCustomer.length; i++) {
+            if (emailCustomer.charAt(i) === "@") {
+                countAt++;
+            }
+            if (emailCustomer.charAt(i) === ".") {
+                countDoc++;
+            }
+        }
+        if (countAt != 1 || countDoc < 1) {
+            checkValidate = false;
+            alert("Email khong hop le! Please try again");
+        }
+    } while (!checkValidate);
+
+
+    // let addressCustomer = prompt("Enter Address Customer: "); //dia chi
+    // let typeCustomer = prompt("Enter Type Customer: "); // loại Customer (Diamond, Platinum, Gold, Silver, Member)
+    // let discount = prompt("Enter Discout: "); //gia gia
+    // let numberOfAccompanying = prompt("Enter Number of Accompanying: "); //so luong di kem
+    // let typeRoom = prompt("Enter Type Room: "); //loại phòng thuê (Vip, Business,  Normal).
+    // let rentDays = prompt("Enter Rent Days: "); //so ngay thue
+    // let typeService = prompt("Enter Type Service: "); //loại dịch vụ (Villa, House, Room)
+    //
+    // let totalPays = 500 * Number.parseInt(rentDays) * (1 - Number.parseFloat(discount)) / 100;
+
+    //hien thi thong tin
+    //
+    alert("Information Of Customer: \n" +
+    //     "Name " + nameCustomer +
+    //     "\nID card : " + idCard +
+        "\nBirthday : " + birthdayCustomer +
+        "\nEmail : " + emailCustomer )
+    //     "\nAddress : " + addressCustomer +
+    //     "\nType Customer : " + typeCustomer +
+    //     "\nDiscount : " + discount +
+    //     "\nAccompanying : " + numberOfAccompanying +
+    //     "\nID Room : " + typeRoom +
+    //     "\nID Days : " + rentDays +
+    //     "\nID Service : " + typeService +
+    //     "\nID Pays : " + totalPays
+    // )
+
+
+</script>
+
+</body>
+</html>
