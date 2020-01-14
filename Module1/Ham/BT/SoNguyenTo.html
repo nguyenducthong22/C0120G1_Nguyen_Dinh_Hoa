@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<input type="text" id="inputNumber">
+<input type="button" value="kiem tra" onclick="kiemTra()">
+<!--<input type="button" value="hien thi" onclick="hienThi()">-->
+<p id="kq"></p>
+<body>
+<script>
+    function kiemTraSoNT(n) {
+        let flag = true;
+        if (n < 2) {
+            flag = false;
+        }
+        else {
+            for (let i = 2; i < n; i++) {
+                if (n%i==0) {
+                    flag = false;
+                    break;
+                }
+            }
+        }
+        if (flag == true) {
+            document.getElementById("kq").innerHTML = "la so nguyen to \n";
+        } else {
+            document.getElementById("kq").innerHTML = "khong la so nguyen to \n";
+        }
+        // return flag;
+    }
+    function kiemTra() {
+        let inputNumber1;
+        inputNumber1 = parseInt(document.getElementById("inputNumber").value);
+        kiemTraSoNT(inputNumber1);
+    }
+
+
+</script>
+
+</body>
+</html>
