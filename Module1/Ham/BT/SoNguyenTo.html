@@ -34,15 +34,14 @@
         } else {
             document.getElementById("kq").innerHTML = "khong la so nguyen to \n";
         }
-
     }
+
     function hienThi() { //hien thi tat ca so nguyen to <=1000
         let n = 2;
-        while (n<=1000)
-        {
+        while (n <= 1000) {
             let flag2 = kiemTraSoNT(n);
             if (flag2 == true) {
-                document.write(n+"<br />");
+                document.write(n + "<br />");
             }
             n++;
         }

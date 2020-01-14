@@ -104,25 +104,59 @@
                 "\nID Days : " + rentDays +
                 "\nID Service : " + typeService
             );
-
             break;
         case "3" :
-            alert("Information Of Customer: \n" +
-                "Name " + nameCustomer +
-                "\nID card : " + idCard +
-                "\nBirthday : " + birthdayCustomer +
-                "\nEmail : " + emailCustomer +
-                "\nAddress : " + addressCustomer +
-                "\nType Customer : " + typeCustomer +
-                "\nDiscount : " + discount +
-                "\nAccompanying : " + numberOfAccompanying +
-                "\nID Room : " + typeRoom +
-                "\nID Days : " + rentDays +
-                "\nID Service : " + typeService
-            );
+            let moneyPerdays = 0;
+            if (typeService == "Villa") {
+                moneyPerdays = 500;
+            } else if (typeService == "House") {
+                moneyPerdays = 300;
+            } else {
+                moneyPerdays = 100;
+            }
+            let discountCondition = 0;
+            let currentYear = new Date().getFullYear();
+            let birthday = new Date(birthdayCustomer).getFullYear();
+            let ageCustomer = currentYear - birthday;
+            if (addressCustomer === "Đà Nẵng") {
+                discountCondition += 20;
+                if (ageCustomer > 30) {
+                    discountCondition+=2;
+                } else if (ageCustomer >= 20) {
+                    discountCondition += 1;
+                }
+            } else if (addressCustomer === "Huế") {
+                discountCondition += 10;
+            } else if (ageCustomer==="Quảng Nam") {
+                discountCondition+=5;
+            }
+            if (rentDays > 7) {
+                discountCondition+=30;
+            } else if (rentDays >= 5) {
+                discountCondition += 5;
+            } else if (rentDays >= 2) {
+                discountCondition+=2;
+            }
+            if (typeCustomer === "Diamond") {
+                discountCondition+=15;
+            } else if (typeCustomer === "Platinum") {
+                discountCondition+=10;
+            } else if (typeCustomer === "Gold") {
+                discountCondition+=5;
+            } else if (typeCustomer === "Silver") {
+                discountCondition+=2;
+            }
+            let totalPays = moneyPerdays * Number.parseInt(rentDays) * (1 - Number.parseFloat(discount)) / 100;
+            totalPays = totalPays - discountCondition;
+            alert("Total Pays After Discout Condition " +totalPays);
 
 
 
+
+            break;
+        default:
+            alert("Faill!!!");
+            break;
     }
 
     //
