@@ -22,15 +22,14 @@
                 }
             }
         }
-
         return flag;
     }
 
-    function kiemTra() {
+    function kiemTra() { //kiem tra so nguyen to
         let inputNumber1;
         inputNumber1 = parseInt(document.getElementById("inputNumber").value);
-        let flag = kiemTraSoNT(inputNumber1);
-        if (flag == true) {
+        let flag1 = kiemTraSoNT(inputNumber1);
+        if (flag1 == true) {
             document.getElementById("kq").innerHTML = "la so nguyen to \n";
         } else {
             document.getElementById("kq").innerHTML = "khong la so nguyen to \n";
@@ -41,8 +40,8 @@
         let n = 2;
         while (n<=1000)
         {
-            let flag = kiemTraSoNT(n);
-            if (flag == true) {
+            let flag2 = kiemTraSoNT(n);
+            if (flag2 == true) {
                 document.write(n+"<br />");
             }
             n++;
