@@ -2,9 +2,147 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Nguyễn Đình Hòa</title>
 </head>
 <body>
-$END$
+<script>
+
+    let nameCustomer = "Nguyễn Văn A"; //ten
+    let idCard = "123456789"; //CMND
+    let birthdayCustomer = "22/11/1990"; //Ngaysinh
+    let emailCustomer = "A@gmail.com"; //Email
+    let addressCustomer = "Đà Nẵng"; //dia chi
+    let typeCustomer = "Diamond"; // loại Customer (Diamond, Platinum, Gold, Silver, Member)
+    let discount = 10; //giam gia
+    let numberOfAccompanying = 2; //so luong di kem
+    let typeRoom = "Business"; //loại phòng thuê (Vip, Business,  Normal).
+    let rentDays = 5; //so ngay thue
+    let typeService = "Villa"; //loại dịch vụ (Villa, House, Room)
+    let choose = prompt(
+        "1. Show Information Customer.\n" +
+        "2. Edit Information Customer.\n" +
+        "3. Show The Amount To Be Paid After Discout.\n"
+    );
+    switch (choose) {
+        case "1" :
+            alert("Information Of Customer: \n" +
+                "Name " + nameCustomer +
+                "\nID card : " + idCard +
+                "\nBirthday : " + birthdayCustomer +
+                "\nEmail : " + emailCustomer +
+                "\nAddress : " + addressCustomer +
+                "\nType Customer : " + typeCustomer +
+                "\nDiscount : " + discount +
+                "\nAccompanying : " + numberOfAccompanying +
+                "\nID Room : " + typeRoom +
+                "\nID Days : " + rentDays +
+                "\nID Service : " + typeService
+            );
+            break;
+        case "2" :
+            let chooseEdit = prompt(
+                "Choose Information Customer You Want Edit : \n" +
+                "1.Name " + nameCustomer +
+                "\n2.ID card : " + idCard +
+                "\n3.Birthday : " + birthdayCustomer +
+                "\n4.Email : " + emailCustomer +
+                "\n5.Address : " + addressCustomer +
+                "\n6.Type Customer : " + typeCustomer +
+                "\n7.Discount : " + discount +
+                "\n8.Accompanying : " + numberOfAccompanying +
+                "\n9.ID Room : " + typeRoom +
+                "\n10.ID Days : " + rentDays +
+                "\n11.ID Service : " + typeService
+            );
+            switch (chooseEdit) {
+                case "1":
+                    nameCustomer = prompt("Enter Name You Want Edit");
+                    break;
+                case "2":
+                    idCard = prompt("Enter ID You Want Edit");
+                    break;
+                case "3":
+                    birthdayCustomer = prompt("Enter Birthday Customer You Want Edit");
+                    break;
+                case "4":
+                    emailCustomer = prompt("Enter Email You Want Edit");
+                    break;
+                case "5":
+                    addressCustomer = prompt("Enter Address You Want Edit");
+                    break;
+                case "6":
+                    typeCustomer = prompt("Enter Type Customer You Want Edit");
+                    break;
+                case "7":
+                    discount = prompt("Enter Discount You Want Edit");
+                    break;
+                case "8":
+                    numberOfAccompanying = prompt("Enter Accompanying You Want Edit");
+                    break;
+                case "9":
+                    typeRoom = prompt("Enter ID Room You Want Edit");
+                    break;
+                case "10":
+                    rentDays = prompt("Enter ID Days You Want Edit");
+                    break;
+                case "11":
+                    typeService = prompt("Enter ID Service You Want Edit");
+                    break;
+                default:
+                    alert("Faill!!");
+            }
+            alert("Information Of Customer: \n" +
+                "Name " + nameCustomer +
+                "\nID card : " + idCard +
+                "\nBirthday : " + birthdayCustomer +
+                "\nEmail : " + emailCustomer +
+                "\nAddress : " + addressCustomer +
+                "\nType Customer : " + typeCustomer +
+                "\nDiscount : " + discount +
+                "\nAccompanying : " + numberOfAccompanying +
+                "\nID Room : " + typeRoom +
+                "\nID Days : " + rentDays +
+                "\nID Service : " + typeService
+            );
+
+            break;
+        case "3" :
+            alert("Information Of Customer: \n" +
+                "Name " + nameCustomer +
+                "\nID card : " + idCard +
+                "\nBirthday : " + birthdayCustomer +
+                "\nEmail : " + emailCustomer +
+                "\nAddress : " + addressCustomer +
+                "\nType Customer : " + typeCustomer +
+                "\nDiscount : " + discount +
+                "\nAccompanying : " + numberOfAccompanying +
+                "\nID Room : " + typeRoom +
+                "\nID Days : " + rentDays +
+                "\nID Service : " + typeService
+            );
+
+
+
+    }
+
+    //
+    // let nameCustomer = prompt("Enter Name Customer: "); //ten
+    // let idCard = prompt("Enter Id Card Customer: "); //CMND
+    // let birthdayCustomer = prompt("Enter Birthday Customer (dd/MM/YYYY): "); //Ngaysinh
+    // let emailCustomer = prompt("Enter Email Customer: "); //Email
+    // let addressCustomer = prompt("Enter Address Customer: "); //dia chi
+    // let typeCustomer = prompt("Enter Type Customer: "); // loại Customer (Diamond, Platinum, Gold, Silver, Member)
+    // let discount = prompt("Enter Discout: "); //gia gia
+    // let numberOfAccompanying = prompt("Enter Number of Accompanying: "); //so luong di kem
+    // let typeRoom = prompt("Enter Type Room: "); //loại phòng thuê (Vip, Business,  Normal).
+    // let rentDays = prompt("Enter Rent Days: "); //so ngay thue
+    // let typeService = prompt("Enter Type Service: "); //loại dịch vụ (Villa, House, Room)
+
+
+    //hien thi thong tin
+
+
+</script>
+
 </body>
 </html>

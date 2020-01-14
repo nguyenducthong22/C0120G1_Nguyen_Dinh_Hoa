@@ -12,10 +12,12 @@
 <script>
 
     function timKiem() {
+
         let arrEnglish = new Array("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
         let arrTiengViet = new Array("Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy", "Chủ Nhật");
         let inputEnglish1;
         inputEnglish1 = (document.getElementById("inputEnglish").value).toString();
+        // inputEnglish1 = inputEnglish1.toLowerCase();
         for (let i = 0;i<arrEnglish.length ; i++) {
             if (arrEnglish[i] == inputEnglish1) {
                 document.getElementById("kq").innerHTML = arrEnglish[i] + " là " +arrTiengViet[i];
