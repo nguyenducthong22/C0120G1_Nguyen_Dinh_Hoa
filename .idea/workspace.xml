@@ -243,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.BaiTapMayTinh.html">
+  <component name="RunManager" selected="JavaScript Debug.Bai3MayTinhDonGian.html">
     <configuration name="Bai3DoiNhietDo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/Ham/TH/Bai3DoiNhietDo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -261,8 +261,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.BaiTapMayTinh.html" />
         <item itemvalue="JavaScript Debug.Bai3MayTinhDonGian.html" />
+        <item itemvalue="JavaScript Debug.BaiTapMayTinh.html" />
         <item itemvalue="JavaScript Debug.Bai5.html" />
         <item itemvalue="JavaScript Debug.Bai4TimGTNN.html" />
         <item itemvalue="JavaScript Debug.Bai3DoiNhietDo.html" />
