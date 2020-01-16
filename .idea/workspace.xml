@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3996b01-82aa-4bb5-8080-db68b1648a1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau3/Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau3/Task1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau3/Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau3/Task2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/#4Mang/Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/#4Mang/Task1.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,94 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/BaiTapMayTinh.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-164">
-              <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/YeuCau3/Task1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai1TinhChiSoCanNangCoThe.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/YeuCau3/Task2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/YeuCau2/Task1_Task2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1854">
-              <caret line="130" column="37" lean-forward="true" selection-start-line="130" selection-start-column="37" selection-end-line="138" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/DoYouLoveMe.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai2TinhSoNgayTrongThang.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-500">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/KiemTraNamNhuan.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/SuKienChuot.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -152,10 +65,12 @@
         <option value="$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/DoYouLoveMe.html" />
         <option value="$PROJECT_DIR$/Module1/CaseStudy/YeuCau3/Task1.html" />
         <option value="$PROJECT_DIR$/Module1/CaseStudy/YeuCau3/Task2.html" />
+        <option value="$PROJECT_DIR$/Module1/CaseStudy/YeuCau4/Task1.html" />
+        <option value="$PROJECT_DIR$/Module1/CaseStudy/#4Mang/Task1.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="655" />
     <option name="y" value="25" />
     <option name="width" value="1180" />
@@ -166,7 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,7 +104,14 @@
               <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="YeuCau3" type="462c0819:PsiDirectoryNode" />
+              <item name="#3CauTrucLap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="#4Mang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
@@ -230,6 +151,26 @@
               <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="CauTrucLap" type="462c0819:PsiDirectoryNode" />
+              <item name="TH" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Ham" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Ham" type="462c0819:PsiDirectoryNode" />
+              <item name="BT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="Ham" type="462c0819:PsiDirectoryNode" />
               <item name="TH" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -242,6 +183,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,17 +212,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Task2.html">
+  <component name="RunManager" selected="JavaScript Debug.Task2.html (1)">
     <configuration name="Bai2TinhSoNgayTrongThang.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CauTrucDieuKien/BT/Bai2TinhSoNgayTrongThang.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="BaiTapMayTinh.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CauTrucDieuKien/BT/BaiTapMayTinh.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="DoYouLoveMe.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CauTrucDieuKien/TH/DoYouLoveMe.html" useBuiltInWebServerPort="true">
+    <configuration name="Task1.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CaseStudy/#4Mang/Task1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Task1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CaseStudy/YeuCau3/Task1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Task1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CaseStudy/#4Mang/Task1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Task2.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CaseStudy/#4Mang/Task2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Task2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CaseStudy/YeuCau3/Task2.html" useBuiltInWebServerPort="true">
@@ -288,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Task2.html (1)" />
+        <item itemvalue="JavaScript Debug.Task1.html (1)" />
+        <item itemvalue="JavaScript Debug.Bai2TinhSoNgayTrongThang.html" />
         <item itemvalue="JavaScript Debug.Task2.html" />
         <item itemvalue="JavaScript Debug.Task1.html" />
-        <item itemvalue="JavaScript Debug.DoYouLoveMe.html" />
-        <item itemvalue="JavaScript Debug.Bai2TinhSoNgayTrongThang.html" />
-        <item itemvalue="JavaScript Debug.BaiTapMayTinh.html" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +271,8 @@
       <workItem from="1579063174634" duration="8457000" />
       <workItem from="1579083046465" duration="346000" />
       <workItem from="1579089726654" duration="773000" />
-      <workItem from="1579137182331" duration="4803000" />
+      <workItem from="1579137182331" duration="5818000" />
+      <workItem from="1579143022132" duration="116000" />
     </task>
     <task id="LOCAL-00001" summary="sdsd">
       <created>1578456702555</created>
@@ -360,10 +306,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62550000" />
+    <option name="totallyTimeSpent" value="63681000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1764706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -458,7 +404,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/YeuCau1/Task1_Task2.html">
+    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/#1BienKDL/Task1_Task2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="89" selection-start-line="9" selection-start-column="2" selection-end-line="19" selection-end-column="89" />
@@ -608,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/KiemTraNamNhuan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/SuKienChuot.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -629,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai2TinhSoNgayTrongThang.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai1TinhChiSoCanNangCoThe.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -643,24 +575,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/YeuCau2/Task1_Task2.html">
+    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/#2CauTrucDieuKien/Task1_Task2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1854">
           <caret line="130" column="37" lean-forward="true" selection-start-line="130" selection-start-column="37" selection-end-line="138" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/YeuCau3/Task1.html">
+    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/#3CauTrucLap/Task1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/YeuCau3/Task2.html">
+    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/#3CauTrucLap/Task2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="-357">
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai2TinhSoNgayTrongThang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/KiemTraNamNhuan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/#4Mang/Task1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
     </entry>

@@ -5,6 +5,29 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    let arrNameCustomers = [];
+    let choose = prompt("1. Add New Customers. " + "\n2. Delete Customers.");
+    switch (choose) {
+        case "1":
+            let arrLength = prompt("Enter the number of Customers you want to add: ");
+            for (var i = 0; i < arrLength; i++) {
+                arrNameCustomers.push(prompt("Enter Name Customer" + (i + 1)));
+            }
+            var result = "";
+            for (var i = 0; i < arrNameCustomers.length; i++) {
+                result += "\n" + arrNameCustomers;
+            }
+            break;
+        case "2":
+            break;
+        default:
+            alert("Faill!!!!!!!!!")
+
+    }
+
+
+</script>
 
 </body>
 </html>
