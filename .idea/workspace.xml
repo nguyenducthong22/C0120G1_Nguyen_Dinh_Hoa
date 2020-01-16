@@ -63,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/3CauTrucLap/Task2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="162" column="43" selection-start-line="162" selection-start-column="43" selection-end-line="162" selection-end-column="43" />
+            <state relative-caret-position="252">
+              <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -248,7 +248,7 @@
       <workItem from="1579137182331" duration="5818000" />
       <workItem from="1579143022132" duration="116000" />
       <workItem from="1579143147874" duration="11316000" />
-      <workItem from="1579173458031" duration="2798000" />
+      <workItem from="1579173458031" duration="3456000" />
     </task>
     <task id="LOCAL-00001" summary="sdsd">
       <created>1578456702555</created>
@@ -282,7 +282,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77795000" />
+    <option name="totallyTimeSpent" value="78453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -614,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/3CauTrucLap/Task2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="162" column="43" selection-start-line="162" selection-start-column="43" selection-end-line="162" selection-end-column="43" />
+        <state relative-caret-position="252">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
         </state>
       </provider>
     </entry>
