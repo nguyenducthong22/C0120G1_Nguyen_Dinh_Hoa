@@ -12,12 +12,14 @@
         case "1":
             let arrLength = prompt("Enter the number of Customers you want to add: ");
             for (var i = 0; i < arrLength; i++) {
-                arrNameCustomers.push(prompt("Enter Name Customer" + (i + 1)));
+                arrNameCustomers.push(prompt("Enter Name Customer " + (i + 1)));
             }
+            arrNameCustomers.sort();
             var result = "";
             for (var i = 0; i < arrNameCustomers.length; i++) {
-                result += "\n" + arrNameCustomers;
+                result += "\n" +(i+1) +"." + arrNameCustomers[i];
             }
+            alert(result);
             break;
         case "2":
             break;
