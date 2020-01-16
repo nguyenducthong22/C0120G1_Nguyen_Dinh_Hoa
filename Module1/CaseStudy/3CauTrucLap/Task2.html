@@ -118,6 +118,10 @@
             alert("Khong Hop Le");
             continue;
         }
+        if (birthdayCustomer.length>=11) {
+            alert("Khong hop le");
+            continue;
+        }
         let day = birthdayCustomer.substring(0, 2);
         let month = birthdayCustomer.substring(3, 5);
         let year = birthdayCustomer.substring(6, 10);
@@ -128,18 +132,19 @@
             if (Number.isInteger(day) && Number.isInteger(year) && Number.isInteger(month)) {
                 if (day > 0 && day < 32 && month > 0 && month < 13 && year > 1890 && year < 2111) {
                     var flag;
-                    if (year % 400 == 0) {
-                        flag = true;
-                    } else if (year % 4 == 0 && year % 100 != 0) {
+                    if (year % 400==0) {
+                        flag=true;
+                    }
+                    else if (year % 4==0&&year%100!=0) {
                         flag = true;
                     } else {
-                        flag = false;
+                        flag=false;
                     }
                     if (flag) {
                         if (month == 2 && day > 29) {
                             alert("Khong Hop Le");
 
-                        } else if (((month == 4) || (month == 6) || (month == 9) || (month == 11)) && day == 31) {
+                        } else if (((month == 4)||(month == 6)||(month == 9)||(month == 11) )&& day == 31) {
                             alert("Khong Hop Le");
                         } else {
                             checkValidate = true;
@@ -148,13 +153,14 @@
                         if (month == 2 && day > 28) {
                             alert("Khong Hop Le");
 
-                        } else if (((month == 4) || (month == 6) || (month == 9) || (month == 11)) && day == 31) {
+                        } else if (((month == 4)||(month == 6)||(month == 9)||(month == 11) )&& day == 31) {
                             alert("Khong Hop Le");
                         } else {
                             checkValidate = true;
                         }
                     }
-                } else alert("khong hop le")
+                }
+                else alert("khong hop le");
             }
         }
     } while (!checkValidate);
