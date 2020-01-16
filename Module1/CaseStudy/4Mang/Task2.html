@@ -33,6 +33,19 @@
             arrNameCustomers[8] = "Doc";
             arrNameCustomers[9] = "Lap";
 
+            var result ="";
+            for (var i = 0; i < arrNameCustomers.length; i++) {
+                result += "\n" + (i + 1) + "." + arrNameCustomers[i];
+            }
+            let indexDelete = prompt("Choose Customer you want delete" +result);
+            arrNameCustomers.splice(Number.parseInt(indexDelete) - 1, 1);
+            var resultAfterDelete = "";
+            for (var i = 0; i < arrNameCustomers.length; i++) {
+                resultAfterDelete += "\n" + (i + 1) + "." + arrNameCustomers[i];
+            }
+            alert("List Customer After Delete " + resultAfterDelete);
+
+
             break;
         default:
             alert("Faill!!!!!!!!!")
