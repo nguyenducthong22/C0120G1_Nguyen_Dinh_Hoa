@@ -17,11 +17,11 @@
     let nameStd = "";
 
     nameCustomer = nameCustomer.trim().toLocaleLowerCase();
-    for (let i = 0;i<nameCustomer.length;i++) {
-        if (nameCustomer.charAt(i)===" " && nameCustomer.charAt(i + 1) === " ") {
+    for (let i = 0; i < nameCustomer.length; i++) {
+        if (nameCustomer.charAt(i) === " " && nameCustomer.charAt(i + 1) === " ") {
             continue;
         }
-        if (i === 0||nameCustomer.charAt(i-1) ===" ") {
+        if (i === 0 || nameCustomer.charAt(i - 1) === " ") {
             nameStd += nameCustomer.charAt(i).toLocaleUpperCase();
             continue;
         }
@@ -52,7 +52,10 @@
             alert("khong hop le,vui long nhap lai");
         }
     }
-    while (!checkValidate){};
+    while (!checkValidate)
+    {
+    }
+    ;
 
 
     do {
@@ -123,13 +126,36 @@
             month = Number.parseFloat(month);
             year = Number.parseFloat(year);
             if (Number.isInteger(day) && Number.isInteger(year) && Number.isInteger(month)) {
-                if (day > 0 && day < 32 && month > 0 && month < 13 && year > 1989 && year < 2020) {
-                    checkValidate = true;
-                }
+                if (day > 0 && day < 32 && month > 0 && month < 13 && year > 1890 && year < 2111) {
+                    var flag;
+                    if (year % 400 == 0) {
+                        flag = true;
+                    } else if (year % 4 == 0 && year % 100 != 0) {
+                        flag = true;
+                    } else {
+                        flag = false;
+                    }
+                    if (flag) {
+                        if (month == 2 && day > 29) {
+                            alert("Khong Hop Le");
+
+                        } else if (((month == 4) || (month == 6) || (month == 9) || (month == 11)) && day == 31) {
+                            alert("Khong Hop Le");
+                        } else {
+                            checkValidate = true;
+                        }
+                    } else {
+                        if (month == 2 && day > 28) {
+                            alert("Khong Hop Le");
+
+                        } else if (((month == 4) || (month == 6) || (month == 9) || (month == 11)) && day == 31) {
+                            alert("Khong Hop Le");
+                        } else {
+                            checkValidate = true;
+                        }
+                    }
+                } else alert("khong hop le")
             }
-        }
-        if (!checkValidate) {
-            alert("khong hop le, vui long nhap lai");
         }
     } while (!checkValidate);
 
