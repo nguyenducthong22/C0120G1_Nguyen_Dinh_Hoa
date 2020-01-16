@@ -27,7 +27,7 @@
         checkValidate = false;
         rentDays = prompt("Enter Rent Days: "); //so ngay thue
         if (!isNaN(rentDays)) {
-            numberOfAccompanying = Number.parseFloat(rentDays);
+            rentDays = Number.parseFloat(rentDays);
             if (rentDays > 0 && Number.isInteger(rentDays)) {
                 checkValidate = true;
             }

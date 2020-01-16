@@ -13,7 +13,22 @@
     let discount;
     let numberOfAccompanying;
     let rentDays;
-    // let nameCustomer;
+    let nameCustomer = prompt("Enter Name Customer: "); //ten;
+    let nameStd = "";
+
+    nameCustomer = nameCustomer.trim().toLocaleLowerCase();
+    for (let i = 0;i<nameCustomer.length;i++) {
+        if (nameCustomer.charAt(i)===" " && nameCustomer.charAt(i + 1) === " ") {
+            continue;
+        }
+        if (i === 0||nameCustomer.charAt(i-1) ===" ") {
+            nameStd += nameCustomer.charAt(i).toLocaleUpperCase();
+            continue;
+        }
+        nameStd += nameCustomer.charAt(i);
+    }
+    nameCustomer = nameStd;
+
 
     // let nameCustomer = prompt("Enter Name Customer: "); //ten
     // let idCard = prompt("Enter Id Card Customer: "); //CMND
@@ -28,7 +43,7 @@
         checkValidate = false;
         rentDays = prompt("Enter Rent Days: "); //so ngay thue
         if (!isNaN(rentDays)) {
-            numberOfAccompanying = Number.parseFloat(rentDays);
+            rentDays = Number.parseFloat(rentDays);
             if (rentDays > 0 && Number.isInteger(rentDays)) {
                 checkValidate = true;
             }
@@ -37,7 +52,7 @@
             alert("khong hop le,vui long nhap lai")
         }
     }
-    while (!checkValidate);
+    while (!checkValidate){};
 
 
     do {
@@ -138,7 +153,7 @@
     } while (!checkValidate);
 
     alert("Information Of Customer: \n" +
-        //     "Name " + nameCustomer +
+        "Name " + nameCustomer +
         "\nID card : " + idCard +
         "\nBirthday : " + birthdayCustomer +
         "\nEmail : " + emailCustomer) +
