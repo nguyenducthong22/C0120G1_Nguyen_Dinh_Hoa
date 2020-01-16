@@ -5,6 +5,42 @@
     <title>Title</title>
 </head>
 <body>
-        //chua lam
+<script>
+    let arrNameCustomers = [];
+    let choose = prompt("1. Add New Customers. " + "\n2. Delete Customers.");
+    switch (choose) {
+        case "1":
+            let arrLength = prompt("Enter the number of Customers you want to add: ");
+            for (var i = 0; i < arrLength; i++) {
+                arrNameCustomers.push(prompt("Enter Name Customer " + (i + 1)));
+            }
+            arrNameCustomers.sort();
+            var result = "";
+            for (var i = 0; i < arrNameCustomers.length; i++) {
+                result += "\n" +(i+1) +"." + arrNameCustomers[i];
+            }
+            alert(result);
+            break;
+        case "2":
+            arrNameCustomers[0] = "Cong";
+            arrNameCustomers[1] = "Hoa";
+            arrNameCustomers[2] = "Xa";
+            arrNameCustomers[3] = "Hoi";
+            arrNameCustomers[4] = "Chu";
+            arrNameCustomers[5] = "Nghia";
+            arrNameCustomers[6] = "Viet";
+            arrNameCustomers[7] = "Nam";
+            arrNameCustomers[8] = "Doc";
+            arrNameCustomers[9] = "Lap";
+
+            break;
+        default:
+            alert("Faill!!!!!!!!!")
+
+    }
+
+
+</script>
+
 </body>
 </html>
