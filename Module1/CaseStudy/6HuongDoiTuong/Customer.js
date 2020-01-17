@@ -1,4 +1,4 @@
-let Cuscomer = function () {
+let Customer = function () {
 
     this.setNameCustomer = function (nameCustomer) {
         this.nameCustomer = nameCustomer;
