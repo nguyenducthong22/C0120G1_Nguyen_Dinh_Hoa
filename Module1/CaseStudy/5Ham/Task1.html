@@ -30,7 +30,8 @@
                 break;
             default:
                 alert("Failll!!!");
-                break;
+
+                displayMainMenu();
         }
     }
 
@@ -72,15 +73,15 @@
         result += "\n" + (arrListCustomer.length + 1) + ".Back to menu";
         let chooseDisplayInfo = prompt(result);
         if (chooseDisplayInfo.toString() != (arrListCustomer.length + 1).toString()) {
-            displayInfomationCustomer(Number.parseInt(chooseDisplayInfo - 1));
+            displayInformationCustomer(Number.parseInt(chooseDisplayInfo - 1));
 
         } else {
             displayMainMenu();
         }
     }
 
-    function displayInfomationCustomer(index) {
-        alert("Infomation of customers : " +
+    function displayInformationCustomer(index) {
+        alert("Information of customers : " +
             "\nName :" + arrListCustomer[index][0] +
             "\nID Card :" + arrListCustomer[index][1] +
             "\nBirthday :" + arrListCustomer[index][2] +
