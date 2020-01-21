@@ -84,13 +84,16 @@ function displayCustomers() {
     result += "\n" + (listCustomers.length + 1) + ".Back to menu";
     let chooseDisplayInfo = prompt(result);
     if (chooseDisplayInfo.toString() !== (listCustomers.length + 1).toString()) { //k chon back
-        if (!checkDeleteCustomer) {
+        if (!checkDeleteCustomer&&!checkDisplayTotalPay) {
             displayInformationCustomer(Number.parseInt(chooseDisplayInfo) - 1);
-        } else {
+        } else if (checkDeleteCustomer) {
             deleteCustomer(Number.parseInt(chooseDisplayInfo) - 1);
+        } else {
+            displayTotalPay(Number.parseInt(chooseDisplayInfo) - 1);
         }
 
     } else {
+        checkDisplayTotalPay = false;
         checkDeleteCustomer = false;
         checkEditCustomer = false;
         displayMainMenu();
@@ -135,6 +138,17 @@ function displayInformationCustomer(index) {
         );
         displayMainMenu();
     }
+}
+
+function chooseDisplayTotalPay() {
+    checkDisplayTotalPay = true;
+    displayCustomers();
+}
+function displayTotalPay(index) {
+    alert(listCustomers[index].totalPays());
+    checkDisplayTotalPay = false;
+    displayMainMenu();
+    
 }
 
 

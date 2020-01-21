@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3996b01-82aa-4bb5-8080-db68b1648a1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+            <state relative-caret-position="242">
+              <caret line="95" column="37" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -215,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Task2.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.Task1.html">
     <configuration name="Task1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CaseStudy/6HuongDoiTuong/Task1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -233,9 +231,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Task2.html (1)" />
         <item itemvalue="JavaScript Debug.Task1.html" />
         <item itemvalue="Node.js.Run.js" />
+        <item itemvalue="JavaScript Debug.Task2.html (1)" />
         <item itemvalue="JavaScript Debug.XayDungLopDate.html" />
         <item itemvalue="JavaScript Debug.Task2.html" />
       </list>
@@ -278,7 +276,7 @@
       <workItem from="1579223810270" duration="12529000" />
       <workItem from="1579244370549" duration="3281000" />
       <workItem from="1579487274230" duration="650000" />
-      <workItem from="1579574236215" duration="13887000" />
+      <workItem from="1579574236215" duration="14321000" />
     </task>
     <task id="LOCAL-00001" summary="sdsd">
       <created>1578456702555</created>
@@ -312,7 +310,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111407000" />
+    <option name="totallyTimeSpent" value="111841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -665,8 +663,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="137" column="1" lean-forward="true" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+        <state relative-caret-position="242">
+          <caret line="95" column="37" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="37" />
         </state>
       </provider>
     </entry>
