@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 7.	Tính tổng và tích các chữ số của một số nguyên dương m cho trước
+    // (Ví dụ : m=234=> S=2+3+4=9, P=2*3*4=24)
+
+    let n;
+    n = parseInt(prompt("nhap n"));
+    let soTachRa;
+    let tong=0;
+    let tich=1;
+    do  {
+        soTachRa = n % 10;
+        tong += soTachRa;
+        tich *= soTachRa;
+        (n) = (n-soTachRa)/10;
+    }
+     while (n>0);
+    document.write("tong la "+ tong+"<br>");
+    document.write("tich la "+ tich);
+
+
+
+
+
+</script>
+
+</body>
+</html>

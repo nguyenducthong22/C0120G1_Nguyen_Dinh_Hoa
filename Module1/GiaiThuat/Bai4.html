@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var ketQua = 0 ;
+    var n;
+    var checkValidate = false;
+    do {
+        checkValidate = false;
+        n = prompt("nhap n: ");
+        if (!isNaN(n)) {
+            n = Number.parseFloat(n);
+            if (n > 0 && Number.isInteger(n)) {
+                checkValidate = true;
+            }
+        }
+        if (!checkValidate) {
+            alert("khong hop le,vui long nhap so nguyen duong");
+        }
+    }
+    while (!checkValidate);
+
+
+    for (var i = 1; i <= n; i++) {
+        var giaoThua = 1;
+        giaoThua *= i;
+        ketQua = 15 + Math.pow(-1, i) * 1 / i;
+    }
+    alert("ket qua la :" +ketQua);
+</script>
+
+
+
+</body>
+</html>

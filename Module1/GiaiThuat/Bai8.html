@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+
+    function ucln(a, b) {
+        while (a != b) {
+            if (a > b) {
+                a = a - b;
+            } else {
+                b = b - a;
+            }
+        }
+        return a;
+    }
+    let a;
+    let b;
+    a = prompt("a");
+    b = prompt("b");
+    alert("uoc chung lon nhat la " + ucln(a,b));
+    alert("bcnn la " + (a * b) / ucln(a, b));
+
+</script>
+
+</body>
+</html>
