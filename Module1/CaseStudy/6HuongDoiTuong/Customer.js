@@ -4,7 +4,7 @@ let Customer = function () {
         this.nameCustomer = nameCustomer;
     };
     this.getNameCustomer = function () {
-        return this.nameCustomer
+        return this.nameCustomer;
     };
 
     this.setIdCard = function (idCard) {
