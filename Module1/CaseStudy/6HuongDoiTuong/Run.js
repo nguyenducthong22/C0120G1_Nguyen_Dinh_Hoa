@@ -80,7 +80,8 @@ function addNewCustomer() {
 function displayCustomers() {
     let result = "";
     for (var i = 0; i < listCustomers.length; i++) {
-        result += "\n" + (i + 1) + ". " + "Name: " + listCustomers[i].getNameCustomer() + "; ID Card" + listCustomers[i].getIdCard();
+        result += "\n" + (i + 1) + ". " + "Name: " + listCustomers[i].getNameCustomer() +
+            "; ID Card" + listCustomers[i].getIdCard();
     }
     result += "\n" + (listCustomers.length + 1) + ".Back to menu";
     let chooseDisplayInfo = prompt(result);
@@ -117,7 +118,7 @@ function displayInformationCustomer(index) {
             "\n11.Type Service :" + listCustomers[index].getTypeService() +
             "\n12.Back. ");
         if (chooseInfoEdit.toString() !== "12") { //ko chon back
-            editInformationCustomer(Number.parseInt(chooseInfoEdit) - 1);
+            editInformationCustomer(index,Number.parseInt(chooseInfoEdit) - 1);
 
         } else {
             checkEditCustomer = false;
@@ -141,41 +142,41 @@ function displayInformationCustomer(index) {
     }
 }
 
-function editInformationCustomer(index) {
+function editInformationCustomer(index,editIndex) {
     let editInfo = prompt("Enter Info You Want Change: ");
     switch (index) {
         case 0:
-            listCustomers[index].getNameCustomer(editInfo);
+            listCustomers[index][editIndex].setNameCustomer = editInfo;
             break;
         case 1:
-            listCustomers[index].getIdCard(editInfo);
+            listCustomers[index][editIndex].setIdCard = editInfo;
             break;
         case 2:
-            listCustomers[index].getBirthdayCustomer(editInfo);
+            listCustomers[index][editIndex].setBirthdayCustomer = editInfo;
             break;
         case 3:
-            listCustomers[index].getEmailCustomer(editInfo);
+            listCustomers[index[editIndex]].setEmailCustomer = editInfo;
             break;
         case 4:
-            listCustomers[index].getAddressCustomer(editInfo);
+            listCustomers[index][editIndex].setAddressCustomer = editInfo;
             break;
         case 5:
-            listCustomers[index].getTypeCustomer(editInfo);
+            listCustomers[index][editIndex].setTypeCustomer = editInfo;
             break;
         case 6:
-            listCustomers[index].getDiscount(editInfo);
+            listCustomers[index][editIndex].setDiscount = editInfo;
             break;
         case 7:
-            listCustomers[index].getNumberOfAccompanying(editInfo);
+            listCustomers[index][editIndex].setNumberOfAccompanying = editInfo;
             break;
         case 8:
-            listCustomers[index].getTypeRoom(editInfo);
+            listCustomers[index][editIndex].setTypeRoom = editInfo;
             break;
         case 9:
-            listCustomers[index].getRentDays(editInfo);
+            listCustomers[index][editIndex].setRentDays = editInfo;
             break;
         case 10:
-            listCustomers[index].getTypeService(editInfo);
+            listCustomers[index][editIndex].setTypeService = editInfo;
             break;
         default:
             alert("Fail..");

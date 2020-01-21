@@ -104,9 +104,10 @@
                 "\n9.Type Room :" + arrListCustomer[index][8] +
                 "\n10.Rent Day :" + arrListCustomer[index][9] +
                 "\n11.Type Service :" + arrListCustomer[index][10] +
-                "\n12.Back. ");
+                "\n12.Back. "
+            );
             if (chooseInfoEdit.toString() !== "12") { //ko chon back
-                editInformationCustomer(Number.parseInt(chooseInfoEdit) - 1);
+                editInformationCustomer(index,Number.parseInt(chooseInfoEdit) - 1);
 
             } else {
                 checkEditCustomer = false;
@@ -129,44 +130,47 @@
             displayMainMenu();
         }
     }
+    function chooseCustomerEdit() {
+        checkEditCustomer = true;
+        displayCustomers();
+    }
 
-
-
-    function editInformationCustomer(index) {
-        let editInfo = prompt("Enter Info You Want Change: ");
+    function editInformationCustomer(index,editIndex) {
+        let editInfo ;
+        editInfo = prompt("Enter Info You Want Change: ").toString();
         switch (index) {
             case 0:
-                arrListCustomer[index][0] = editInfo;
+                arrListCustomer[index][editIndex] = editInfo;
                 break;
             case 1:
-                arrListCustomer[index][1] = editInfo;
+                arrListCustomer[index][editIndex] = editInfo;
                 break;
             case 2:
-                arrListCustomer[index][2] = editInfo;
+                arrListCustomer[index][editIndex] = editInfo;
                 break;
             case 3:
-                arrListCustomer[index][3] = editInfo;
+                arrListCustomer[index][editIndex] = editInfo;
                 break;
             case 4:
-                arrListCustomer[index][4] = editInfo;
+                arrListCustomer[index][editIndex] = editInfo;
                 break;
             case 5:
-                arrListCustomer[index][5] = editInfo;
+                arrListCustomer[index][editIndex] = editInfo;
                 break;
             case 6:
-                arrListCustomer[index][6] = editInfo;
+                arrListCustomer[index][editIndex] = editInfo;
                 break;
             case 7:
-                arrListCustomer[index][7] = editInfo;
+                arrListCustomer[index][editIndex] = editInfo;
                 break;
             case 8:
-                arrListCustomer[index][8] = editInfo;
+                arrListCustomer[index][editIndex] = editInfo;
                 break;
             case 9:
-                arrListCustomer[index][9] = editInfo;
+                arrListCustomer[index][editIndex] = editInfo;
                 break;
             case 10:
-                arrListCustomer[index][10] = editInfo;
+                arrListCustomer[index][editIndex] = editInfo;
                 break;
             default:
                 alert("Fail..");
@@ -198,11 +202,6 @@
         displayMainMenu();
 
     }
-    function chooseCustomerEdit() {
-        checkEditCustomer = true;
-        displayCustomers();
-    }
-
 
     displayMainMenu();
 
