@@ -76,6 +76,7 @@ function addNewCustomer() {
     listCustomers.push(cus);
     displayMainMenu();
 }
+
 function displayCustomers() {
     let result = "";
     for (var i = 0; i < listCustomers.length; i++) {
@@ -84,7 +85,7 @@ function displayCustomers() {
     result += "\n" + (listCustomers.length + 1) + ".Back to menu";
     let chooseDisplayInfo = prompt(result);
     if (chooseDisplayInfo.toString() !== (listCustomers.length + 1).toString()) { //k chon back
-        if (!checkDeleteCustomer&&!checkDisplayTotalPay) {
+        if (!checkDeleteCustomer && !checkDisplayTotalPay) {
             displayInformationCustomer(Number.parseInt(chooseDisplayInfo) - 1);
         } else if (checkDeleteCustomer) {
             deleteCustomer(Number.parseInt(chooseDisplayInfo) - 1);
@@ -134,21 +135,93 @@ function displayInformationCustomer(index) {
             "\nNumber Of Accomanying :" + listCustomers[index].getNumberOfAccompanying() +
             "\nType Room :" + listCustomers[index].getTypeRoom() +
             "\nRent Day :" + listCustomers[index].getRentDays() +
-            "\nType Service :" +listCustomers[index].getTypeService()
+            "\nType Service :" + listCustomers[index].getTypeService()
         );
         displayMainMenu();
     }
+}
+
+function editInformationCustomer(index) {
+    let editInfo = prompt("Enter Info You Want Change: ");
+    switch (index) {
+        case 0:
+            listCustomers[index].getNameCustomer(editInfo);
+            break;
+        case 1:
+            listCustomers[index].getIdCard(editInfo);
+            break;
+        case 2:
+            listCustomers[index].getBirthdayCustomer(editInfo);
+            break;
+        case 3:
+            listCustomers[index].getEmailCustomer(editInfo);
+            break;
+        case 4:
+            listCustomers[index].getAddressCustomer(editInfo);
+            break;
+        case 5:
+            listCustomers[index].getTypeCustomer(editInfo);
+            break;
+        case 6:
+            listCustomers[index].getDiscount(editInfo);
+            break;
+        case 7:
+            listCustomers[index].getNumberOfAccompanying(editInfo);
+            break;
+        case 8:
+            listCustomers[index].getTypeRoom(editInfo);
+            break;
+        case 9:
+            listCustomers[index].getRentDays(editInfo);
+            break;
+        case 10:
+            listCustomers[index].getTypeService(editInfo);
+            break;
+        default:
+            alert("Fail..");
+            return;
+
+    }
+    checkEditCustomer = false;
+    displayMainMenu();
+}
+
+function deleteCustomer(index) {
+    let chooseConfirm = prompt(
+        "Are you sure delete Customer : Name " + listCustomers[index].getNameCustomer() +
+        ",ID card" + listCustomers[index].getIdCard() +
+        "\n1.Yes\n2.No"
+    );
+    if (chooseConfirm === "1") {
+        listCustomers.splice(index, 1);
+        alert("delete complete");
+    }
+    checkDeleteCustomer = false;
+    displayMainMenu();
+
 }
 
 function chooseDisplayTotalPay() {
     checkDisplayTotalPay = true;
     displayCustomers();
 }
+
 function displayTotalPay(index) {
     alert(listCustomers[index].totalPays());
     checkDisplayTotalPay = false;
     displayMainMenu();
-    
+
+}
+
+function chooseCustomerEdit() {
+    checkEditCustomer = true;
+    displayCustomers();
+}
+
+function chooseDeleteCustomer() {
+    checkDeleteCustomer = true;
+    displayCustomers();
+
 }
 
 
