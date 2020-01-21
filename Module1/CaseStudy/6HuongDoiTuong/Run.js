@@ -143,40 +143,41 @@ function displayInformationCustomer(index) {
 }
 
 function editInformationCustomer(index,editIndex) {
-    let editInfo = prompt("Enter Info You Want Change: ");
+    let editInfo ;
+    editInfo = prompt("Enter Info You Want Change: ").toString();
     switch (index) {
         case 0:
-            listCustomers[index][editIndex].setNameCustomer = editInfo;
+            listCustomers[index][editIndex].setNameCustomer(editInfo);
             break;
         case 1:
-            listCustomers[index][editIndex].setIdCard = editInfo;
+            listCustomers[index][editIndex].setIdCard(editInfo);
             break;
         case 2:
-            listCustomers[index][editIndex].setBirthdayCustomer = editInfo;
+            listCustomers[index][editIndex].setBirthdayCustomer(editInfo);
             break;
         case 3:
-            listCustomers[index[editIndex]].setEmailCustomer = editInfo;
+            listCustomers[index][editIndex].setEmailCustomer(editInfo);
             break;
         case 4:
-            listCustomers[index][editIndex].setAddressCustomer = editInfo;
+            listCustomers[index][editIndex].setAddressCustomer(editInfo);
             break;
         case 5:
-            listCustomers[index][editIndex].setTypeCustomer = editInfo;
+            listCustomers[index][editIndex].setTypeCustomer(editInfo);
             break;
         case 6:
-            listCustomers[index][editIndex].setDiscount = editInfo;
+            listCustomers[index][editIndex].setDiscount(editInfo);
             break;
         case 7:
-            listCustomers[index][editIndex].setNumberOfAccompanying = editInfo;
+            listCustomers[index][editIndex].setNumberOfAccompanying(editInfo);
             break;
         case 8:
-            listCustomers[index][editIndex].setTypeRoom = editInfo;
+            listCustomers[index][editIndex].setTypeRoom(editInfo);
             break;
         case 9:
-            listCustomers[index][editIndex].setRentDays = editInfo;
+            listCustomers[index][editIndex].setRentDays(editInfo);
             break;
         case 10:
-            listCustomers[index][editIndex].setTypeService = editInfo;
+            listCustomers[index][editIndex].setTypeService(editInfo);
             break;
         default:
             alert("Fail..");
