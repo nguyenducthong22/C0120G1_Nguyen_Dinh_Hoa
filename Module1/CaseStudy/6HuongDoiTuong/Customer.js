@@ -41,8 +41,7 @@ let Customer = function () {
     this.getTypeCustomer = function () {
         return this.typeCustomer;
     };
-
-    this.setDiscount = function (discount) {
+    this.aSZaSZsetDiscount = function (discount) {
         this.discount = discount;
     };
     this.getDiscount = function () {
