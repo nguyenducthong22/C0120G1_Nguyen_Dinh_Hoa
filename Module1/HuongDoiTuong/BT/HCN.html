@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //chua ve canvas duoc
+    let Hcn = function () {
+
+        this.setCd = function (cd) {
+            this.cd = cd;
+        };
+
+        this.getCd = function () {
+            return this.cd;
+        };
+
+        this.setCr = function (cr) {
+            this.cr = cr;
+        };
+
+        this.getCr = function () {
+            return this.cr;
+        };
+
+        this.tinhDienTich = function () {
+            return this.getCd()*this.getCr();
+        };
+        this.tinhChuVi = function () {
+            return (this.getCd()+this.getCr()) * 2;
+        }
+    };
+    let hcn1 = new Hcn();
+    hcn1.setCd(parseInt(prompt("nhap chieu dai")));
+    hcn1.setCr(parseInt(prompt("nhap chieu rong")));
+    alert("hinh chu nhat co dien tich la "+hcn1.tinhDienTich()+" va chu vi la " +hcn1.tinhChuVi());
+
+</script>
+
+
+</body>
+</html>

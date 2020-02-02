@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //dung return
+    function tinhGiaoThua(a) {
+        let result = 1;
+        for (let i = 1; i <= a; i++) {
+            result = result * i;
+        }
+
+        return result;
+    }
+
+    let a = parseInt(prompt("nhap so nguyen duong a"));
+    let result = tinhGiaoThua(a);
+    document.write("ket qua la : " + result);
+
+</script>
+
+</body>
+</html>
