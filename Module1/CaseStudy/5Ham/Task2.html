@@ -138,7 +138,7 @@
     function editInformationCustomer(index,editIndex) {
         let editInfo ;
         editInfo = prompt("Enter Info You Want Change: ").toString();
-        switch (index) {
+        switch (editIndex) {
             case 0:
                 arrListCustomer[index][editIndex] = editInfo;
                 break;
@@ -191,12 +191,12 @@
     function deleteCustomer(index) {
         let chooseConfirm = prompt(
             "Are you sure delete Customer : Name " + arrListCustomer[index][0] +
-            ",ID card" + arrListCustomer[index][1] +
+            ",ID card " + arrListCustomer[index][1] +
             "\n1.Yes\n2.No"
         );
         if (chooseConfirm === "1") {
             arrListCustomer.splice(index, 1);
-            alert("delete complete");
+            alert("Delete Complete");
         }
         checkDeleteCustomer = false;
         displayMainMenu();

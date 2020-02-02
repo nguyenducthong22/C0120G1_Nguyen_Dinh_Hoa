@@ -8,7 +8,7 @@ let validateEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"
 function displayMainMenu() {
     let choose = prompt("" +
         "1. Add new customer" +
-        "\n2. Display infomation customer " +
+        "\n2. Display information customer " +
         "\n3. Display total pays of customer " +
         "\n4. Edit information customer" +
         "\n5. Delete customer" +
@@ -46,6 +46,7 @@ function addNewCustomer() {
     let cus = new Customer();
     cus.setNameCustomer(prompt("Enter Name Customer"));
     cus.setIdCard(prompt("Enter Id Card Customer: "));
+
     do {
         cus.setBirthdayCustomer(prompt("Enter Birthday Customer (dd/MM/YYYY): "));
         if (validateBirthday.test(cus.getBirthdayCustomer())) {
@@ -66,6 +67,7 @@ function addNewCustomer() {
         }
 
     } while (!checkEmail);
+
     cus.setAddressCustomer(prompt("Enter Address Customer: "));
     cus.setTypeCustomer(prompt("Enter Type Customer: "));
     cus.setDiscount(prompt("Enter Discout: "));
@@ -73,13 +75,14 @@ function addNewCustomer() {
     cus.setTypeRoom(prompt("Enter Type Room: "));
     cus.setRentDays(prompt("Enter Rent Days: "));
     cus.setTypeService(prompt("Enter Type Service: "));
+
     listCustomers.push(cus);
     displayMainMenu();
 }
 
 function displayCustomers() {
     let result = "";
-    for (var i = 0; i < listCustomers.length; i++) {
+    for (let i = 0; i < listCustomers.length; i++) {
         result += "\n" + (i + 1) + ". " + "Name: " + listCustomers[i].getNameCustomer() +
             "; ID Card" + listCustomers[i].getIdCard();
     }
@@ -118,7 +121,7 @@ function displayInformationCustomer(index) {
             "\n11.Type Service :" + listCustomers[index].getTypeService() +
             "\n12.Back. ");
         if (chooseInfoEdit.toString() !== "12") { //ko chon back
-            editInformationCustomer(index,Number.parseInt(chooseInfoEdit) - 1);
+            editInformationCustomer(index,Number.parseInt(chooseInfoEdit) - 1); //
 
         } else {
             checkEditCustomer = false;
@@ -142,42 +145,42 @@ function displayInformationCustomer(index) {
     }
 }
 
-function editInformationCustomer(index,editIndex) {
+function editInformationCustomer(index,editIndex) {  //
     let editInfo ;
     editInfo = prompt("Enter Info You Want Change: ").toString();
-    switch (index) {
+    switch (editIndex) {
         case 0:
-            listCustomers[index][editIndex].setNameCustomer(editInfo);
+            listCustomers[index].setNameCustomer(editInfo);
             break;
         case 1:
-            listCustomers[index][editIndex].setIdCard(editInfo);
+            listCustomers[index].setIdCard(editInfo);
             break;
         case 2:
-            listCustomers[index][editIndex].setBirthdayCustomer(editInfo);
+            listCustomers[index].setBirthdayCustomer(editInfo);
             break;
         case 3:
-            listCustomers[index][editIndex].setEmailCustomer(editInfo);
+            listCustomers[index].setEmailCustomer(editInfo);
             break;
         case 4:
-            listCustomers[index][editIndex].setAddressCustomer(editInfo);
+            listCustomers[index].setAddressCustomer(editInfo);
             break;
         case 5:
-            listCustomers[index][editIndex].setTypeCustomer(editInfo);
+            listCustomers[index].setTypeCustomer(editInfo);
             break;
         case 6:
-            listCustomers[index][editIndex].setDiscount(editInfo);
+            listCustomers[index].setDiscount(editInfo);
             break;
         case 7:
-            listCustomers[index][editIndex].setNumberOfAccompanying(editInfo);
+            listCustomers[index].setNumberOfAccompanying(editInfo);
             break;
         case 8:
-            listCustomers[index][editIndex].setTypeRoom(editInfo);
+            listCustomers[index].setTypeRoom(editInfo);
             break;
         case 9:
-            listCustomers[index][editIndex].setRentDays(editInfo);
+            listCustomers[index].setRentDays(editInfo);
             break;
         case 10:
-            listCustomers[index][editIndex].setTypeService(editInfo);
+            listCustomers[index].setTypeService(editInfo);
             break;
         default:
             alert("Fail..");
