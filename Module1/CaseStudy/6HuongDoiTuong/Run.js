@@ -32,7 +32,7 @@ function displayMainMenu() {
         case "6":
             return;
         default:
-            alert("faillll");
+            alert("Faillll");
             displayMainMenu();
             break;
     }

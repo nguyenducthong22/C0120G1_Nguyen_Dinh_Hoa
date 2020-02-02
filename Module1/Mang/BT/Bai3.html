@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // Bài 3: Viết một chương trình nhập vào một chuỗi và chuyển các ký tự chữ thường trong chuỗi vừa nhập sang thành dạng chữ hoa.
+    //     Ví dụ: nếu bạn nhập vào chuỗi 'The Quick Brown Fox' kết quả của chương trình là 'tHE qUICK bROWN fOX'.
+
+    let str;
+    str = prompt("nhap vao ").toString();
+    let up = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let low = 'abcdefghijklmnopqrstuvwxyz';
+    let result = [];
+
+    for (let i = 0; i < str.length; i++) {
+        if (up.indexOf(str[i]) !== -1) {
+            result.push(str[i].toLowerCase());
+        } else if (low.indexOf(str[i]) !== -1) {
+            result.push(str[i].toUpperCase());
+        } else {
+            result.push(str[i]);
+        }
+    }
+    document.write("ket qua la : " + "<br />" + result.join(''));
+
+</script>
+
+
+</body>
+</html>
