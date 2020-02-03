@@ -76,16 +76,19 @@
         }
         result += "\n" + (arrListCustomer.length + 1) + ".Back to menu";
         let chooseDisplayInfo = prompt(result);
-        if (chooseDisplayInfo.toString() !== (arrListCustomer.length + 1).toString()) { //k chon back
+        if (chooseDisplayInfo.toString() === (arrListCustomer.length + 1).toString()) { //chon back
+            checkDeleteCustomer = false;
+            checkEditCustomer = false;
+            displayMainMenu();
+
+        } else if (chooseDisplayInfo.toString() === (arrListCustomer.length).toString()) {
             if (!checkDeleteCustomer) {
                 displayInformationCustomer(Number.parseInt(chooseDisplayInfo) - 1);
             } else {
                 deleteCustomer(Number.parseInt(chooseDisplayInfo) - 1);
             }
-
         } else {
-            checkDeleteCustomer = false;
-            checkEditCustomer = false;
+            alert("Fail!");
             displayMainMenu();
         }
     }
