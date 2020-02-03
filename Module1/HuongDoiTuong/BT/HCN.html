@@ -5,8 +5,9 @@
     <title>Title</title>
 </head>
 <body>
+<canvas id="myCanvas" > </canvas>
+
 <script>
-    //chua ve canvas duoc
     let Hcn = function () {
 
         this.setCd = function (cd) {
@@ -36,6 +37,37 @@
     hcn1.setCd(parseInt(prompt("nhap chieu dai")));
     hcn1.setCr(parseInt(prompt("nhap chieu rong")));
     alert("hinh chu nhat co dien tich la "+hcn1.tinhDienTich()+" va chu vi la " +hcn1.tinhChuVi());
+
+    function draw() {
+        let canvas = document.getElementById("myCanvas");
+        let context = canvas.getContext("2d"); //ve 2 chieu
+        context.fillStyle = "rgba(0,200,0,1)" ; //mau`
+        context.fillRect(36,10,hcn1.getCd(),hcn1.getCr()) //( toa do )
+    }
+
+    draw();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // var canvas = document.getElementById("myCanvas");
+    // var context = canvas.getContext("2d");
+    // context.lineTo(0, hcn1.getCd());
+    // context.lineTo(hcn1.getCr(), hcn1.getCr());
+    // context.lineTo(hcn1.getCr(), 0);
+    // context.lineTo(0, hcn1.getCd());
+
+
 
 </script>
 
