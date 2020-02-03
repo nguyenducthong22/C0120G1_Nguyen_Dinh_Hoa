@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<canvas id="myCanvas" > </canvas>
+<canvas id="myCanvas"></canvas>
 
 <script>
     let Hcn = function () {
@@ -27,37 +27,25 @@
         };
 
         this.tinhDienTich = function () {
-            return this.getCd()*this.getCr();
+            return this.getCd() * this.getCr();
         };
         this.tinhChuVi = function () {
-            return (this.getCd()+this.getCr()) * 2;
+            return (this.getCd() + this.getCr()) * 2;
         }
     };
     let hcn1 = new Hcn();
     hcn1.setCd(parseInt(prompt("nhap chieu dai")));
     hcn1.setCr(parseInt(prompt("nhap chieu rong")));
-    alert("hinh chu nhat co dien tich la "+hcn1.tinhDienTich()+" va chu vi la " +hcn1.tinhChuVi());
+    alert("hinh chu nhat co dien tich la " + hcn1.tinhDienTich() + " va chu vi la " + hcn1.tinhChuVi());
 
     function draw() {
         let canvas = document.getElementById("myCanvas");
         let context = canvas.getContext("2d"); //ve 2 chieu
-        context.fillStyle = "rgba(0,200,0,1)" ; //mau`
-        context.fillRect(36,10,hcn1.getCd(),hcn1.getCr()) //( toa do )
+        context.fillStyle = "rgba(0,200,0,1)"; //mau`
+        context.fillRect(36, 10, hcn1.getCd(), hcn1.getCr()) //( toa do , chieu dai , chieu rong )
     }
 
     draw();
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     // var canvas = document.getElementById("myCanvas");
@@ -66,7 +54,6 @@
     // context.lineTo(hcn1.getCr(), hcn1.getCr());
     // context.lineTo(hcn1.getCr(), 0);
     // context.lineTo(0, hcn1.getCd());
-
 
 
 </script>
