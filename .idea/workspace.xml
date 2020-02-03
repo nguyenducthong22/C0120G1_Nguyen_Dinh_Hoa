@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3996b01-82aa-4bb5-8080-db68b1648a1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/Ham/BT/DoiCho.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Ham/BT/FeetMeters.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Ham/BT/HinhTron.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Ham/BT/KiemTraSo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Ham/BT/TinhBinhPhuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Ham/BT/TinhGiaoThua.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HCN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HinhChuNhat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/TH/FunnyCicles.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/TH/FunnyCicles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HinhChuNhat.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Task1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="231">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -36,29 +29,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HCN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+            <state relative-caret-position="399">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/TH/XayDungHinhTron.html">
+        <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/Temperature.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="294">
+              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="823">
+              <caret line="199" column="9" lean-forward="true" selection-start-line="199" selection-start-column="9" selection-end-line="199" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/TH/FunnyCicles.html">
+        <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="407">
+              <caret line="78" column="8" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="78" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -66,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="91" column="51" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
+            <state relative-caret-position="1411">
+              <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -75,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+            <state relative-caret-position="636">
+              <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
             </state>
           </provider>
         </entry>
@@ -97,8 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Module1/Mang/TH/TH2.html" />
-        <option value="$PROJECT_DIR$/Module1/Mang/TH/TH3.html" />
         <option value="$PROJECT_DIR$/Module1/Mang/TH/TH4.html" />
         <option value="$PROJECT_DIR$/Module1/Mang/TH/TH5.html" />
         <option value="$PROJECT_DIR$/Module1/CaseStudy/Task1/Bai1.html" />
@@ -124,18 +121,14 @@
         <option value="$PROJECT_DIR$/Module1/CaseStudy/#4Mang/Task2.html" />
         <option value="$PROJECT_DIR$/Module1/CauTrucDieuKien/BT/Bai2TinhSoNgayTrongThang.html" />
         <option value="$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task1.html" />
-        <option value="$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task2.html" />
-        <option value="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task1.html" />
         <option value="$PROJECT_DIR$/Module1/CaseStudy/3CauTrucLap/Task1.html" />
         <option value="$PROJECT_DIR$/Module1/CaseStudy/3CauTrucLap/Task2.html" />
         <option value="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Task1.html" />
         <option value="$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/SuKienChuot.html" />
-        <option value="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html" />
         <option value="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" />
         <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/TH/XayDungHinhTron.html" />
         <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/TH/XayDungLopDate.html" />
         <option value="$PROJECT_DIR$/Module1/GiaiThuat/Bai7.html" />
-        <option value="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" />
         <option value="$PROJECT_DIR$/Module1/Mang/BT/Bai1.html" />
         <option value="$PROJECT_DIR$/Module1/Mang/BT/Bai2.html" />
         <option value="$PROJECT_DIR$/Module1/Mang/BT/Bai3.html" />
@@ -146,14 +139,20 @@
         <option value="$PROJECT_DIR$/Module1/Ham/BT/TinhBinhPhuong.html" />
         <option value="$PROJECT_DIR$/Module1/Ham/BT/KiemTraSo.html" />
         <option value="$PROJECT_DIR$/Module1/Ham/BT/DoiCho.html" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HCN.html" />
         <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HinhChuNhat.html" />
+        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/TH/DenPin.html" />
+        <option value="$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task2.html" />
+        <option value="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" />
+        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HCN.html" />
+        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/Temperature.html" />
+        <option value="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task1.html" />
+        <option value="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="655" />
+    <option name="y" value="25" />
     <option name="width" value="1180" />
     <option name="height" value="980" />
   </component>
@@ -185,6 +184,13 @@
               <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="5Ham" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
+              <item name="Module1" type="462c0819:PsiDirectoryNode" />
+              <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
               <item name="6HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -200,13 +206,6 @@
               <item name="HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
               <item name="BT" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
-              <item name="TH" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -218,7 +217,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CodeGym" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -241,29 +240,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.HCN.html">
-    <configuration name="DoiCho.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/Ham/BT/DoiCho.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.Task2.html">
+    <configuration name="DenPin.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/HuongDoiTuong/TH/DenPin.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="HCN.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/HuongDoiTuong/BT/HCN.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="HinhChuNhat.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/HuongDoiTuong/BT/HinhChuNhat.html" useBuiltInWebServerPort="true">
+    <configuration name="Task1.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CaseStudy/5Ham/Task1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="KiemTraSo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/Ham/BT/KiemTraSo.html" useBuiltInWebServerPort="true">
+    <configuration name="Task2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CaseStudy/5Ham/Task2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="TinhGiaoThua.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/Ham/BT/TinhGiaoThua.html" useBuiltInWebServerPort="true">
+    <configuration name="Temperature.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/HuongDoiTuong/BT/Temperature.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Task2.html" />
+        <item itemvalue="JavaScript Debug.Task1.html (1)" />
         <item itemvalue="JavaScript Debug.HCN.html" />
-        <item itemvalue="JavaScript Debug.HinhChuNhat.html" />
-        <item itemvalue="JavaScript Debug.DoiCho.html" />
-        <item itemvalue="JavaScript Debug.KiemTraSo.html" />
-        <item itemvalue="JavaScript Debug.TinhGiaoThua.html" />
+        <item itemvalue="JavaScript Debug.Temperature.html" />
+        <item itemvalue="JavaScript Debug.DenPin.html" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +311,8 @@
       <workItem from="1580617026954" duration="628000" />
       <workItem from="1580648221862" duration="1246000" />
       <workItem from="1580655988130" duration="8292000" />
+      <workItem from="1580664433035" duration="15000" />
+      <workItem from="1580692782455" duration="8996000" />
     </task>
     <task id="LOCAL-00001" summary="sdsd">
       <created>1578456702555</created>
@@ -345,10 +346,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148224000" />
+    <option name="totallyTimeSpent" value="157235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17580965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -378,16 +380,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="5656" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/IMG_9070.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CauTrucLap/BT/BangCuuChuong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Module1/CauTrucLap/BT/SoNguyenTo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -441,13 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -528,20 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Task1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Module1/Ham/BT/SoNguyenTo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
@@ -583,13 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3192">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -670,48 +634,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js">
+    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/TH/DenPin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/TH/XayDungHinhTron.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/TH/FunnyCicles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="483">
+          <caret line="32" column="71" lean-forward="true" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/TH/XayDungHinhTron.html">
+    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HinhChuNhat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="210">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Task1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/Temperature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="91" column="51" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
+        <state relative-caret-position="1411">
+          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HCN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+        <state relative-caret-position="399">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HinhChuNhat.html">
+    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="407">
+          <caret line="78" column="8" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="78" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="199" column="9" lean-forward="true" selection-start-line="199" selection-start-column="9" selection-end-line="199" selection-end-column="9" />
         </state>
       </provider>
     </entry>
