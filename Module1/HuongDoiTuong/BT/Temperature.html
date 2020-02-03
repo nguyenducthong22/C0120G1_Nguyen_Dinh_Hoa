@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature</title>
+</head>
+<body>
+<script>
+    let Temperature = function () {
+
+        this.setDoC = function (doC) {
+            this.doC = doC;
+        };
+
+        this.getDoC = function () {
+            return this.doC;
+        };
+
+        this.doK = function () {
+            return this.doC + 273;
+        };
+        this.doF = function () {
+            return this.doC * 1.8 + 32;
+        }
+
+    };
+    let nhietDo = new Temperature();
+    nhietDo.setDoC(parseInt(prompt("nhap do C ")));
+    document.write("do F la : " + nhietDo.doF() + " va do K la : " + nhietDo.doK());
+
+
+</script>
+</body>
+</html>
