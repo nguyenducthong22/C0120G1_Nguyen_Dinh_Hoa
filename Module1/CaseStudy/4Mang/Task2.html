@@ -33,13 +33,13 @@
             arrNameCustomers[8] = "Doc";
             arrNameCustomers[9] = "Lap";
 
-            let result ="";
+            var result = "";
             for (let i = 0; i < arrNameCustomers.length; i++) {
                 result += "\n" + (i + 1) + "." + arrNameCustomers[i];
             }
             let indexDelete = prompt("Choose Customer you want delete" +result);
             arrNameCustomers.splice(Number.parseInt(indexDelete) - 1, 1);
-            var resultAfterDelete = "";
+            let resultAfterDelete = "";
             for (let i = 0; i < arrNameCustomers.length; i++) {
                 resultAfterDelete += "\n" + (i + 1) + "." + arrNameCustomers[i];
             }

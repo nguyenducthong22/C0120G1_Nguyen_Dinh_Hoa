@@ -71,7 +71,7 @@
 
     function displayCustomers() {
         let result = "";
-        for (var i = 0; i < arrListCustomer.length; i++) {
+        for (let i = 0; i < arrListCustomer.length; i++) {
             result += "\n" + (i + 1) + ". " + "Name: " + arrListCustomer[i][0] + "; ID Card" + arrListCustomer[i][1];
         }
         result += "\n" + (arrListCustomer.length + 1) + ".Back to menu";
