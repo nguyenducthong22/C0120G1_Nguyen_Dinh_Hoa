@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3996b01-82aa-4bb5-8080-db68b1648a1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateAcount.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateEmail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Regular Expression/TH/KiemTraChuHoa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Regular Expression/TH/KiemTraMaQuocGia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateSDT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateTenLopHoc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/TH/XayDungLopDate.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/TH/XayDungLopDate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/Mang/TH/Caro.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/Mang/TH/Caro.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,28 +18,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js">
+        <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateTenLopHoc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="323" lean-forward="true" selection-start-line="323" selection-end-line="323" />
+            <state relative-caret-position="340">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js">
+        <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateSDT.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="124" column="24" lean-forward="true" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+            <state relative-caret-position="550">
+              <caret line="43" column="32" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="43" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Task1.html">
+        <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateEmail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="126">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="31" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateAcount.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -67,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Module1/CaseStudy/YeuCau1/Task1_Task2.html" />
-        <option value="$PROJECT_DIR$/Module1/CaseStudy/YeuCau2/Task1_Task2.html" />
         <option value="$PROJECT_DIR$/Module1/Mang/BT/TuDien.html" />
         <option value="$PROJECT_DIR$/Module1/Ham/TH/Bai2.html" />
         <option value="$PROJECT_DIR$/Module1/Ham/TH/Bai3DoiNhietDo.html" />
@@ -118,6 +118,8 @@
         <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/TH/XayDungLopDate.html" />
         <option value="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" />
         <option value="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" />
+        <option value="$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateSDT.html" />
+        <option value="$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateTenLopHoc.html" />
       </list>
     </option>
   </component>
@@ -143,19 +145,6 @@
               <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
               <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="6HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
@@ -291,7 +280,7 @@
       <workItem from="1580664433035" duration="15000" />
       <workItem from="1580692782455" duration="10565000" />
       <workItem from="1580780033219" duration="11499000" />
-      <workItem from="1580797491916" duration="7617000" />
+      <workItem from="1580797491916" duration="9098000" />
     </task>
     <task id="LOCAL-00001" summary="sdsd">
       <created>1578456702555</created>
@@ -325,7 +314,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177920000" />
+    <option name="totallyTimeSpent" value="179401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -359,20 +348,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="5656" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/KiemTraNamNhuan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Module1/CauTrucDieuKien/TH/SuKienChuot.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -650,20 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateAcount.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateEmail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/TH/XayDungLopDate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -671,24 +632,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js">
+    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Task1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="124" column="24" lean-forward="true" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+        <state relative-caret-position="294">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Task1.html">
+    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="2604">
+          <caret line="124" column="24" lean-forward="true" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="323" lean-forward="true" selection-start-line="323" selection-end-line="323" />
+        <state relative-caret-position="399">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateAcount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateEmail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateSDT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="43" column="32" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateTenLopHoc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="25" />
         </state>
       </provider>
     </entry>
