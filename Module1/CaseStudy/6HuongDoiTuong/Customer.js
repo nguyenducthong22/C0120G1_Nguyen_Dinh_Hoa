@@ -36,7 +36,7 @@ let Customer = function () {
     };
 
     this.setTypeCustomer = function (typeCustomer) {
-        this.idCard = typeCustomer;
+        this.typeCustomer = typeCustomer;
     };
     this.getTypeCustomer = function () {
         return this.typeCustomer;
@@ -79,17 +79,56 @@ let Customer = function () {
 
     this.totalPays = function () {
         let moneyPerDays = 0;
-        if (this.getTypeService() === "Villa") {
+        if (this.getTypeService().trim().toLowerCase() === "villa") {
             moneyPerDays = 500;
-        }
-        else if (this.getTypeService() === "House") {
+        } else if (this.getTypeService().trim().toLowerCase() === "house") {
             moneyPerDays = 300;
-        }
-        else if (this.getTypeService() === "Room") {
+        } else if (this.getTypeService().trim().toLowerCase() === "room") {
             moneyPerDays = 100;
         }
 
-        return moneyPerDays * parseFloat(this.getRentDays()) * (1 - parseFloat(this.getDiscount()) / 100);
+        let result = 0;
+
+        result = moneyPerDays * parseFloat(this.getRentDays()) * (1 - parseFloat(this.getDiscount()) / 100);
+
+        if (this.getAddressCustomer().trim().toLowerCase() === "da nang") {
+            result -= 20;
+        } else if (this.getAddressCustomer().trim().toLowerCase() === "hue") {
+            result -= 10;
+        } else if (this.getAddressCustomer().trim().toLowerCase() === "quang nam") {
+            result -= 5;
+        }
+
+        if (parseInt(this.getRentDays()) >= 7) {
+            result -= 30;
+        } else if (parseInt(this.getRentDays()) >= 5) {
+            result -= 20;
+        } else if (parseInt(this.getRentDays()) >= 2) {
+            result -= 10;
+        }
+
+        if (this.getTypeCustomer().trim().toLowerCase() === "diamond") {
+            result -= 15;
+        } else if (this.getTypeCustomer().trim().toLowerCase() === "platinum") {
+            result -= 10;
+        } else if (this.getTypeCustomer().trim().toLowerCase() === "gold") {
+            result -= 5;
+        } else if (this.getTypeCustomer().trim().toLowerCase() === "silver") {
+            result -= 2;
+        }
+
+        let currentYear = new Date().getFullYear();
+        let birthday = new Date(this.getBirthdayCustomer()).getFullYear();
+        let ageCustomer = currentYear - birthday;
+
+        if (ageCustomer >= 30 && this.getAddressCustomer().trim().toLowerCase() === "da nang") {
+            result -= 2;
+        } else if (ageCustomer >= 20 && this.getAddressCustomer().trim().toLowerCase() === "da nang") {
+            result -= 1;
+        }
+
+        return result;
+
 
     }
 

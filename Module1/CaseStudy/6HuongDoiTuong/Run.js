@@ -2,8 +2,18 @@ let listCustomers = [];
 let checkEditCustomer = false;
 let checkDeleteCustomer = false;
 let checkDisplayTotalPay = false;
+
 let validateBirthday = /^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}$/;
 let validateEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+let validateIdCard = /^[0-9]{9}$/;
+let validateRentDay = /^[0-9]{1,3}$/;
+let validateDiscount = /^[0-9]{1,2}$/;
+let validateNumberOfCompany = /^[0-9]{1}$/;
+let validateTypeCustomer = /^(diamond|platinium|gold|silver|member)$/;
+let validateTypeRoom = /^(vip|business|normal)$/;
+let validateTypeService = /^(villa|room|house)$/;
+let validateAddressCustomer = /^(da nang|hue|quang nam)$/;
+
 
 function displayMainMenu() {
     let choose = prompt("" +
@@ -43,9 +53,44 @@ function displayMainMenu() {
 function addNewCustomer() {
     let checkBirthday = false;
     let checkEmail = false;
+    let checkIdCard = false;
+    let checkRentDay = false;
+    let checkDiscount = false;
+    let checkNumberOfCompany = false;
+    let checkTypeCustomer = false;
+    let checkTypeRoom = false;
+    let checkTypeService = false;
+    let checkAddressCustomer = false;
+
     let cus = new Customer();
+
+    let nameStd = " ";
+
     cus.setNameCustomer(prompt("Enter Name Customer"));
-    cus.setIdCard(prompt("Enter Id Card Customer: "));
+    cus.setNameCustomer(cus.getNameCustomer().trim().toLocaleLowerCase());
+    for (let i = 0; i < cus.getNameCustomer().length; i++) {
+        if (cus.getNameCustomer().charAt(i) === " " && cus.getNameCustomer().charAt(i + 1) === " ") {
+            continue;
+        }
+        if (i === 0 || cus.getNameCustomer().charAt(i - 1) === " ") {
+            nameStd += cus.getNameCustomer().charAt(i).toLocaleUpperCase();
+            continue;
+        }
+        nameStd += cus.getNameCustomer().charAt(i);
+
+    }
+    cus.setNameCustomer(nameStd);
+
+    do {
+        cus.setIdCard(prompt("Enter Id Card Customer: "));
+        if (validateIdCard.test(cus.getIdCard())) {
+            checkIdCard = true;
+        } else {
+            alert("vui long nhap lai");
+        }
+
+    } while (!checkIdCard);
+
 
     do {
         cus.setBirthdayCustomer(prompt("Enter Birthday Customer (dd/MM/YYYY): "));
@@ -68,13 +113,73 @@ function addNewCustomer() {
 
     } while (!checkEmail);
 
-    cus.setAddressCustomer(prompt("Enter Address Customer: "));
-    cus.setTypeCustomer(prompt("Enter Type Customer: "));
-    cus.setDiscount(prompt("Enter Discout: "));
-    cus.setNumberOfAccompanying(prompt("Enter Number of Accompanying: "));
-    cus.setTypeRoom(prompt("Enter Type Room: "));
-    cus.setRentDays(prompt("Enter Rent Days: "));
-    cus.setTypeService(prompt("Enter Type Service: "));
+    do {
+        cus.setAddressCustomer(prompt("Enter Address Customer(Da nang,Hue,Quang Nam): "));
+        if (validateAddressCustomer.test(cus.getAddressCustomer().trim().toLowerCase())) {
+            checkAddressCustomer = true;
+        } else {
+            alert("vui long nhap lai");
+        }
+    } while (!checkAddressCustomer);
+
+    do {
+        cus.setTypeCustomer(prompt("Enter Type Customer(Diamond,Platinium,Gold,Silver,Member): "));
+        if (validateTypeCustomer.test(cus.getTypeCustomer().trim().toLowerCase())) {
+            checkTypeCustomer = true;
+        } else {
+            alert("vui long nhap lai");
+        }
+    } while (!checkTypeCustomer) ;
+
+
+    do {
+        cus.setDiscount(prompt("Enter Discount: "));
+        if (validateDiscount.test(cus.getDiscount())) {
+            checkDiscount = true;
+        } else {
+            alert("vui long nhap lai");
+        }
+    }
+    while (!checkDiscount);
+
+    do {
+        cus.setNumberOfAccompanying(prompt("Enter Number of Accompanying: "));
+        if (validateNumberOfCompany.test(cus.getNumberOfAccompanying())) {
+            checkNumberOfCompany = true;
+        } else {
+            alert("vui long nhap lai");
+        }
+    }
+    while (!checkNumberOfCompany);
+
+    do {
+        cus.setTypeRoom(prompt("Enter Type Room(Vip,Business,Normal): "));
+        if (validateTypeRoom.test(cus.getTypeRoom().trim().toLowerCase())) {
+            checkTypeRoom = true;
+        } else {
+            alert("vui long nhap lai");
+        }
+    } while (!checkTypeRoom) ;
+
+
+    do {
+        cus.setRentDays(prompt("Enter Rent Days: "));
+        if (validateRentDay.test(cus.getRentDays())) {
+            checkRentDay = true;
+        } else {
+            alert("vui long nhap lai");
+        }
+    }
+    while (!checkRentDay);
+
+    do {
+        cus.setTypeService(prompt("Enter Type Service(Villa,Room,House): "));
+        if (validateTypeService.test(cus.getTypeService().trim().toLowerCase())) {
+            checkTypeService = true;
+        } else {
+            alert("vui long nhap lai");
+        }
+    } while (!checkTypeService) ;
 
     listCustomers.push(cus);
     displayMainMenu();
@@ -121,7 +226,7 @@ function displayInformationCustomer(index) {
             "\n11.Type Service :" + listCustomers[index].getTypeService() +
             "\n12.Back. ");
         if (chooseInfoEdit.toString() !== "12") { //ko chon back
-            editInformationCustomer(index,Number.parseInt(chooseInfoEdit) - 1); //
+            editInformationCustomer(index, Number.parseInt(chooseInfoEdit) - 1); //
 
         } else {
             checkEditCustomer = false;
@@ -145,8 +250,8 @@ function displayInformationCustomer(index) {
     }
 }
 
-function editInformationCustomer(index,editIndex) {  //
-    let editInfo ;
+function editInformationCustomer(index, editIndex) {  //
+    let editInfo;
     editInfo = prompt("Enter Info You Want Change: ").toString();
     switch (editIndex) {
         case 0:
@@ -212,7 +317,7 @@ function chooseDisplayTotalPay() {
 }
 
 function displayTotalPay(index) {
-    alert(listCustomers[index].totalPays());
+    alert("Tổng tiền của " +listCustomers[index].getNameCustomer() +" là : "+listCustomers[index].totalPays() +" lúa Trump");
     checkDisplayTotalPay = false;
     displayMainMenu();
 

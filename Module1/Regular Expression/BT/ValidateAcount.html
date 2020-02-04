@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Một tài khoản hợp lệ cần đạt các yêu cầu sau:
+    //
+    //     Không chứa các ký tự đặc biệt
+    // Ít nhất là 6 ký tự
+    // Không chứa các ký tự viết hoa
+    // Cho phép dấu gạch dưới (_)
+
+    let validateAccount = /^[_a-z0-9]{6,}$/;
+
+    function Account() {
+        this.setAccount = function (account) {
+            this.account = account;
+        };
+        this.getAccount = function () {
+            return this.account;
+        };
+        this.checkAccount = function () {
+            if (validateAccount.test(this.getAccount())) {
+                alert("True");
+            } else alert("False");
+        };
+    }
+
+    let account1 = new Account();
+    account1.setAccount(prompt("nhap account"));  //.toString()
+    account1.checkAccount();
+</script>
+
+</body>
+</html>

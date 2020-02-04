@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6726e0ef-2c3b-4035-83d5-8b5943154f42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HuongDoiTuong/BT/DienThoai/DienThoai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuongDoiTuong/BT/DienThoai/DienThoai.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuongDoiTuong/BT/DienThoai/Run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuongDoiTuong/TH/Person.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mang/TH/Caro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HuongDoiTuong/BT/HCN.html" beforeDir="false" afterPath="$PROJECT_DIR$/HuongDoiTuong/BT/HCN.html" afterDir="false" />
-    </list>
+    <list default="true" id="6726e0ef-2c3b-4035-83d5-8b5943154f42" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -34,11 +25,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HuongDoiTuong/TH/GameDonGian/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
               <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mang/TH/Caro.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+              <folding>
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,9 +92,9 @@
         <option value="$PROJECT_DIR$/CaseStudy/5Ham/Task2.html" />
         <option value="$PROJECT_DIR$/CauTrucLap/TH/Person.html" />
         <option value="$PROJECT_DIR$/HuongDoiTuong/BT/HCN.html" />
-        <option value="$PROJECT_DIR$/Mang/TH/Caro.html" />
         <option value="$PROJECT_DIR$/Mang/BT/Bai3.html" />
         <option value="$PROJECT_DIR$/HuongDoiTuong/TH/GameDonGian/script.js" />
+        <option value="$PROJECT_DIR$/Mang/TH/Caro.html" />
       </list>
     </option>
   </component>
@@ -118,42 +121,7 @@
             <path>
               <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="CauTrucLap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="CauTrucLap" type="462c0819:PsiDirectoryNode" />
-              <item name="TH" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="Ham" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
-              <item name="BT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
-              <item name="TH" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
-              <item name="TH" type="462c0819:PsiDirectoryNode" />
-              <item name="GameDonGian" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Module1" type="b2602c69:ProjectViewProjectNode" />
@@ -209,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.script.js">
+  <component name="RunManager" selected="JavaScript Debug.Caro.html">
     <configuration name="Caro.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Module1/Mang/TH/Caro.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -227,9 +195,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Caro.html" />
         <item itemvalue="Node.js.script.js" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.Caro.html" />
         <item itemvalue="JavaScript Debug.HCN.html" />
         <item itemvalue="JavaScript Debug.Task2.html" />
       </list>
@@ -270,7 +238,7 @@
       <workItem from="1580485621672" duration="514000" />
       <workItem from="1580486269967" duration="21000" />
       <workItem from="1580486303179" duration="186000" />
-      <workItem from="1580712745073" duration="7754000" />
+      <workItem from="1580712745073" duration="9702000" />
     </task>
     <task id="LOCAL-00001" summary="commit file demo">
       <created>1578283039789</created>
@@ -297,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50176000" />
+    <option name="totallyTimeSpent" value="52124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -581,16 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mang/TH/Caro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HuongDoiTuong/TH/Person.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -619,6 +577,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mang/TH/Caro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

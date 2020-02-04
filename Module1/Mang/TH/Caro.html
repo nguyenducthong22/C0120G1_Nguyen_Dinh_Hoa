@@ -14,12 +14,12 @@
     let mang = [];
     let data = "";
     let checkNguoiChoi = true;
-    for (i = 0; i < 5; i++) {
+    for (let i = 0; i < 5; i++) {
         mang[i] = new Array("", "", "", "", "");
     }
     function displayCaro() {
-        data = "<table border=1>"
-        for (i = 0; i < 5; i++) {
+        data = "<table border=1>";
+        for (let i = 0; i < 5; i++) {
             data += "<tr>";
             for (j = 0; j < 5; j++) {
                 data += "<td align='center' style='width:30px;height:30px ' onclick='changeValue(" + i + "," + j + ");'>" + mang[i][j] + "</td>";
