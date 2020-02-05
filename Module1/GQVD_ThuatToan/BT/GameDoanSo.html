@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<input id="soDoan" type="text">
+<input type="button" value="OK" onclick="gameDoanSo()">
+<p id="result"></p>
+<body>
+<script>
+
+    let secretNumber = Math.round(Math.random() * 100 + 1);
+
+    function gameDoanSo() {
+        let soDoan = parseInt(document.getElementById("soDoan").value);
+        if (soDoan == secretNumber) {
+            alert("You Win");
+        } else if (soDoan > secretNumber) {
+            document.getElementById("result").innerText = " So ban doan lon hon so bi mat "
+        } else if (soDoan < secretNumber) {
+            document.getElementById("result").innerText = " So ban doan nho hon so bi mat "
+        }
+    }
+
+
+</script>
+
+</body>
+</html>

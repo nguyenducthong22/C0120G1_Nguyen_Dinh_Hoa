@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="kq"> </p>
+<script>
+    let result = "";
+    function count(arr, data) {
+        let count = 0;
+        for (let i = 0; i < arr.length;i++) {
+            if (arr[i]==data) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+
+
+
+    function dispArr(arr) {
+
+        for (let i = 0; i < arr.length; ++i) {
+            result += arr[i] + " ";
+            if (i % 10 == 9) {
+                result += ("\n");
+            }
+        }
+        return result;
+    }
+
+    let nums = [];
+    for (let i = 0; i < 100; ++i) {
+        nums[i] = Math.floor(Math.random() * 100 + 1);
+    }
+    nums = nums.sort();
+
+    readline = prompt("Enter a number to search for: ");
+    let num = parseInt(readline);
+    var retVal = count(nums, num);
+
+    document.getElementById("kq").innerText=dispArr(nums);
+
+    document.write("Found " + retVal + " occurrences of " + num + ".");
+</script>
+
+</body>
+</html>

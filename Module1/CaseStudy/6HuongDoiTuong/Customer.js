@@ -91,11 +91,11 @@ let Customer = function () {
 
         result = moneyPerDays * parseFloat(this.getRentDays()) * (1 - parseFloat(this.getDiscount()) / 100);
 
-        if (this.getAddressCustomer().trim().toLowerCase() === "da nang") {
+        if (this.getAddressCustomer().toLowerCase().replace(/ /g,"")  === "danang") {
             result -= 20;
-        } else if (this.getAddressCustomer().trim().toLowerCase() === "hue") {
+        } else if (this.getAddressCustomer().toLowerCase().replace(/ /g,"")  === "hue") {
             result -= 10;
-        } else if (this.getAddressCustomer().trim().toLowerCase() === "quang nam") {
+        } else if (this.getAddressCustomer().toLowerCase().replace(/ /g,"")  === "quangnam") {
             result -= 5;
         }
 
@@ -121,9 +121,9 @@ let Customer = function () {
         let birthday = new Date(this.getBirthdayCustomer()).getFullYear();
         let ageCustomer = currentYear - birthday;
 
-        if (ageCustomer >= 30 && this.getAddressCustomer().trim().toLowerCase() === "da nang") {
+        if (ageCustomer >= 30 && this.getAddressCustomer().toLowerCase().replace(/ /,'') === "danang") {
             result -= 2;
-        } else if (ageCustomer >= 20 && this.getAddressCustomer().trim().toLowerCase() === "da nang") {
+        } else if (ageCustomer >= 20 && this.getAddressCustomer().toLowerCase().replace(/ /,"") === "danang") {
             result -= 1;
         }
 

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //086, 096, 097, 098, 032, 033, 034, 035, 036, 037, 038, 039.
+    let arr = ["0367959494","0964565454","0908333444","0958333444","0368333444"];
+
+    let validateSDT = /^[0]((8{1}\d{8})|([9]{1}[6-8}]{1}\d{7})|([03]{1}[2-9]{1}\d{7})$)/;
+
+    for (let i = 0; i < arr.length; i++) {
+        if (validateSDT.test(arr[i])) {
+            document.write(arr[i] +"<br />");
+        }
+    }
+
+</script>
+
+</body>
+</html>

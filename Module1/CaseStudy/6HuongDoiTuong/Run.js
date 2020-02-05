@@ -3,16 +3,16 @@ let checkEditCustomer = false;
 let checkDeleteCustomer = false;
 let checkDisplayTotalPay = false;
 
-let validateBirthday = /^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}$/;
+let validateBirthday = /^([0-2]\d|(3)[0-1])(\/)(((0)\d)|((1)[0-2]))(\/)[1]{1}[9]{1}[3-9]{1}\d{1}|[2]{1}[0]{1}[0-1]{1}\d{1}$/;
 let validateEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-let validateIdCard = /^[0-9]{9}$/;
-let validateRentDay = /^[0-9]{1,3}$/;
-let validateDiscount = /^[0-9]{1,2}$/;
-let validateNumberOfCompany = /^[0-9]{1}$/;
-let validateTypeCustomer = /^(diamond|platinium|gold|silver|member)$/;
-let validateTypeRoom = /^(vip|business|normal)$/;
-let validateTypeService = /^(villa|room|house)$/;
-let validateAddressCustomer = /^(da nang|hue|quang nam)$/;
+let validateIdCard = /^\d{9}$/;
+let validateRentDay = /^\d{1,3}$/;
+let validateDiscount = /^\d{1,2}$/;
+let validateNumberOfCompany = /^\d{1,2}$/;
+let validateTypeCustomer = /^(diamond|platinium|gold|silver|member)$/gi;
+let validateTypeRoom = /^(vip|business|normal)$/gi;
+let validateTypeService = /^(villa|room|house)$/gi;
+let validateAddressCustomer = /^(danang|hue|quangnam)$/gi;
 
 
 function displayMainMenu() {
@@ -115,7 +115,7 @@ function addNewCustomer() {
 
     do {
         cus.setAddressCustomer(prompt("Enter Address Customer(Da nang,Hue,Quang Nam): "));
-        if (validateAddressCustomer.test(cus.getAddressCustomer().trim().toLowerCase())) {
+        if (validateAddressCustomer.test(cus.getAddressCustomer().toLowerCase().replace(/ /g,''))) {
             checkAddressCustomer = true;
         } else {
             alert("vui long nhap lai");

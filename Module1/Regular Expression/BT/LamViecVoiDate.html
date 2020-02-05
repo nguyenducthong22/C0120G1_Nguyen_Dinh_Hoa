@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //chua xong
+    let MyBirthday = function () {
+        this.setMyBirthday = function (myBirthday) {
+            this.myBirthday = myBirthday;
+        };
+        this.getMyBirthday = function () {
+            return this.myBirthday;
+        };
+
+        this.showMyBirth = function () {
+
+            // let currentYear = new Date().getFullYear();
+            // let currentMonth = new Date().getMonth();
+            // let currentDay = new Date().getDate();
+            //
+            // let myYear = new Date(this.getMyBirthday()).getFullYear();
+            // let myMonth = new Date(this.getMyBirthday()).getMonth();
+            // let myDay = new Date(this.getMyBirthday()).getDate();
+
+            // alert(myYear);
+            // alert(myMonth);
+            // alert(myDay);
+
+            // alert(currentYear);
+            // alert(currentMonth);
+            // // alert(currentDay);
+
+            // let current = new Date();
+            // let myBirthDay = new Date(this.getMyBirthday());
+            //
+            // let miliSec = (current.valueOf()-myBirthDay.valueOf());
+
+            // let a = new Date(Date.parse(this.getMyBirthday));
+            // let b = new Date(Date.parse("10/10/2019"));
+            // alert(a);
+            // alert(b);
+
+            // arr.spilit
+
+            // alert("Mình đã sống được :" +(currentYear - myYear) +" năm");
+            // alert("Mình đã sống được :" +(currentMonth - myMonth) +" tháng");
+
+        };
+
+
+    };
+
+    // validateMyBirthday = /([0-2]\d|(3)[0-1])(\/)(((0)\d)|((1)[0-2]))(\/)[12]\d{3}/ ; //dd/mm/YYYY
+    validateMyBirthday = /(((0)\d)|((1)[0-2]))(\/)([0-2]\d|(3)[0-1])(\/)[12]\d{3}/ ; //mm/dd/YYYY
+    var checkMyBirthday = false;
+    var myBirthday = new MyBirthday();
+    do {
+        myBirthday.setMyBirthday(prompt("Nhap Ngay Sinh"));
+        if (validateMyBirthday.test(myBirthday.getMyBirthday())) {
+            checkMyBirthday = true;
+        } else {
+            alert("vui long nhap lai");
+        }
+
+    } while (!checkMyBirthday);
+
+    //
+    // arr = myBirthday.getMyBirthday().toString();
+    // // arr.replace(/\//g,",");
+    // console.log(arr);
+
+    myBirthday.showMyBirth();
+
+
+</script>
+
+</body>
+</html>
