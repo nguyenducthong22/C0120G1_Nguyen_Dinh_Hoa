@@ -23,7 +23,8 @@
 </div>
 <div style=" width: 20px ">
     <h1 id="idName3">Táo:</h1>
-    <label id="idWeight3">Weight:</label><br>
+    <p>Weight:</p> <br>
+    <label id="idWeight3" ></label><br>
 </div>
 
 
@@ -95,6 +96,7 @@
     document.getElementById("idGender2").innerText = adam.getGender();
     document.getElementById("idWeight").innerText = eva.getWeight();
     document.getElementById("idWeight2").innerText = adam.getWeight();
+    document.getElementById("idWeight3").innerText = apple.getWeight();
 
     function fEatApple() {
         eva.eat(apple.getWeight());

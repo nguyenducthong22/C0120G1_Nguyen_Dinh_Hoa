@@ -32,7 +32,10 @@
     for (let i = 0; i < 100; ++i) {
         nums[i] = Math.floor(Math.random() * 100 + 1);
     }
-    nums = nums.sort();
+
+    nums.sort(function(a,b) {
+        return a-b  ;
+    });
 
     readline = prompt("Enter a number to search for: ");
     let num = parseInt(readline);

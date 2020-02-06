@@ -9,10 +9,10 @@ let validateIdCard = /^\d{9}$/;
 let validateRentDay = /^\d{1,3}$/;
 let validateDiscount = /^\d{1,2}$/;
 let validateNumberOfCompany = /^\d{1,2}$/;
-let validateTypeCustomer = /^(diamond|platinium|gold|silver|member)$/gi;
-let validateTypeRoom = /^(vip|business|normal)$/gi;
-let validateTypeService = /^(villa|room|house)$/gi;
-let validateAddressCustomer = /^(danang|hue|quangnam)$/gi;
+let validateTypeCustomer = /^(diamond|platinium|gold|silver|member)$/;
+let validateTypeRoom = /^(vip|business|normal)$/;
+let validateTypeService = /^(villa|room|house)$/;
+let validateAddressCustomer = /^(danang|hue|quangnam)$/;
 
 
 function displayMainMenu() {
@@ -124,7 +124,7 @@ function addNewCustomer() {
 
     do {
         cus.setTypeCustomer(prompt("Enter Type Customer(Diamond,Platinium,Gold,Silver,Member): "));
-        if (validateTypeCustomer.test(cus.getTypeCustomer().trim().toLowerCase())) {
+        if (validateTypeCustomer.test(cus.getTypeCustomer().toLowerCase())) {
             checkTypeCustomer = true;
         } else {
             alert("vui long nhap lai");
@@ -154,7 +154,7 @@ function addNewCustomer() {
 
     do {
         cus.setTypeRoom(prompt("Enter Type Room(Vip,Business,Normal): "));
-        if (validateTypeRoom.test(cus.getTypeRoom().trim().toLowerCase())) {
+        if (validateTypeRoom.test(cus.getTypeRoom().toLowerCase())) {
             checkTypeRoom = true;
         } else {
             alert("vui long nhap lai");
@@ -174,12 +174,15 @@ function addNewCustomer() {
 
     do {
         cus.setTypeService(prompt("Enter Type Service(Villa,Room,House): "));
-        if (validateTypeService.test(cus.getTypeService().trim().toLowerCase())) {
+        if (validateTypeService.test(cus.getTypeService().toLowerCase())) {
             checkTypeService = true;
         } else {
             alert("vui long nhap lai");
         }
     } while (!checkTypeService) ;
+
+
+
 
     listCustomers.push(cus);
     displayMainMenu();
