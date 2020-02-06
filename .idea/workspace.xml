@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3996b01-82aa-4bb5-8080-db68b1648a1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/BT/Debug.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/BT/GameDoanSo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/BT/TimSDT.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/BaiDoc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/BaiDoc2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/Dem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/QuanLySanPhamBaiMau/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/QuanLySanPhamBaiMau/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/QuanLySanPhamBaiMau/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/TimSo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Var.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Regular Expression/BT/BaiTapSao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Regular Expression/BT/LamViecVoiDate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Regular Expression/BT/LamViecVoiMath.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateNumber.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/BongDen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/EvaAdam.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HCN.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HCN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HinhChuNhat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/TH/GameDonGian/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/TH/GameDonGian/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Var.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Var.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,19 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Index1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Run.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+            <state relative-caret-position="252">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding>
                 <marker date="1580915053821" expanded="true" signature="6:916" ph="..." />
               </folding>
@@ -59,10 +31,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Var.js">
+        <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/BongDen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="105">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -73,8 +45,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -84,8 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Module1/Mang/BT/Bai2.html" />
-        <option value="$PROJECT_DIR$/Module1/Mang/BT/Bai3.html" />
         <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/TH/FunnyCicles.html" />
         <option value="$PROJECT_DIR$/Module1/Ham/BT/FeetMeters.html" />
         <option value="$PROJECT_DIR$/Module1/Ham/BT/HinhTron.html" />
@@ -135,10 +105,12 @@
         <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Index1.html" />
         <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Run.js" />
         <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Var.js" />
+        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/EvaAdam.html" />
+        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/BongDen.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="655" />
     <option name="y" value="25" />
     <option name="width" value="1180" />
@@ -149,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,19 +138,6 @@
               <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
               <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="6HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -186,20 +146,11 @@
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
               <item name="BT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
-              <item name="BT" type="462c0819:PsiDirectoryNode" />
-              <item name="MeoAnChuot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,8 +184,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Index1.html">
-    <configuration name="GameDoanSo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/GiaiQuyetVanDeVaThuatToan/BT/GameDoanSo.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.EvaAdam.html">
+    <configuration name="EvaAdam.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/HuongDoiTuong/BT/EvaAdam.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Index1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/HuongDoiTuong/BT/MeoAnChuot/Index1.html" useBuiltInWebServerPort="true">
@@ -250,19 +201,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.GameDoanSo.html" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.Index1.html" />
+      <item itemvalue="JavaScript Debug.EvaAdam.html" />
       <item itemvalue="Node.js.js.js" />
       <item itemvalue="Node.js.Var.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.EvaAdam.html" />
         <item itemvalue="JavaScript Debug.Index1.html" />
         <item itemvalue="Node.js.Var.js" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.js.js" />
-        <item itemvalue="JavaScript Debug.GameDoanSo.html" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +268,9 @@
       <workItem from="1580797491916" duration="12925000" />
       <workItem from="1580812668463" duration="9121000" />
       <workItem from="1580865656639" duration="22436000" />
-      <workItem from="1580901390550" duration="11427000" />
+      <workItem from="1580901390550" duration="11837000" />
+      <workItem from="1580952037473" duration="5371000" />
+      <workItem from="1580959161363" duration="969000" />
     </task>
     <task id="LOCAL-00001" summary="sdsd">
       <created>1578456702555</created>
@@ -351,31 +304,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226212000" />
+    <option name="totallyTimeSpent" value="232962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16920027" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43201134" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16920027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -393,7 +327,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -424,13 +358,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/TH/DenPin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/TH/XayDungHinhTron.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -662,13 +589,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/TH/QuanLiSanPhamBaiMau.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/TH/QuanLiSanPhamBaiMau.html" />
     <entry file="file://$PROJECT_DIR$/Module1/GQVD_ThuatToan/BT/GameDoanSo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -694,9 +615,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/test.js" />
     <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
@@ -725,34 +644,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Var.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="89" column="22" lean-forward="true" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Index1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        <state relative-caret-position="231">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/EvaAdam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Run.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        <state relative-caret-position="252">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding>
             <marker date="1580915053821" expanded="true" signature="6:916" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Index1.html">
+    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/BongDen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Var.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="105">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>

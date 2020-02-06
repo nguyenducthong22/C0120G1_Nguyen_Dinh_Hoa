@@ -126,3 +126,4 @@ console.log(mouse4.soundMouse());
 //undefined cai gi?
 //sao qua Run thi khong duoc?
 //lam sao hien consolog ra kieu mang
+//to mau vang la gi
