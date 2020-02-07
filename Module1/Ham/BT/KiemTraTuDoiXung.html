@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function kiemTraTuDoiXung(str) {
+        let flag = false;
+        for(let i=0; i<str.length;i++){
+            if(str.charAt(i)==str.charAt(str.length-i-1)){
+                flag = true;
+            } else flag = false;
+        }
+        return flag;
+    }
+
+    let tuCanKiemTra = prompt("nhap vao tu can kiem tra");
+    alert(kiemTraTuDoiXung(tuCanKiemTra));
+
+
+
+</script>
+
+</body>
+</html>
