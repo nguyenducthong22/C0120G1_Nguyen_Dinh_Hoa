@@ -9,7 +9,7 @@ let validateBirthday = /^([0-2]\d|(3)[0-1])(\/)(((0)\d)|((1)[0-2]))(\/)[1]{1}[9]
 let validateEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 let validateIdCard = /^\d{9}$/;
 let validateRentDay = /^\d{1,3}$/;
-let validateDiscount = /^\d{1,2}$/;
+let validateDiscount = /^\d{1,3}$/;
 let validateNumberOfCompany = /^\d{1,2}$/;
 let validateTypeCustomer = /^(diamond|platinium|gold|silver|member)$/;
 let validateTypeRoom = /^(vip|business|normal)$/;
@@ -187,11 +187,25 @@ function displayEmployee() {
     }
     result += "\n" + (listEmployee.length + 1) + ".Back to menu";
     let chooseDisplayInfoEmployee = prompt(result);
-    if (chooseDisplayInfoEmployee.toString() !== (listEmployee.length + 1).toString()) { //k chon back
-        displayInformationEmployee(Number.parseInt(chooseDisplayInfoEmployee) - 1);
-    } else {
-        displayMainMenu();
+
+    arrCheck = [];
+    for (let i = 1; i < listEmployee.length + 2; i++) {
+        arrCheck.push(i);
     }
+    if (arrCheck.indexOf(parseInt(chooseDisplayInfoEmployee)) == -1) {
+        alert("vui long nhap lai");
+        displayEmployee()
+    } else {
+        if (chooseDisplayInfoEmployee.toString() !== (listEmployee.length + 1).toString()) { //k chon back
+            displayInformationEmployee(Number.parseInt(chooseDisplayInfoEmployee) - 1);
+        } else {
+            displayMainMenu();
+        }
+
+    }
+
+
+
 }
 
 function displayInformationEmployee(index) {
@@ -357,20 +371,29 @@ function displayCustomers() {
     result += "\n" + (listCustomers.length + 1) + ".Back to menu";
     let chooseDisplayInfo = prompt(result);
 
-    if (chooseDisplayInfo.toString() !== (listCustomers.length + 1).toString()) { //k chon back
-        if (!checkDeleteCustomer && !checkDisplayTotalPay) {
-            displayInformationCustomer(Number.parseInt(chooseDisplayInfo) - 1);
-        } else if (checkDeleteCustomer) {
-            deleteCustomer(Number.parseInt(chooseDisplayInfo) - 1);
-        } else {
-            displayTotalPay(Number.parseInt(chooseDisplayInfo) - 1);
-        }
-
+    arrCheck = [];
+    for (let i = 1; i < listCustomers.length + 2; i++) {
+        arrCheck.push(i);
+    }
+    if (arrCheck.indexOf(parseInt(chooseDisplayInfo)) == -1) {
+        alert("vui long nhap lai");
+        displayCustomers()
     } else {
-        checkDisplayTotalPay = false;
-        checkDeleteCustomer = false;
-        checkEditCustomer = false;
-        displayMainMenu();
+        if (chooseDisplayInfo.toString() !== (listCustomers.length + 1).toString()) { //k chon back
+            if (!checkDeleteCustomer && !checkDisplayTotalPay) {
+                displayInformationCustomer(Number.parseInt(chooseDisplayInfo) - 1);
+            } else if (checkDeleteCustomer) {
+                deleteCustomer(Number.parseInt(chooseDisplayInfo) - 1);
+            } else {
+                displayTotalPay(Number.parseInt(chooseDisplayInfo) - 1);
+            }
+
+        } else {
+            checkDisplayTotalPay = false;
+            checkDeleteCustomer = false;
+            checkEditCustomer = false;
+            displayMainMenu();
+        }
     }
 }
 
@@ -389,13 +412,22 @@ function displayInformationCustomer(index) {
             "\n10.Rent Day : " + listCustomers[index].getRentDays() +
             "\n11.Type Service : " + listCustomers[index].getTypeService() +
             "\n12.Back. ");
-        if (chooseInfoEdit.toString() !== "12") { //ko chon back
-            editInformationCustomer(index, Number.parseInt(chooseInfoEdit) - 1); //
 
-        } else {
-            checkEditCustomer = false;
+        let arrCheck = [1,2,3,4,5,6,7,8,9,10,11,12];
+
+        if (arrCheck.indexOf(parseInt(chooseInfoEdit)) == -1) {
+            alert("vui long nhap lai");
             displayCustomers();
+        } else {
+            if (chooseInfoEdit.toString() !== "12") { //ko chon back
+                editInformationCustomer(index, Number.parseInt(chooseInfoEdit) - 1); //
+
+            } else {
+                checkEditCustomer = false;
+                displayCustomers();
+            }
         }
+
     } else {
         alert("Information of customers : " +
             "\nName : " + listCustomers[index].getNameCustomer() +
@@ -495,8 +527,22 @@ function chooseCustomerEdit() {
 function chooseDeleteCustomer() {
     checkDeleteCustomer = true;
     displayCustomers();
-
 }
 
 
 displayMainMenu();
+
+
+
+// cus.setBirthdayCustomer(checkValid("Birthday",validateBirthday));
+// cus.setEmailCustomer(checkValid("Email",validateEmail));
+// //function validation
+// function checkValid(property,funcValid) {
+//     while (true) {
+//         let val = prompt("Enter " + property);
+//         if (funcValid.test(val)){
+//             return val;
+//         }
+//         alert(property + " is invalid. Please try again!!!");
+//     }
+// }

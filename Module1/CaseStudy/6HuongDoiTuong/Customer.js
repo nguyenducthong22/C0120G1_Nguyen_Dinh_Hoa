@@ -76,6 +76,11 @@ let Customer = function () {
         return this.typeService;
     };
 
+    // this.accompaniedService = function () {
+    //     let accompaniedService = 0;
+    //
+    // };
+
 
     this.totalPays = function () {
         let moneyPerDays = 0;

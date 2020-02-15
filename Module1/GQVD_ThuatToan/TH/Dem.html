@@ -17,12 +17,7 @@
         }
         return count;
     }
-
-
-
-
     function dispArr(arr) {
-
         for (let i = 0; i < arr.length; ++i) {
             result += arr[i] + " ";
             if (i % 10 == 9) {
@@ -42,7 +37,7 @@
 
     readline = prompt("Enter a number to search for: ");
     let num = parseInt(readline);
-    var retVal = count(nums, num);
+    let retVal = count(nums, num);
 
     document.getElementById("kq").innerText=dispArr(nums);
 

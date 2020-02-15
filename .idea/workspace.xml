@@ -2,236 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3996b01-82aa-4bb5-8080-db68b1648a1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Employee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/BienKDL/TH/Test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DieuKhienTivi/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai1/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai2/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai3/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai4/CanBo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai4/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai4/Run.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/HoanThanh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/Dem.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/Dem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/BongDen/BongDen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/BongDen/BongDen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/Run.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/Run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/EvaAdam.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/EvaAdam.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="490" column="29" lean-forward="true" selection-start-line="490" selection-start-column="29" selection-end-line="490" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-651">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Employee.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/HoanThanh.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task1.html" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.js" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/Run.js" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.html" />
-        <option value="$PROJECT_DIR$/Module1/Regular Expression/TH/KiemTraChuHoa.html" />
-        <option value="$PROJECT_DIR$/Module1/Regular Expression/TH/KiemTraMaQuocGia.html" />
-        <option value="$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateAcount.html" />
-        <option value="$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateEmail.html" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/TH/XayDungLopDate.html" />
-        <option value="$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateSDT.html" />
-        <option value="$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateTenLopHoc.html" />
-        <option value="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html" />
-        <option value="$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task2.html" />
-        <option value="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" />
-        <option value="$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateNumber.html" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HCN.html" />
-        <option value="$PROJECT_DIR$/Module1/Regular Expression/BT/BaiTapSao.html" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/TH/GameDonGian/script.js" />
-        <option value="$PROJECT_DIR$/Module1/Regular Expression/BT/LamViecVoiDate.html" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/HinhChuNhat.html" />
-        <option value="$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/TH/BaiDoc.html" />
-        <option value="$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/TH/TimSo.html" />
-        <option value="$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/TH/BaiDoc2.html" />
-        <option value="$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/TH/Dem.html" />
-        <option value="$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/BT/Debug.html" />
-        <option value="$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/BT/Debug2.html" />
-        <option value="$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/BT/TimSDT.html" />
-        <option value="$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/BT/GameDoanSo.html" />
-        <option value="$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/TH/QuanLiSanPhamBaiMau.html" />
-        <option value="$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/TH/QuanLySanPhamBaiMau/css.css" />
-        <option value="$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/TH/QuanLySanPhamBaiMau/index.html" />
-        <option value="$PROJECT_DIR$/Module1/GiaiQuyetVanDeVaThuatToan/TH/QuanLySanPhamBaiMau/js.js" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/test.js" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/index.html" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Index.html" />
-        <option value="$PROJECT_DIR$/Module1/Regular Expression/BT/LamViecVoiMath.html" />
-        <option value="$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/BaiDoc2.html" />
-        <option value="$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/Dem.html" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/EvaAdam.html" />
-        <option value="$PROJECT_DIR$/Module1/GQVD_ThuatToan/BT/TimSDT.html" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Index1.html" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Run.js" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Var.js" />
-        <option value="$PROJECT_DIR$/Module1/GQVD_ThuatToan/BT/Debug.html" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/BongDen.html" />
-        <option value="$PROJECT_DIR$/Module1/Ham/BT/SoNguyenTo.html" />
-        <option value="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/BongDen/BongDen.html" />
-        <option value="$PROJECT_DIR$/Module1/Ham/test.html" />
-        <option value="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Task1.html" />
-        <option value="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Employee.js" />
-        <option value="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="655" />
-    <option name="y" value="25" />
-    <option name="width" value="1180" />
-    <option name="height" value="980" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="6HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="Ham" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="Ham" type="462c0819:PsiDirectoryNode" />
-              <item name="BT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
-              <item name="BT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="HuongDoiTuong" type="462c0819:PsiDirectoryNode" />
-              <item name="BT" type="462c0819:PsiDirectoryNode" />
-              <item name="DienThoai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="Regular Expression" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="Regular Expression" type="462c0819:PsiDirectoryNode" />
-              <item name="BT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C0120G1_Nguyen_Dinh_Hoa" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="Regular Expression" type="462c0819:PsiDirectoryNode" />
-              <item name="TH" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1XhTU2WpjlitvCcfCegkGlTdk1j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CodeGym/Module1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -244,48 +67,36 @@
       <recent name="C:\dinhhoa\C0120G1_Nguyen_Dinh_Hoa\Module1\src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Node.js.Run.js">
-    <configuration name="BaiDoc2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/GQVD_ThuatToan/TH/BaiDoc2.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.DienThoai.html">
+    <configuration name="BongDen.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/HuongDoiTuong/BT/BongDen/BongDen.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="KiemTraSo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/Ham/BT/KiemTraSo.html" useBuiltInWebServerPort="true">
+    <configuration name="DienThoai.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="SoNguyenTo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CauTrucLap/BT/SoNguyenTo.html" useBuiltInWebServerPort="true">
+    <configuration name="HoanThanh.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/CaseStudy/6HuongDoiTuong/HoanThanh.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="ValidateSDT.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/Regular Expression/BT/ValidateSDT.html" useBuiltInWebServerPort="true">
+    <configuration name="Run.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Run.js" working-dir="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai">
       <method v="2" />
     </configuration>
     <configuration name="Run.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Run.js" working-dir="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.BaiDoc2.html" />
-      <item itemvalue="JavaScript Debug.SoNguyenTo.html" />
-      <item itemvalue="JavaScript Debug.KiemTraSo.html" />
+      <item itemvalue="JavaScript Debug.HoanThanh.html" />
+      <item itemvalue="JavaScript Debug.BongDen.html" />
+      <item itemvalue="JavaScript Debug.DienThoai.html" />
       <item itemvalue="Node.js.Run.js" />
-      <item itemvalue="JavaScript Debug.ValidateSDT.html" />
+      <item itemvalue="Node.js.Run.js (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.DienThoai.html" />
+        <item itemvalue="Node.js.Run.js (1)" />
+        <item itemvalue="JavaScript Debug.HoanThanh.html" />
+        <item itemvalue="JavaScript Debug.BongDen.html" />
         <item itemvalue="Node.js.Run.js" />
-        <item itemvalue="JavaScript Debug.ValidateSDT.html" />
-        <item itemvalue="JavaScript Debug.KiemTraSo.html" />
-        <item itemvalue="JavaScript Debug.SoNguyenTo.html" />
-        <item itemvalue="JavaScript Debug.BaiDoc2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +160,34 @@
       <workItem from="1581038150303" duration="4118000" />
       <workItem from="1581047663207" duration="843000" />
       <workItem from="1581067721201" duration="694000" />
-      <workItem from="1581073838028" duration="7162000" />
+      <workItem from="1581073838028" duration="14014000" />
+      <workItem from="1581092644001" duration="599000" />
+      <workItem from="1581130831205" duration="1351000" />
+      <workItem from="1581138981292" duration="128000" />
+      <workItem from="1581139893885" duration="526000" />
+      <workItem from="1581140608364" duration="1769000" />
+      <workItem from="1581151348260" duration="18000" />
+      <workItem from="1581154565833" duration="16000" />
+      <workItem from="1581220462631" duration="1228000" />
+      <workItem from="1581256908104" duration="1956000" />
+      <workItem from="1581316090980" duration="159000" />
+      <workItem from="1581316610487" duration="3850000" />
+      <workItem from="1581322337532" duration="3181000" />
+      <workItem from="1581383982993" duration="4184000" />
+      <workItem from="1581472177837" duration="635000" />
+      <workItem from="1581475327435" duration="624000" />
+      <workItem from="1581487955189" duration="171000" />
+      <workItem from="1581488998835" duration="3000" />
+      <workItem from="1581489709531" duration="3000" />
+      <workItem from="1581489983427" duration="2000" />
+      <workItem from="1581497340923" duration="3627000" />
+      <workItem from="1581644449082" duration="80000" />
+      <workItem from="1581661456995" duration="1779000" />
+      <workItem from="1581692466878" duration="3019000" />
+      <workItem from="1581695596134" duration="5851000" />
+      <workItem from="1581704918162" duration="594000" />
+      <workItem from="1581735841058" duration="70000" />
+      <workItem from="1581735969136" duration="6184000" />
     </task>
     <task id="LOCAL-00001" summary="sdsd">
       <created>1578456702555</created>
@@ -382,32 +220,6 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257046000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16920027" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43201134" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -415,6 +227,20 @@
     <MESSAGE value="sdsd" />
     <MESSAGE value="5656" />
     <option name="LAST_COMMIT_MESSAGE" value="5656" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581695971978">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581695971978" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1581499593708">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581499593708" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581693994396">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581693994396" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -435,286 +261,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/TH/KiemTraChuHoa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GiaiThuat/Bai2.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GiaiThuat/Bai1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GiaiThuat/Bai3.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GiaiThuat/Bai5.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GiaiThuat/Bai6.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GiaiThuat/Bai7.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GiaiThuat/Bai8.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GiaiThuat/Bai9.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GiaiThuat/Bai10.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GiaiThuat/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/MeoAnChuot/Var.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2583">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Ham/BT/TinhBinhPhuong.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Ham/BT/TinhGiaoThua.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Ham/BT/DoiCho.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/QuanLySanPhamBaiMau/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/QuanLySanPhamBaiMau/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/QuanLySanPhamBaiMau/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GQVD_ThuatToan/BT/GameDoanSo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/TimSo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/BaiDoc2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/BaiDoc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/BaiTapSao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/LamViecVoiDate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/LamViecVoiMath.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GQVD_ThuatToan/BT/TimSDT.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/Dem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GQVD_ThuatToan/BT/Debug.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CauTrucLap/BT/SoNguyenTo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Ham/TH/Bai1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Ham/TH/Bai2.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Ham/TH/Bai3DoiNhietDo.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Ham/TH/Bai4TimGTNN.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/GiaiThuat/Bai4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Ham/BT/SoNguyenTo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/BongDen/BongDen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Ham/test.html" />
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/Run.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Ham/BT/KiemTraSo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Ham/BT/HinhTron.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Ham/BT/FeetMeters.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/EvaAdam.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/Regular Expression/BT/ValidateSDT.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/HoanThanh.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-651">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Employee.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="490" column="29" lean-forward="true" selection-start-line="490" selection-start-column="29" selection-end-line="490" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

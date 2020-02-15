@@ -19,7 +19,89 @@
 
 
 <script>
-//chua viet
+
+    var tSuDungPin = 0;
+    var tSacPin = 0;
+    var Battery = function () {
+
+        this.setEnergy = function (energy) {
+            this.energy = energy;
+        };
+
+        this.getEnergy = function () {
+            return this.energy;
+        };
+
+        this.decreaseEnergy = function () {
+            if (this.energy > 0) {
+                this.energy--;
+            }
+        }
+    };
+
+    var FlashLamp = function () {
+
+        this.setBattery = function (battery) {
+            this.battery = battery;
+        };
+
+        this.getBatteryInfo = function () {
+            return this.battery.getEnergy();
+        };
+
+        this.light = function () {
+            return this.status;
+        };
+        this.turnOn = function () {
+            if (this.getBatteryInfo() > 0)
+                this.status = true;
+        };
+
+        this.turnOff = function () {
+            this.status = false;
+        }
+    };
+    var battery = new Battery();
+    battery.setEnergy(100);
+
+    var flashLamp = new FlashLamp();
+    flashLamp.setBattery(battery);
+
+    function giamPinKhiSuDung() {
+        if (flashLamp.getBatteryInfo() > 0 && flashLamp.light() === true) {
+            flashLamp.battery.decreaseEnergy();
+            document.getElementById("battery").innerHTML = "battery " + flashLamp.getBatteryInfo() + "%";
+            tSuDungPin = setTimeout(giamPinKhiSuDung, 100);
+        } else tatDenPin();
+    }
+
+    function sacPin() {
+        document.images['hinhSacPin'].src = 'hinh anh/icon.PNG';
+        if (flashLamp.getBatteryInfo() < 100) {
+            flashLamp.battery.energy = flashLamp.getBatteryInfo() + 1;
+        }
+        document.getElementById("battery").innerHTML = "battery " + flashLamp.getBatteryInfo() + "%";
+        tSacPin = setTimeout(sacPin, 80);
+    }
+
+    function ngatSacPin() {
+        clearTimeout(tSacPin);
+        document.images['hinhSacPin'].src = '';
+    }
+
+    function batDenPin() {
+        flashLamp.turnOn();
+        if (flashLamp.light()) {
+            document.images['hinhBongDen'].src = 'bong den bat.PNG';
+            giamPinKhiSuDung();
+        }
+    }
+
+    function tatDenPin() {
+        document.images['hinhBongDen'].src = 'bong den tat.PNG';
+        flashLamp.turnOff();
+        clearTimeout(tSuDungPin);
+    }
 
 </script>
 

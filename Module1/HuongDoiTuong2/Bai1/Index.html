@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <input type="text"  id="tuSo1">
+    <input type="text" id="mauSo1">
+    <input type="text" id="tuSo2">
+    <input type="text" id="mauSo2">
+
+</div>
+<div>
+    <input type="button" value="Cong" onclick="cong()">
+    <input type="button" value="Tru" onclick="tru()">
+    <input type="button" value="Nhan" onclick="nhan();">
+    <input type="button" value="Chia" onclick="chia();">
+</div>
+<p id="result"></p>
+
+<script>
+    var PhanSo = function () {
+        this.setTuSo = function (tuSo) {
+            this.tuSo = tuSo;
+        };
+        this.getTuSo = function () {
+            return this.tuSo;
+        };
+
+        this.setMauSo = function (mauSo) {
+            this.mauSo = mauSo;
+        };
+        this.getMauSo = function () {
+            return this.mauSo;
+        };
+    };
+
+    var phanSo1 = new PhanSo();
+    var phanSo2 = new PhanSo();
+
+    function cong() {
+        phanSo1.setTuSo(document.getElementById("tuSo1").value);
+        phanSo1.setMauSo(document.getElementById("mauSo1").value);
+        phanSo2.setTuSo(document.getElementById("tuSo2").value);
+        phanSo2.setMauSo(document.getElementById("mauSo2").value);
+        let a1 = parseInt(phanSo1.getTuSo());
+        let b1 = parseInt(phanSo1.getMauSo());
+        let a2 = parseInt(phanSo2.getTuSo());
+        let b2 = parseInt(phanSo2.getMauSo());
+
+        document.getElementById("result").innerText = "ket qua la : " + ((a1 * b2 + b1 * a2) / (b1 * b2));
+
+    };
+
+    function tru() {
+        phanSo1.setTuSo(document.getElementById("tuSo1").value);
+        phanSo1.setMauSo(document.getElementById("mauSo1").value);
+        phanSo2.setTuSo(document.getElementById("tuSo2").value);
+        phanSo2.setMauSo(document.getElementById("mauSo2").value);
+        let a1 = parseInt(phanSo1.getTuSo());
+        let b1 = parseInt(phanSo1.getMauSo());
+        let a2 = parseInt(phanSo2.getTuSo());
+        let b2 = parseInt(phanSo2.getMauSo());
+
+        document.getElementById("result").innerText = "ket qua la : " + ((a1 * b2 - b1 * a2) / (b1 * b2));
+
+    };
+
+    function nhan() {
+        phanSo1.setTuSo(document.getElementById("tuSo1").value);
+        phanSo1.setMauSo(document.getElementById("mauSo1").value);
+        phanSo2.setTuSo(document.getElementById("tuSo2").value);
+        phanSo2.setMauSo(document.getElementById("mauSo2").value);
+        let a1 = parseInt(phanSo1.getTuSo());
+        let b1 = parseInt(phanSo1.getMauSo());
+        let a2 = parseInt(phanSo2.getTuSo());
+        let b2 = parseInt(phanSo2.getMauSo());
+
+        document.getElementById("result").innerText = "ket qua la : " + ((a1 * a2) / (b1 * b2));
+    };
+
+    function chia() {
+        phanSo1.setTuSo(document.getElementById("tuSo1").value);
+        phanSo1.setMauSo(document.getElementById("mauSo1").value);
+        phanSo2.setTuSo(document.getElementById("tuSo2").value);
+        phanSo2.setMauSo(document.getElementById("mauSo2").value);
+        let a1 = parseInt(phanSo1.getTuSo());
+        let b1 = parseInt(phanSo1.getMauSo());
+        let a2 = parseInt(phanSo2.getTuSo());
+        let b2 = parseInt(phanSo2.getMauSo());
+
+        document.getElementById("result").innerText = "ket qua la : " + ((a1 * b2) / (b1 * a2));
+
+    };
+
+
+</script>
+
+
+</body>
+</html>

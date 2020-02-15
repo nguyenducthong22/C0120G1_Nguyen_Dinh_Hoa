@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="174cd2e6-0fff-441c-84a5-ef8729a27e5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../HuongDoiTuong/TH/XayDungHinhTron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BienKDL/TH/Test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../5Ham/Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../5Ham/Task2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Customer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Run.js" beforeDir="false" afterPath="$PROJECT_DIR$/Run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CauTrucDieuKien/TH/SuKienChuot.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../CauTrucDieuKien/TH/SuKienChuot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GiaiThuat/Bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../GiaiThuat/Bai7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HuongDoiTuong/TH/XayDungLopDate.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../HuongDoiTuong/TH/XayDungLopDate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/IMG_9070.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/../../CauTrucDieuKien/TH/IMG_9070.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HuongDoiTuong/BT/DienThoai/DienThoai.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HuongDoiTuong/BT/DienThoai/DienThoai.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,20 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Task1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Run.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="134" column="26" selection-end-line="232" selection-end-column="18" />
+            <state relative-caret-position="168">
+              <caret line="73" column="28" lean-forward="true" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -80,7 +66,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,9 +77,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -138,11 +125,12 @@
       <updated>1580484398332</updated>
       <workItem from="1580484399509" duration="769000" />
       <workItem from="1580485268317" duration="5000" />
+      <workItem from="1581140281387" duration="138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="774000" />
+    <option name="totallyTimeSpent" value="912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -171,22 +159,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Task1.html">
+    <entry file="file://$PROJECT_DIR$/Task1.html" />
+    <entry file="file://$PROJECT_DIR$/Run.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="168">
+          <caret line="73" column="28" lean-forward="true" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Customer.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="134" column="26" selection-end-line="232" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
   </component>
 </project>

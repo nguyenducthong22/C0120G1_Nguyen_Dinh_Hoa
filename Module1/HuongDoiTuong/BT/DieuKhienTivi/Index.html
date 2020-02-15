@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Remote</h1>
+<input type="button" onclick="controlTivi()" value="Bat Tat Tivi">
+<input type="button" onclick="chuyenKenh()" value="Chuyen Kenh">
+<input type="button" onclick="tangAmLuong()" value="Tang Am Luong">
+<input type="button" onclick="giamAmLuong()" value="Giam Am Luong">
+<h1>Tivi</h1>
+<p id="trangThaiTivi">Trang thai tivi:</p>
+<p id="amLuongTivi">Trang thai tivi:</p>
+<p id="kenhTivi">Kenh tivi:</p>
+
+<script>
+
+    //đang làm
+    let Remote = function () {
+        this.setCode = function (code) {
+            this.code = code;
+        };
+
+        this.getCode = function () {
+            return this.code;
+        };
+
+
+        this.controlsChanel = function () {
+
+        };
+
+        this.controlsVolume = function () {
+
+        }
+
+    };
+
+
+    let Television = function () {
+
+        this.setChanelActive = function (chanelActive) {
+            this.chanelActive = chanelActive;
+        };
+
+        this.getChanelActive = function () {
+            return this.chanelActive;
+        };
+
+        this.setVolume = function (volume) {
+            this.volume = volume;
+        };
+
+        this.getVolume = function () {
+            return this.volume;
+        };
+
+        this.setStatus = function (status) {
+            this.status = status;
+        };
+
+        this.getStatus = function () {
+            return this.status;
+        };
+
+        this.controlsChanel = function () {
+
+        };
+
+        this.controlsVolume = function () {
+
+        }
+
+
+    };
+
+    let remote = new Remote();
+    let televison = new Television();
+    televison.setStatus(false);
+    function controlTivi() {
+        if (televison.getStatus() == true) {
+           return televison.setStatus(false)
+        } else return televison.setStatus(true)
+    }
+    if (televison.getStatus() == true) {
+        document.getElementById("trangThaiTivi").innerText = "dien thoai dang bat";
+    } else document.getElementById("trangThaiTivi").innerText = "dien thoai dang tat";
+
+
+
+
+</script>
+
+</body>
+</html>
