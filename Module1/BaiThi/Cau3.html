@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tenNhapVao = prompt("Nhập vào chuỗi: ");
+    let tenChuan = "";
+
+    tenNhapVao = tenNhapVao.trim().toLocaleLowerCase();
+    for (let i = 0; i < tenNhapVao.length; i++) {
+        if (tenNhapVao.charAt(i) === " " && tenNhapVao.charAt(i + 1) === " ") {
+            continue;
+        }
+        if (i === 0 || tenNhapVao.charAt(i - 1) === " ") {
+            tenChuan += tenNhapVao.charAt(i).toLocaleUpperCase();
+            continue;
+        }
+        tenChuan += tenNhapVao.charAt(i);
+    }
+    alert("Chuỗi đã được chuẩn hóa là : " + tenChuan);
+
+
+
+</script>
+</body>
+</html>

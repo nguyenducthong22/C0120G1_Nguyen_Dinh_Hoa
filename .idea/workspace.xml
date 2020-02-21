@@ -2,25 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3996b01-82aa-4bb5-8080-db68b1648a1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/BienKDL/TH/Test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DieuKhienTivi/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai1/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai2/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai3/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai4/CanBo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai4/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai4/Run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/BaiThi/Cau1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/BaiThi/Cau2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/BaiThi/Cau3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/BaiThi/Cau4/Employee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/BaiThi/Cau4/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/BaiThi/Cau4/Run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai1Part2/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai1Part2/PhanSo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai1Part2/Run.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Module1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/Dem.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/GQVD_ThuatToan/TH/Dem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/BongDen/BongDen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/BongDen/BongDen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/Run.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai/Run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/EvaAdam.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/EvaAdam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/.idea/CaseStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/.idea/CaseStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/1BienKDL/Task1_Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/1BienKDL/Task1_Task2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/2CauTrucDieuKien/Task1_Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/2CauTrucDieuKien/Task1_Task2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/3CauTrucLap/Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/3CauTrucLap/Task1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/3CauTrucLap/Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/3CauTrucLap/Task2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/6HuongDoiTuong.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Employee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/HoanThanh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DieuKhienTivi/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DieuKhienTivi/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai1/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai1/Index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +47,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -50,7 +66,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CodeGym/Module1" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Module2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -99,6 +117,9 @@
         <item itemvalue="Node.js.Run.js" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -187,7 +208,19 @@
       <workItem from="1581695596134" duration="5851000" />
       <workItem from="1581704918162" duration="594000" />
       <workItem from="1581735841058" duration="70000" />
-      <workItem from="1581735969136" duration="6184000" />
+      <workItem from="1581735969136" duration="6868000" />
+      <workItem from="1581842211450" duration="45000" />
+      <workItem from="1581869021522" duration="11000" />
+      <workItem from="1581869052608" duration="7000" />
+      <workItem from="1581990014770" duration="2041000" />
+      <workItem from="1581999633639" duration="1867000" />
+      <workItem from="1582007955680" duration="606000" />
+      <workItem from="1582013846045" duration="1285000" />
+      <workItem from="1582026875992" duration="613000" />
+      <workItem from="1582166799722" duration="6750000" />
+      <workItem from="1582188181146" duration="1766000" />
+      <workItem from="1582190364404" duration="843000" />
+      <workItem from="1582251234344" duration="214000" />
     </task>
     <task id="LOCAL-00001" summary="sdsd">
       <created>1578456702555</created>
@@ -229,18 +262,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="5656" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581695971978">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582251447771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581695971978" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582251447771" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1581499593708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581499593708" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581693994396">
+    <state x="209" y="34" key="new project wizard" timestamp="1582251395294">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581693994396" />
+    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1582251395294" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582169804820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582169804820" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

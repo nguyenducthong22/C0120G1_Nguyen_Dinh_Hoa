@@ -7,10 +7,10 @@
 <body>
 
 <div>
-    <input type="text"  id="tuSo1">
-    <input type="text" id="mauSo1">
-    <input type="text" id="tuSo2">
-    <input type="text" id="mauSo2">
+    <input type="text" placeholder="tu so 1" id="tuSo1">
+    <input type="text" placeholder="mau so 1" id="mauSo1">
+    <input type="text" placeholder="tu so 2" id="tuSo2">
+    <input type="text" placeholder="mau so 2" id="mauSo2">
 
 </div>
 <div>
@@ -22,6 +22,7 @@
 <p id="result"></p>
 
 <script>
+
     var PhanSo = function () {
         this.setTuSo = function (tuSo) {
             this.tuSo = tuSo;
@@ -46,41 +47,266 @@
         phanSo1.setMauSo(document.getElementById("mauSo1").value);
         phanSo2.setTuSo(document.getElementById("tuSo2").value);
         phanSo2.setMauSo(document.getElementById("mauSo2").value);
-        let a1 = parseInt(phanSo1.getTuSo());
-        let b1 = parseInt(phanSo1.getMauSo());
-        let a2 = parseInt(phanSo2.getTuSo());
-        let b2 = parseInt(phanSo2.getMauSo());
+        let a1 = parseFloat(phanSo1.getTuSo());
+        let b1 = parseFloat(phanSo1.getMauSo());
+        let a2 = parseFloat(phanSo2.getTuSo());
+        let b2 = parseFloat(phanSo2.getMauSo());
 
-        document.getElementById("result").innerText = "ket qua la : " + ((a1 * b2 + b1 * a2) / (b1 * b2));
+        if (b1 == 0 | b2 == 0) {
+            document.getElementById("result").innerText = "Mau so khong the bang 0";
+        } else if (a1 == 0 && a2 == 0) {
+            document.getElementById("result").innerText = "0";
+        } else {
+            var tuSoKetQua = (a1 * b2 + b1 * a2);
+            var mauSoKetQua = (b1 * b2);
 
-    };
+            if (tuSoKetQua >= 0 && mauSoKetQua >= 0) {
+                let uocChungLonNhat;
+                if (tuSoKetQua == 0 || mauSoKetQua == 0) {
+                    uocChungLonNhat = (tuSoKetQua + mauSoKetQua);
+                }
+                while (tuSoKetQua != mauSoKetQua) {
+                    if (tuSoKetQua > mauSoKetQua) {
+                        tuSoKetQua -= mauSoKetQua; // a = a - b
+                    } else {
+                        mauSoKetQua -= tuSoKetQua;
+                    }
+                }
+                uocChungLonNhat = tuSoKetQua;
+
+                var tuSoKetQua = (a1 * b2 + b1 * a2);
+                var mauSoKetQua = (b1 * b2);
+                tuSoKetQua = tuSoKetQua / uocChungLonNhat;
+                mauSoKetQua = mauSoKetQua / uocChungLonNhat;
+                document.getElementById("result").innerText = `${tuSoKetQua}/${mauSoKetQua}`;
+            } else if ((tuSoKetQua < 0 && mauSoKetQua < 0)) {
+                let uocChungLonNhat;
+                tuSoKetQua = Math.abs(tuSoKetQua);
+                mauSoKetQua = Math.abs(mauSoKetQua);
+
+
+                if (tuSoKetQua == 0 || mauSoKetQua == 0) {
+                    uocChungLonNhat = (tuSoKetQua + mauSoKetQua);
+                }
+                while (tuSoKetQua != mauSoKetQua) {
+                    if (tuSoKetQua > mauSoKetQua) {
+                        tuSoKetQua -= mauSoKetQua; // a = a - b
+                    } else {
+                        mauSoKetQua -= tuSoKetQua;
+                    }
+                }
+                uocChungLonNhat = tuSoKetQua;
+                var tuSoKetQua = Math.abs(a1 * b2 + b1 * a2);
+                var mauSoKetQua = Math.abs(b1 * b2);
+                tuSoKetQua = tuSoKetQua / uocChungLonNhat;
+                mauSoKetQua = mauSoKetQua / uocChungLonNhat;
+                document.getElementById("result").innerText = `${tuSoKetQua}/${mauSoKetQua}`;
+            } else if ((tuSoKetQua < 0 && mauSoKetQua > 0) | (tuSoKetQua > 0 && mauSoKetQua < 0)) {
+                let uocChungLonNhat;
+                tuSoKetQua = Math.abs(tuSoKetQua);
+                mauSoKetQua = Math.abs(mauSoKetQua);
+
+
+                if (tuSoKetQua == 0 || mauSoKetQua == 0) {
+                    uocChungLonNhat = (tuSoKetQua + mauSoKetQua);
+                }
+                while (tuSoKetQua != mauSoKetQua) {
+                    if (tuSoKetQua > mauSoKetQua) {
+                        tuSoKetQua -= mauSoKetQua; // a = a - b
+                    } else {
+                        mauSoKetQua -= tuSoKetQua;
+                    }
+                }
+                uocChungLonNhat = tuSoKetQua;
+                var tuSoKetQua = Math.abs(a1 * b2 + b1 * a2);
+                var mauSoKetQua = Math.abs(b1 * b2);
+                tuSoKetQua = tuSoKetQua / uocChungLonNhat;
+                mauSoKetQua = mauSoKetQua / uocChungLonNhat;
+                document.getElementById("result").innerText = `-${tuSoKetQua}/${mauSoKetQua}`;
+            }
+
+        }
+    }
+
 
     function tru() {
         phanSo1.setTuSo(document.getElementById("tuSo1").value);
         phanSo1.setMauSo(document.getElementById("mauSo1").value);
         phanSo2.setTuSo(document.getElementById("tuSo2").value);
         phanSo2.setMauSo(document.getElementById("mauSo2").value);
-        let a1 = parseInt(phanSo1.getTuSo());
-        let b1 = parseInt(phanSo1.getMauSo());
-        let a2 = parseInt(phanSo2.getTuSo());
-        let b2 = parseInt(phanSo2.getMauSo());
+        let a1 = parseFloat(phanSo1.getTuSo());
+        let b1 = parseFloat(phanSo1.getMauSo());
+        let a2 = parseFloat(phanSo2.getTuSo());
+        let b2 = parseFloat(phanSo2.getMauSo());
 
-        document.getElementById("result").innerText = "ket qua la : " + ((a1 * b2 - b1 * a2) / (b1 * b2));
+        if (b1 == 0 | b2 == 0) {
+            document.getElementById("result").innerText = "Mau so khong the bang 0";
+        } else if (a1 == 0 && a2 == 0) {
+            document.getElementById("result").innerText = "0";
+        } else {
+            var tuSoKetQua = (a1 * b2 - b1 * a2);
+            var mauSoKetQua = (b1 * b2);
 
-    };
+            if (tuSoKetQua >= 0 && mauSoKetQua >= 0) {
+                let uocChungLonNhat;
+                if (tuSoKetQua == 0 || mauSoKetQua == 0) {
+                    uocChungLonNhat = (tuSoKetQua + mauSoKetQua);
+                }
+                while (tuSoKetQua != mauSoKetQua) {
+                    if (tuSoKetQua > mauSoKetQua) {
+                        tuSoKetQua -= mauSoKetQua; // a = a - b
+                    } else {
+                        mauSoKetQua -= tuSoKetQua;
+                    }
+                    uocChungLonNhat = tuSoKetQua;
+                }
+
+                var tuSoKetQua = (a1 * b2 - b1 * a2);
+                var mauSoKetQua = (b1 * b2);
+                tuSoKetQua = tuSoKetQua / uocChungLonNhat;
+                mauSoKetQua = mauSoKetQua / uocChungLonNhat;
+                document.getElementById("result").innerText = `${tuSoKetQua}/${mauSoKetQua}`;
+            } else if ((tuSoKetQua < 0 && mauSoKetQua < 0)) {
+                let uocChungLonNhat;
+                tuSoKetQua = Math.abs(tuSoKetQua);
+                mauSoKetQua = Math.abs(mauSoKetQua);
+
+
+                if (tuSoKetQua == 0 || mauSoKetQua == 0) {
+                    uocChungLonNhat = (tuSoKetQua + mauSoKetQua);
+                }
+                while (tuSoKetQua != mauSoKetQua) {
+                    if (tuSoKetQua > mauSoKetQua) {
+                        tuSoKetQua -= mauSoKetQua; // a = a - b
+                    } else {
+                        mauSoKetQua -= tuSoKetQua;
+                    }
+                    uocChungLonNhat = tuSoKetQua;
+                }
+
+                var tuSoKetQua = Math.abs(a1 * b2 - b1 * a2);
+                var mauSoKetQua = Math.abs(b1 * b2);
+                tuSoKetQua = tuSoKetQua / uocChungLonNhat;
+                mauSoKetQua = mauSoKetQua / uocChungLonNhat;
+                document.getElementById("result").innerText = `${tuSoKetQua}/${mauSoKetQua}`;
+            } else if ((tuSoKetQua < 0 && mauSoKetQua > 0) | (tuSoKetQua > 0 && mauSoKetQua < 0)) {
+                let uocChungLonNhat;
+                tuSoKetQua = Math.abs(tuSoKetQua);
+                mauSoKetQua = Math.abs(mauSoKetQua);
+
+
+                if (tuSoKetQua == 0 || mauSoKetQua == 0) {
+                    uocChungLonNhat = (tuSoKetQua + mauSoKetQua);
+                }
+                while (tuSoKetQua != mauSoKetQua) {
+                    if (tuSoKetQua > mauSoKetQua) {
+                        tuSoKetQua -= mauSoKetQua; // a = a - b
+                    } else {
+                        mauSoKetQua -= tuSoKetQua;
+                    }
+                    uocChungLonNhat = tuSoKetQua;
+                }
+
+                var tuSoKetQua = Math.abs(a1 * b2 - b1 * a2);
+                var mauSoKetQua = Math.abs(b1 * b2);
+                tuSoKetQua = tuSoKetQua / uocChungLonNhat;
+                mauSoKetQua = mauSoKetQua / uocChungLonNhat;
+                document.getElementById("result").innerText = `-${tuSoKetQua}/${mauSoKetQua}`;
+
+            }
+
+        }
+    }
 
     function nhan() {
         phanSo1.setTuSo(document.getElementById("tuSo1").value);
         phanSo1.setMauSo(document.getElementById("mauSo1").value);
         phanSo2.setTuSo(document.getElementById("tuSo2").value);
         phanSo2.setMauSo(document.getElementById("mauSo2").value);
-        let a1 = parseInt(phanSo1.getTuSo());
-        let b1 = parseInt(phanSo1.getMauSo());
-        let a2 = parseInt(phanSo2.getTuSo());
-        let b2 = parseInt(phanSo2.getMauSo());
+        let a1 = parseFloat(phanSo1.getTuSo());
+        let b1 = parseFloat(phanSo1.getMauSo());
+        let a2 = parseFloat(phanSo2.getTuSo());
+        let b2 = parseFloat(phanSo2.getMauSo());
 
-        document.getElementById("result").innerText = "ket qua la : " + ((a1 * a2) / (b1 * b2));
-    };
+        if (b1 == 0 | b2 == 0) {
+            document.getElementById("result").innerText = "Mau so khong the bang 0";
+        } else if (a1 == 0 || a2 == 0) {
+            document.getElementById("result").innerText = "0";
+        } else {
+            var tuSoKetQua = (a1 * a2);
+            var mauSoKetQua = (b1 * b2);
+
+            if (tuSoKetQua >= 0 && mauSoKetQua >= 0) {
+                let uocChungLonNhat;
+                if (tuSoKetQua == 0 || mauSoKetQua == 0) {
+                    uocChungLonNhat = (tuSoKetQua + mauSoKetQua);
+                }
+                while (tuSoKetQua != mauSoKetQua) {
+                    if (tuSoKetQua > mauSoKetQua) {
+                        tuSoKetQua -= mauSoKetQua; // a = a - b
+                    } else {
+                        mauSoKetQua -= tuSoKetQua;
+                    }
+                    uocChungLonNhat = tuSoKetQua;
+                }
+
+                var tuSoKetQua = (a1 * a2);
+                var mauSoKetQua = (b1 * b2);
+                tuSoKetQua = tuSoKetQua / uocChungLonNhat;
+                mauSoKetQua = mauSoKetQua / uocChungLonNhat;
+                document.getElementById("result").innerText = `${tuSoKetQua}/${mauSoKetQua}`;
+            } else if ((tuSoKetQua < 0 && mauSoKetQua < 0)) {
+                let uocChungLonNhat;
+                tuSoKetQua = Math.abs(tuSoKetQua);
+                mauSoKetQua = Math.abs(mauSoKetQua);
+
+
+                if (tuSoKetQua == 0 || mauSoKetQua == 0) {
+                    uocChungLonNhat = (tuSoKetQua + mauSoKetQua);
+                }
+                while (tuSoKetQua != mauSoKetQua) {
+                    if (tuSoKetQua > mauSoKetQua) {
+                        tuSoKetQua -= mauSoKetQua; // a = a - b
+                    } else {
+                        mauSoKetQua -= tuSoKetQua;
+                    }
+                    uocChungLonNhat = tuSoKetQua;
+                }
+
+                var tuSoKetQua = Math.abs(a1 * a2);
+                var mauSoKetQua = Math.abs(b1 * b2);
+                tuSoKetQua = tuSoKetQua / uocChungLonNhat;
+                mauSoKetQua = mauSoKetQua / uocChungLonNhat;
+                document.getElementById("result").innerText = `${tuSoKetQua}/${mauSoKetQua}`;
+            } else if ((tuSoKetQua < 0 && mauSoKetQua > 0) | (tuSoKetQua > 0 && mauSoKetQua < 0)) {
+                let uocChungLonNhat;
+                tuSoKetQua = Math.abs(tuSoKetQua);
+                mauSoKetQua = Math.abs(mauSoKetQua);
+
+
+                if (tuSoKetQua == 0 || mauSoKetQua == 0) {
+                    uocChungLonNhat = (tuSoKetQua + mauSoKetQua);
+                }
+                while (tuSoKetQua != mauSoKetQua) {
+                    if (tuSoKetQua > mauSoKetQua) {
+                        tuSoKetQua -= mauSoKetQua; // a = a - b
+                    } else {
+                        mauSoKetQua -= tuSoKetQua;
+                    }
+                    uocChungLonNhat = tuSoKetQua;
+                }
+
+                var tuSoKetQua = Math.abs(a1 * a2);
+                var mauSoKetQua = Math.abs(b1 * b2);
+                tuSoKetQua = tuSoKetQua / uocChungLonNhat;
+                mauSoKetQua = mauSoKetQua / uocChungLonNhat;
+                document.getElementById("result").innerText = `-${tuSoKetQua}/${mauSoKetQua}`;
+
+            }
+
+        }
+    }
+
 
     function chia() {
         phanSo1.setTuSo(document.getElementById("tuSo1").value);

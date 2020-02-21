@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var soNhapVao;
+    soNhapVao = parseFloat(prompt("Nhập vào số nguyên dương. Là số phần tử của mảng "));
+    if (isNaN(soNhapVao)) {
+        alert("Vui lòng nhập số nguyên dương =)) ");
+    } else {
+        if (Number.isInteger(soNhapVao)) {
+            if (soNhapVao > 6) {
+                var arrBanDau = [];
+                for (let i = 0; i < soNhapVao; i++) {
+                    let number;
+                    number = parseFloat(prompt(`Nhập số thứ ${i + 1}`));
+                    arrBanDau.push(number);
+                }
+                var arrSauSapSep = [];
+                arrSauSapSep = arrSauSapSep.concat(arrBanDau);
+                arrSauSapSep.sort((a,b) => a - b);
+                alert(`Giá trị trong mảng ban đầu là ${arrBanDau}\nGiá trị trong mảng sau khi sắp xếp là ${arrSauSapSep}`);
+
+            }
+            else alert("Nhập số nguyên dương lớn hơn 6 ");
+        } else {
+            alert("Vui lòng nhập vào số nguyên dương");
+        }
+    }
+
+
+</script>
+
+</body>
+</html>

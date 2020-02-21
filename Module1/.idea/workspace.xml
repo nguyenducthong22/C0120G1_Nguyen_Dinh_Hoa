@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6726e0ef-2c3b-4035-83d5-8b5943154f42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Module2/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,9 +29,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CodeGym/Module1" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../20xoa" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -115,6 +118,12 @@
       <workItem from="1581394719648" duration="2178000" />
       <workItem from="1581401540709" duration="7471000" />
       <workItem from="1581490820199" duration="685000" />
+      <workItem from="1581906197722" duration="8268000" />
+      <workItem from="1581922610131" duration="5817000" />
+      <workItem from="1582106751930" duration="84000" />
+      <workItem from="1582106864627" duration="10000" />
+      <workItem from="1582123884704" duration="11000" />
+      <workItem from="1582211039591" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="commit file demo">
       <created>1578283039789</created>
@@ -148,10 +157,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit file demo" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581491506455">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582211067881">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581491506455" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582211067881" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1581490879911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
