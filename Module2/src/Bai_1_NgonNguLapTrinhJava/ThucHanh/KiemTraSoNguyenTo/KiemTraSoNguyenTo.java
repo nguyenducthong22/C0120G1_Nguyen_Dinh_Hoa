@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class KiemTraSoNguyenTo {
     Scanner scanner = new Scanner(System.in);
-
     public int soCanKiemTra() {
         System.out.println("Nhap so can kiem tra");
         return scanner.nextInt();
@@ -28,6 +27,5 @@ public class KiemTraSoNguyenTo {
             }
             else System.out.println(soCanKiemTra + " khong la so nguyen to");
         }
-
     }
 }
