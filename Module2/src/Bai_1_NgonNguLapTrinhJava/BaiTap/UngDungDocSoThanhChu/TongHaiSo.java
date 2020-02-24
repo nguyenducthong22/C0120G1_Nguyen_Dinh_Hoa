@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class TongHaiSo {
     Scanner scanner = new Scanner(System.in);
-    public static int tinhTong(int a, int b) {
+    private static int tinhTong(int a, int b) {
         return a + b;
     }
 
-    public int soTuNhien(int i ) {
+    private int soTuNhien(int i ) {
         System.out.println("Nhap so thu " +i);
         return scanner.nextInt();
     }

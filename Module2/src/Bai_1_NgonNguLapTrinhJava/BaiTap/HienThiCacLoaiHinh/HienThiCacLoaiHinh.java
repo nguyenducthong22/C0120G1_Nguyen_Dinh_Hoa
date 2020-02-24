@@ -53,10 +53,8 @@ public class HienThiCacLoaiHinh {
         }
     }
 
-
     public static void main(String[] args) {
         HienThiCacLoaiHinh hienThiCacLoaiHinh = new HienThiCacLoaiHinh();
-
         while (true) {
             System.out.println("Menu");
             System.out.println("1. In hinh chu nhat");
