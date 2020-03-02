@@ -22,14 +22,6 @@ public class Main {
         System.out.println(a);
         return scanner.nextBoolean();
     }
-//    public static void triangleException(double a, double b, double c) throws TriangleException {
-//        if (a < 0 || b < 0 || c < 0) {
-//            throw new TriangleException("Canh cua tam giac khong duoc <0");
-//        } else if (a + b < c || a + c < b || c + b < a) {
-//            throw new TriangleException("Tong cua 2 canh phai lon hon canh thu ba");
-//        }
-//    }
-
     public static void main(String[] args) {
         try {
             Main main = new Main();
