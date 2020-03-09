@@ -2,41 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3996b01-82aa-4bb5-8080-db68b1648a1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/BaiThi/Cau1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/BaiThi/Cau2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/BaiThi/Cau3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/BaiThi/Cau4/Employee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/BaiThi/Cau4/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/BaiThi/Cau4/Run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai1Part2/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai1Part2/PhanSo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai1Part2/Run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_6_CauTrucDuLieuVaGiaiThuat/ThucHanh/bubbleSort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/BaiTapJava/VeHinh/HCNRong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/BaiTapJava/VeHinh/TamGiacSo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/Collection/LinkListTest/TestLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/Collection/List/TestArraylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/Collection/TestGeneric/Controler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/Collection/TestGeneric/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/Collection/TestHashMap/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/IntergerParstInVaInt/SoSanh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/Stack_Queue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/Thread/ThreadTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/Thread/ThreadTestOne/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/Thread/ThreadTestOne/MainJoinThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/Thread/ThreadTestOne/ThreadOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/Thread/ThreadTestOne/ThreadTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/UserException/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/UserException/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/UserException/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Commons/FuncFileCSVBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Commons/FuncFileCSVCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Commons/FuncFileCSVEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Commons/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Data/Employee.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Models/CustomerSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Models/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work2/AddNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work2/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work2/CuocSong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work2/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work2/Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work2/DoLamDep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work2/Edit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work2/Find.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work2/Get.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work2/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work2/Shoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work3/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work3/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work3/DoLamDep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work3/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work3/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work3/Shoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/src/WS/Work3/Tong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/.idea/CaseStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/.idea/CaseStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/1BienKDL/Task1_Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/1BienKDL/Task1_Task2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/2CauTrucDieuKien/Task1_Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/2CauTrucDieuKien/Task1_Task2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/3CauTrucLap/Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/3CauTrucLap/Task1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/3CauTrucLap/Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/3CauTrucLap/Task2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/4Mang/Task2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/5Ham/Task2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/6HuongDoiTuong.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Customer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Employee.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/HoanThanh.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong/Run.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DieuKhienTivi/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DieuKhienTivi/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai1/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/HuongDoiTuong2/Bai1/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/Bai_7_CauTrucDuLieuVaGiaiThuat/ThucHanh/LinkList/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/Bai_7_CauTrucDuLieuVaGiaiThuat/ThucHanh/LinkList/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/Bai_7_CauTrucDuLieuVaGiaiThuat/ThucHanh/LinkList/TestMyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/Bai_7_CauTrucDuLieuVaGiaiThuat/ThucHanh/List/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/Bai_7_CauTrucDuLieuVaGiaiThuat/ThucHanh/List/MyListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/Bai_Test/Comparable_ArrayList/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/out/production/Module2/Bai_Test/Comparable_ArrayList/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/Bai_Test/String/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/out/production/Module2/Bai_Test/String/StringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/CaseStudy/Controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/out/production/Module2/CaseStudy/Controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/CaseStudy/Data/Room.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/out/production/Module2/CaseStudy/Data/Room.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/CaseStudy/Data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/out/production/Module2/CaseStudy/Data/Villa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/CaseStudy/Models/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/out/production/Module2/CaseStudy/Models/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/CaseStudy/Models/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/out/production/Module2/CaseStudy/Models/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/out/production/Module2/CaseStudy/Views/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/out/production/Module2/CaseStudy/Views/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/Bai_7_CauTrucDuLieuVaGiaiThuat/ThucHanh/LinkList/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/Bai_6_CauTrucDuLieuVaGiaiThuat/ThucHanh/LinkList/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/Bai_7_CauTrucDuLieuVaGiaiThuat/ThucHanh/LinkList/TestMyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/Bai_6_CauTrucDuLieuVaGiaiThuat/ThucHanh/LinkList/TestMyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/Bai_7_CauTrucDuLieuVaGiaiThuat/ThucHanh/List/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/Bai_6_CauTrucDuLieuVaGiaiThuat/ThucHanh/List/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/Bai_7_CauTrucDuLieuVaGiaiThuat/ThucHanh/List/MyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/Bai_6_CauTrucDuLieuVaGiaiThuat/ThucHanh/List/MyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/Bai_Test/Comparable_ArrayList/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/Comparable_ArrayList/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/Bai_Test/String/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/Bai_Test/String/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/CaseStudy/Commons/FuncValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Commons/FuncValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/CaseStudy/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/CaseStudy/Data/Room.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Data/Room.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/CaseStudy/Data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Data/Villa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/CaseStudy/Models/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Models/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/CaseStudy/Models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Models/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/CaseStudy/Models/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Models/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/CaseStudy/Models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Models/Villa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module2/src/CaseStudy/Views/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module2/src/CaseStudy/Views/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +90,7 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,6 +114,9 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -85,9 +130,32 @@
       <recent name="C:\dinhhoa\C0120G1_Nguyen_Dinh_Hoa\Module1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.DienThoai.html">
-    <configuration name="BongDen.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/HuongDoiTuong/BT/BongDen/BongDen.html" useBuiltInWebServerPort="true">
-      <method v="2" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CaseStudy.Views.Main" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CaseStudy.Views.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai_6_CauTrucDuLieuVaGiaiThuat.ThucHanh.QuickSort.QuickSort" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bai_6_CauTrucDuLieuVaGiaiThuat.ThucHanh.QuickSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DienThoai.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0120G1_Nguyen_Dinh_Hoa/Module1/HuongDoiTuong/BT/DienThoai/DienThoai.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -98,23 +166,20 @@
     <configuration name="Run.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Run.js" working-dir="$PROJECT_DIR$/Module1/HuongDoiTuong/BT/DienThoai">
       <method v="2" />
     </configuration>
-    <configuration name="Run.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Run.js" working-dir="$PROJECT_DIR$/Module1/CaseStudy/6HuongDoiTuong">
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Application.QuickSort" />
       <item itemvalue="JavaScript Debug.HoanThanh.html" />
-      <item itemvalue="JavaScript Debug.BongDen.html" />
       <item itemvalue="JavaScript Debug.DienThoai.html" />
-      <item itemvalue="Node.js.Run.js" />
       <item itemvalue="Node.js.Run.js (1)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="JavaScript Debug.DienThoai.html" />
         <item itemvalue="Node.js.Run.js (1)" />
         <item itemvalue="JavaScript Debug.HoanThanh.html" />
-        <item itemvalue="JavaScript Debug.BongDen.html" />
-        <item itemvalue="Node.js.Run.js" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +286,8 @@
       <workItem from="1582188181146" duration="1766000" />
       <workItem from="1582190364404" duration="843000" />
       <workItem from="1582251234344" duration="214000" />
+      <workItem from="1583636707884" duration="1357000" />
+      <workItem from="1583638081722" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="sdsd">
       <created>1578456702555</created>
@@ -262,14 +329,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="5656" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582251447771">
+    <state x="361" y="72" key="#Project_Structure" timestamp="1583638103089">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582251447771" />
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1583638103089" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1583638114080">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583638114080" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1581499593708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581499593708" />
+    <state x="444" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1583638083131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="444" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583638083131" />
     <state x="209" y="34" key="new project wizard" timestamp="1582251395294">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -298,20 +373,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

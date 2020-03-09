@@ -62,20 +62,4 @@ public class Villa extends Service {
     }
 
 
-
-//        @Override
-//    public String showInfo() {
-//        return "\n Id Service : " + super.getId() +
-//                "\n Name Service : " + super.getNameService() +
-//                "\n Area Used : " + super.getAreaUsed() +
-//                "\n Rental Cost : " + super.getRentalCosts() +
-//                "\n Max Number Of People : " + super.getMaxNumberOfPeople() +
-//                "\n Type Rent : " + super.getTypeRent() +
-//                "\n Room Standard : " + this.roomStandard +
-//                "\n Convenient Description: " + this.convenientDescription +
-//                "\n Area Pool : " + this.areaPool +
-//                "\n Number Of Floor : " + this.numberOfFloor
-//
-//                ;
-//    }
 }

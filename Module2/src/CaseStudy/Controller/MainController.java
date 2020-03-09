@@ -1,21 +1,31 @@
 package CaseStudy.Controller;
 
-import CaseStudy.Commons.FuncFileCSVHouse;
-import CaseStudy.Commons.FuncFileCSVRoom;
-import CaseStudy.Commons.FuncFileCSVVilla;
-import CaseStudy.Models.House;
-import CaseStudy.Models.Room;
-import CaseStudy.Models.Service;
-import CaseStudy.Models.Villa;
+import CaseStudy.Commons.*;
+import CaseStudy.Models.*;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
+import java.util.regex.Pattern;
 
 public class MainController {
 
-    protected static ArrayList<Villa> listVilla = new ArrayList<Villa>();
-    protected static ArrayList<Room> listRoom = new ArrayList<Room>();
-    protected static ArrayList<House> listHouse = new ArrayList<House>();
+    protected static List<Villa> listVilla = new ArrayList<Villa>();
+    protected static List<Room> listRoom = new ArrayList<Room>();
+    protected static List<House> listHouse = new ArrayList<House>();
+    protected static List<Customer> listCustomer = new ArrayList<Customer>();
+    protected static List<Employee> listEmployee = new ArrayList<Employee>();
+    protected static final int CASE_INSENSITIVE = 0x02;
+
+
+    protected static String regexConvenientDescription = "^massage|karaoke|food|drink|car$";
+    protected static String regexNameException = "^([A-Z][a-z]+ ?)+$";
+//    protected static String regexNameException = "^([A-Z][a-z])( [A-Z][a-z])*$";
+    protected static String regexEmailException = "^\\w+@\\w+.\\w+$";
+    protected static String regexGenderException = "^(male)|(female)|(unknown)$";
+    protected static String regexIDException = "^[0-9]{9}$";
+    protected static String regexPhoneNumberException = "^[0-9]{10}$";
+    protected static String regexBirthDayException = "^([0-2][0-9]|(3)[0-1])(\\/)((0)[0-9]|((1)[0-2]))(\\/)[1]{1}[9]{1}[3-9]{1}[0-9]{1}|[2]{1}[0]{1}[0-1]{1}[0-9]{1}$";
+//    protected static String regexBirthDayException = "^(3[01]|[12][0-9]|0[1-9])/(1[0-2]|0[1-9])/[0-9]{4}$";
+
 
     private static Scanner scanner;
 
@@ -26,8 +36,11 @@ public class MainController {
                 "\n3. Add New Customer. " +
                 "\n4. Show Information of Customer. " +
                 "\n5. Add New Booking. " +
-                "\n6. Show Information of Employee. " +
-                "\n7. Exit . "
+                "\n6. Add New Employee. " +
+                "\n7. Show Information of Employee. " +
+                "\n8. Cinema 4D. " +
+                "\n9. File Cabinet Employee. " +
+                "\n10. Exit . "
         );
         switch (scanner.nextLine()) {
             case "1":
@@ -37,14 +50,28 @@ public class MainController {
                 showService();
                 break;
             case "3":
+                addNewCustomer();
                 break;
             case "4":
+                System.out.println(showInformationCustomer());
+                displayMainMenu();
                 break;
             case "5":
+                addNewBooking();
                 break;
             case "6":
+                addNewEmployee();
                 break;
             case "7":
+                showInfomationEmployee();
+                break;
+            case "8":
+                cinema4D();
+
+                break;
+            case "9":
+                break;
+            case "10":
                 System.exit(0);
             default:
                 System.out.println("\nError.Press Enter To Back to menu");
@@ -52,6 +79,227 @@ public class MainController {
                 backToMenu();
 
         }
+
+    }
+
+    private static void cinema4D() {
+        ArrayList<Customer> listCustomer = FuncFileCSVCustomer.getFileCSVToListCustomer();
+        int i = 1;
+        for (Customer cus : listCustomer) {
+            System.out.println("\n----------------------------------");
+            System.out.println("No: " + i);
+            System.out.println(cus.showInfo());
+            System.out.println("\n----------------------------------");
+            i++;
+        }
+        int count = listCustomer.size();
+        Queue<Customer> queue = new LinkedList<>();
+        do {
+            System.out.println("Choose Customer Booking");
+            int choose = scanner.nextInt();
+            count--;
+            queue.add(listCustomer.get(choose-1));
+        } while (count != 0);
+        System.out.println("-------------------------------------");
+        System.out.println("Enter to Show information of Customer bought ticket");
+        scanner.nextLine();
+        scanner.nextLine();
+        for (Customer item : queue) {
+            System.out.println(item.showInfo());
+        }
+    }
+
+    private static void addNewEmployee() {
+        String content = "";
+        String errMes = "";
+
+        listEmployee = FuncFileCSVEmployee.getFileCSVToListEmployee();
+        Employee employee = new Employee();
+        content = "Enter ID Employee";
+        errMes = "Nhap so";
+        String regexIDEmployee = "^[0-9]+$";
+        employee.setIdEmployee(FuncValidation.checkValidate(content, errMes, regexIDEmployee,0));
+
+        content = "Enter Name Employee";
+        errMes = "Nhap Chu Dau Ghi Hoa";
+        String regexNameEmployee = "^.+$";
+        employee.setNameEmployee(FuncValidation.checkValidate(content, errMes, regexNameEmployee,0));
+
+        content = "Enter Age Employee";
+        errMes = "Nhap so";
+        String regexAgeEmployee = "^[0-9]+$";
+        employee.setAgeEmployee(Integer.parseInt(FuncValidation.checkValidate(content, errMes, regexAgeEmployee)));
+
+        content = "Enter Address Employee";
+        errMes = "Nhap sai";
+        String regexAddressEmployee = "^.+$";
+        employee.setAddressEmployee(FuncValidation.checkValidate(content, errMes, regexAddressEmployee));
+        listEmployee.add(employee);
+
+        FuncFileCSVEmployee.writeEmployeeToFileCSV((ArrayList<Employee>) listEmployee);
+        System.out.println("----------------------");
+        System.out.println("Add new Employee complete. Enter to continue. ");
+        scanner.nextLine();
+        displayMainMenu();
+    }
+
+    private static void showInfomationEmployee() {
+        Map mapEmployee = new HashMap();
+        ArrayList<Employee> listEmployee = FuncFileCSVEmployee.getFileCSVToListEmployee();
+        for (Employee employee : listEmployee) {
+            mapEmployee.put(employee.getIdEmployee(), employee.getNameEmployee());
+        }
+        Set set = mapEmployee.keySet();
+        for (Object key : set) {
+            System.out.println(key + " " + mapEmployee.get(key));
+        }
+        displayMainMenu();
+    }
+
+    private static void addNewBooking() {
+
+        //chu y cho listCustomer
+        ArrayList<Customer> listCustomer = FuncFileCSVCustomer.getFileCSVToListCustomer();
+        listCustomer.sort(new CustomerSort());
+        int i = 1;
+        for (Customer customer : listCustomer) {
+            System.out.println("-------------------------");
+            System.out.println("Customer " + i +" : ");
+            System.out.println(customer.showInfo());
+            System.out.println("-------------------------");
+            i++;
+        }
+        System.out.println("Choose Customer Booking");
+        Customer customer = listCustomer.get(scanner.nextInt() - 1);
+        scanner.nextLine();
+        System.out.println("\n1. Booking Villa." +
+                "\n2. Booking House." +
+                "\n3. Booking Room.");
+        System.out.println("Choose Service Booking");
+        String choose = scanner.nextLine();
+        switch (choose) {
+            case "1":
+                 i = 1;
+                ArrayList<Villa> listVilla = FuncFileCSVVilla.getFileCSVToListVilla();
+                for (Villa villa : listVilla) {
+                    System.out.println("-------------------------");
+                    System.out.println("No : " + i);
+                    System.out.println(villa.showInfo());
+                    System.out.println("-------------------------");
+                    i++;
+                }
+                System.out.println("Choose Villa Booking");
+                int chooseVillaBooking;
+                chooseVillaBooking = scanner.nextInt();
+                Villa villa = listVilla.get(chooseVillaBooking - 1);
+                customer.setService(villa);
+                break;
+            case "2":
+                i = 1;
+                ArrayList<House> listHouse = FuncFileCSVHouse.getFileCSVToListHouse();
+                for (House house : listHouse) {
+                    System.out.println("-------------------------");
+                    System.out.println("No : " + i);
+                    System.out.println(house.showInfo());
+                    System.out.println("-------------------------");
+                    i++;
+                }
+                System.out.println("Choose House Booking");
+                int chooseHouseBooking;
+                chooseHouseBooking = scanner.nextInt();
+                House house = listHouse.get(chooseHouseBooking - 1);
+                customer.setService(house);
+                break;
+            case "3":
+                i = 1;
+                ArrayList<Room> listRoom = FuncFileCSVRoom.getFileCSVToListRoom();
+                for (Room room : listRoom) {
+                    System.out.println("-------------------------");
+                    System.out.println("No : " + i);
+                    System.out.println(room.showInfo());
+                    System.out.println("-------------------------");
+                    i++;
+                }
+                System.out.println("Choose Room Booking");
+                int chooseRoomBooking;
+                chooseRoomBooking = scanner.nextInt();
+                Room room = listRoom.get(chooseRoomBooking - 1);
+                customer.setService(room);
+                break;
+            default:
+                System.out.println("Nhap sai, quay ve menu.");
+                backToMenu();
+                break;
+
+        }
+        //bi ghi de do get ra khong duoc
+        ArrayList<Customer> listCustomerBooking = FuncFileCSVBooking.getFileCSVToListBooking();
+        //???????????????????? get tu file ra khong duoc
+        listCustomerBooking.add(customer);
+        FuncFileCSVBooking.writeBookingToFileCSV(listCustomerBooking);
+        displayMainMenu();
+    }
+
+    private static String showInformationCustomer() {
+
+        Customer customer = new Customer();
+        ArrayList<Customer> customers = FuncFileCSVCustomer.getFileCSVToListCustomer();
+        String customerInfo = "";
+
+        Collections.sort(customers, new CustomerSort());
+
+        for (Customer item : customers) {
+
+            customerInfo += item.showInfo() + "\n";
+        }
+        return customerInfo;
+    }
+
+    private static void addNewCustomer() {
+        String content = "";
+        String errMess = "";
+        listCustomer = FuncFileCSVCustomer.getFileCSVToListCustomer();
+        Customer customer = new Customer();
+
+        content = "Enter Name Customer";
+        errMess = "Cac ki tu dau tien ghi hoa";
+        customer.setNameCustomer(FuncValidation.checkValidate(content, errMess, regexNameException));
+
+        content = "Enter Birthday Customer";
+        errMess = "dd/MM/YY,>1900,<18 tuoi";
+        customer.setBirthdayCustomer(FuncValidation.checkValidate(content, errMess, regexBirthDayException));
+
+//        System.out.println(Pattern.compile("^(male)|(female)|(unknow)$",Pattern.CASE_INSENSITIVE).matcher("Male").find());
+//        System.out.println(Pattern.compile("^(male)|(female)|(unknow)$",Pattern.CASE_INSENSITIVE).matcher("Male").find());
+        content = "Enter Gender";
+        errMess = "Male,Female,Unknown";
+        customer.setGenderCustomer(FuncValidation.checkValidate(content, errMess, regexGenderException, CASE_INSENSITIVE));
+
+        content = "ID Card Customer";
+        errMess = "9 chu so";
+        customer.setIdCustomer(Integer.parseInt(FuncValidation.checkValidate(content, errMess, regexIDException)));
+
+        content = "Enter Phone Number Customer";
+        errMess = "10 chu so";
+        customer.setPhoneNumberCustomer(Integer.parseInt(FuncValidation.checkValidate(content, errMess, regexPhoneNumberException)));
+
+        content = "Enter Email Customer";
+        errMess = "khong hop le, vui long nhap lai";
+        customer.setEmailCustomer(FuncValidation.checkValidate(content, errMess, regexEmailException));
+
+        System.out.println("Enter Type Customer");
+        customer.setTypeCustomer(scanner.nextLine());
+
+        System.out.println("Enter Address Customer");
+        customer.setAddressCustomer(scanner.nextLine());
+
+        listCustomer.add(customer);
+        FuncFileCSVCustomer.writeCustomerToFileCSV((ArrayList<Customer>) listCustomer);
+        System.out.println("----------------------");
+        System.out.println("Add new Customer complete. Enter to continue. ");
+        scanner.nextLine();
+        displayMainMenu();
+
 
     }
 
@@ -91,25 +339,12 @@ public class MainController {
         String errMes = "";
 
         listRoom = FuncFileCSVRoom.getFileCSVToListRoom();
-        Room room = new Room();
-
-        System.out.println("Enter id : ");
-        room.setId(scanner.nextLine());
-        System.out.println("Enter name service : ");
-        room.setNameService(scanner.nextLine());
-        System.out.println("Enter Area Used : ");
-        room.setAreaUsed(scanner.nextInt());
-        System.out.println("Enter Rental Cost : ");
-        room.setRentalCosts(scanner.nextInt());
-        System.out.println("Enter Max Number Of People : ");
-        room.setMaxNumberOfPeople(scanner.nextInt());
-        scanner.nextLine();
-        System.out.println("Enter Type Rent : ");
-        room.setTypeRent(scanner.nextLine());
+        Service room = new Room();
+        addNewService(room);
         System.out.println("Enter Free Service : ");
-        room.setFreeService(scanner.nextLine());
-        listRoom.add(room);
-        FuncFileCSVRoom.writeRoomToFileCSV(listRoom);
+        ((Room) room).setFreeService(scanner.nextLine());
+        listRoom.add((Room) room);
+        FuncFileCSVRoom.writeRoomToFileCSV((ArrayList<Room>) listRoom);
 
         System.out.println("----------------------");
         System.out.println("Add new Villa complete. Enter to continue. ");
@@ -124,29 +359,16 @@ public class MainController {
         String errMes = "";
 
         listHouse = FuncFileCSVHouse.getFileCSVToListHouse();
-        House house = new House();
-        System.out.println("Enter id : ");
-        house.setId(scanner.nextLine());
-        System.out.println("Enter name service : ");
-        house.setNameService(scanner.nextLine());
-        System.out.println("Enter Area Used : ");
-        house.setAreaUsed(scanner.nextInt());
-        System.out.println("Enter Rental Cost : ");
-        house.setRentalCosts(scanner.nextInt());
-        System.out.println("Enter Max Number Of People : ");
-        house.setMaxNumberOfPeople(scanner.nextInt());
-        scanner.nextLine();
-        System.out.println("Enter Type Rent : ");
-        house.setTypeRent(scanner.nextLine());
+        Service house = new House();
+        addNewService(house);
         System.out.println("Enter Room Standard : ");
-        house.setRoomStandard(scanner.nextLine());
+        ((House) house).setRoomStandard(scanner.nextLine());
         System.out.println("Enter Convenient Description : ");
-        house.setConvenientDescription(scanner.nextLine());
+        ((House) house).setConvenientDescription(scanner.nextLine());
         System.out.println("Enter Number Of Floor : ");
-        house.setNumberOfFloor(scanner.nextInt());
-        listHouse.add(house);
-        FuncFileCSVHouse.writeHouseToFileCSV(listHouse);
-
+        ((House) house).setNumberOfFloor(scanner.nextInt());
+        listHouse.add(((House) house));
+        FuncFileCSVHouse.writeHouseToFileCSV((ArrayList<House>) listHouse);
         System.out.println("----------------------");
         System.out.println("Add new House complete. Enter to continue. ");
         scanner.nextLine();
@@ -154,37 +376,22 @@ public class MainController {
     }
 
     private static void addNewVilla() {
-        // id,nameService,areaUsed,rentalCosts,maxNumberOfPeople,typeRent,roomStandard,
-        // convenientDescription,areaPool,numberOfFloor
-
         String content = "";
         String errMes = "";
         listVilla = FuncFileCSVVilla.getFileCSVToListVilla();
-        Villa villa = new Villa();
-
-        System.out.println("Enter id : ");
-        villa.setId(scanner.nextLine());
-        System.out.println("Enter name service : ");
-        villa.setNameService(scanner.nextLine());
-        System.out.println("Enter Area Used : ");
-        villa.setAreaUsed(scanner.nextInt());
-        System.out.println("Enter Rental Cost : ");
-        villa.setRentalCosts(scanner.nextInt());
-        System.out.println("Enter Max Number Of People : ");
-        villa.setMaxNumberOfPeople(scanner.nextInt());
-        scanner.nextLine();
-        System.out.println("Enter Type Rent : ");
-        villa.setTypeRent(scanner.nextLine());
+        Service villa = new Villa();
+        addNewService(villa);
         System.out.println("Enter Room Standard : ");
-        villa.setRoomStandard(scanner.nextLine());
-        System.out.println("Enter Convenient Description : ");
-        villa.setConvenientDescription(scanner.nextLine());
-        System.out.println("Enter Area Pool : ");
-        villa.setAreaPool(scanner.nextInt());
-        System.out.println("Enter Number Of Floor : ");
-        villa.setNumberOfFloor(scanner.nextInt());
-        listVilla.add(villa);
-        FuncFileCSVVilla.writeVillaToFileCSV(listVilla);
+        ((Villa) villa).setRoomStandard(scanner.nextLine());
+
+        ((Villa) villa).setConvenientDescription(FuncValidation.checkValidate("Enter Convenient Description : ",
+                "massage, karaoke, food, drink, car", regexConvenientDescription, CASE_INSENSITIVE).toString());
+
+        ((Villa) villa).setAreaPool(Integer.parseInt(FuncValidation.checkValidate(("Enter Area Pool : "), "Vui long nhap so duong", "^[0-9]+$")));
+        ((Villa) villa).setNumberOfFloor(Integer.parseInt(FuncValidation.checkValidate(("Enter Number Of Floor : "), "Vui long nhap so duong", "^[0-9]+$")));
+
+        listVilla.add(((Villa) villa));
+        FuncFileCSVVilla.writeVillaToFileCSV((ArrayList<Villa>) listVilla);
 
 
         System.out.println("----------------------");
@@ -209,16 +416,9 @@ public class MainController {
         switch (scanner.nextLine()) {
             case "1":
                 listVilla = FuncFileCSVVilla.getFileCSVToListVilla();
-
-//                listVilla.get(0).showInfo();
-
                 for (Villa villas : listVilla) {
                     System.out.println("\n-------------------");
                     System.out.println(villas.showInfo());
-//                    System.out.println("\n-------------------");
-//                    System.out.println("Id : " + villas.getId() +
-//                            "\nName Service : " + villas.getNameService()
-//                    );
                 }
                 System.out.println("\n-------------------");
                 System.out.println("Enter to back to menu...");
@@ -248,10 +448,13 @@ public class MainController {
                 displayMainMenu();
                 break;
             case "4":
+                showAllNameVillaNotDuplicate();
                 break;
             case "5":
+                showAllNameHouseNotDuplicate();
                 break;
             case "6":
+                showAllNameRoomNotDuplicate();
                 break;
             case "7":
                 displayMainMenu();
@@ -266,6 +469,48 @@ public class MainController {
         }
     }
 
+    private static void showAllNameRoomNotDuplicate() {
+        Set<String> setRoom = new TreeSet<>();
+        ArrayList<Room> listRoom = new ArrayList<Room>();
+        listRoom = FuncFileCSVRoom.getFileCSVToListRoom();
+        for (Room room : listRoom) {
+            setRoom.add(room.getNameService());
+        }
+        int i = 1;
+        for (String s : setRoom) {
+            System.out.println(i+". "+s);
+            i++;
+        }
+    }
+
+    private static void showAllNameHouseNotDuplicate() {
+        Set<String> setHouse = new TreeSet<>();
+        ArrayList<House> listHouse = new ArrayList<House>();
+        listHouse = FuncFileCSVHouse.getFileCSVToListHouse();
+        for (House house : listHouse) {
+            setHouse.add(house.getNameService());
+        }
+        int i = 1;
+        for (String s : setHouse) {
+            System.out.println(i+". "+s);
+            i++;
+        }
+    }
+
+    private static void showAllNameVillaNotDuplicate() {
+        Set<String> setVilla = new TreeSet<>();
+        ArrayList<Villa> listVilla = new ArrayList<Villa>();
+        listVilla = FuncFileCSVVilla.getFileCSVToListVilla();
+        for (Villa villa : listVilla) {
+            setVilla.add(villa.getNameService());
+        }
+        int i = 1;
+        for (String s : setVilla) {
+            System.out.println(i+". "+s);
+            i++;
+        }
+    }
+
 
     private static void backToMenu() {
         System.out.println("\n-------------------");
@@ -276,19 +521,46 @@ public class MainController {
         String content = "";
         String errMes = "";
 
-        System.out.println("Enter id : ");
-        service.setId(scanner.nextLine());
+        service.setId(UUID.randomUUID().toString().replace("-", ""));
+
         System.out.println("Enter name service : ");
         service.setNameService(scanner.nextLine());
-        System.out.println("Enter Area Used : ");
-        service.setAreaUsed(scanner.nextInt());
-        System.out.println("Enter Rental Cost : ");
-        service.setRentalCosts(scanner.nextInt());
-        System.out.println("Enter Max Number Of People : ");
-        service.setMaxNumberOfPeople(scanner.nextInt());
-        scanner.nextLine();
-        System.out.println("Enter Type Rent : ");
-        service.setTypeRent(scanner.nextLine());
+        while (!FuncValidation.checkNameService(service.getNameService())) {
+            System.out.println("Name service is Invalid. Please try again ");
+            System.out.println("Enter name service : ");
+            service.setNameService(scanner.nextLine());
+        }
+
+        content = "Enter Area Used : ";
+        errMes = "Area Used Is Invalid(Area > 30, Area must be a double)";
+        service.setAreaUsed(FuncValidation.checkValidateNumberDouble(content, errMes));
+        while (service.getAreaUsed() <= 30) {
+            System.out.println(errMes);
+            service.setAreaUsed(FuncValidation.checkValidateNumberDouble(content, errMes));
+        }
+
+        content = "Enter Rental Cost : ";
+        errMes = "Rental Cost Is Invalid(Rental Cost > 0, Rental Cost must be a double)";
+        service.setRentalCosts(FuncValidation.checkValidateNumberDouble(content, errMes));
+        while (service.getRentalCosts() <= 0) {
+            System.out.println(errMes);
+            service.setRentalCosts(FuncValidation.checkValidateNumberDouble(content, errMes));
+        }
+
+        content = "Enter Max Number Of People : ";
+        errMes = "Max Number Of People Is Invalid(Max Number Of People > 0 and <30, Max Number Of People must be a Integer)";
+
+        service.setMaxNumberOfPeople(FuncValidation.checkValidateNumberInt(content, errMes));
+        while (service.getMaxNumberOfPeople() < 0 || service.getMaxNumberOfPeople() >= 20) {
+            System.out.println(errMes);
+            service.setMaxNumberOfPeople(FuncValidation.checkValidateNumberInt(content, errMes));
+        }
+
+
+        service.setTypeRent(FuncValidation.checkValidate("Enter Type Rent : ", "Error, please try again", "^[A-Z][a-z]+$"));
+
+
+
         return service;
 
     }

@@ -55,10 +55,6 @@ public class House extends Service {
     }
 
 
-
-
-
-
     //    @Override
 //    public String showInfo() {
 //        return "\n Id Service : " + super.getId() +

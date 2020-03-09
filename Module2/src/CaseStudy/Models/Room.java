@@ -29,15 +29,12 @@ public class Room extends Service {
                 "\n Free Service: " + this.getFreeService();
     }
 
-    //    @Override
-//    public String showInfo() {
-//        return "\n Id Service : " + super.getId() +
-//                "\n Name Service : " + super.getNameService() +
-//                "\n Area Used : " + super.getAreaUsed() +
-//                "\n Rental Cost : " + super.getRentalCosts() +
-//                "\n Max Number Of People : " + super.getMaxNumberOfPeople() +
-//                "\n Type Rent : " + super.getTypeRent()+
-//                "\n Free Service: " + this.getFreeService()
-//                ;
-//    }
+    @Override
+    public String toString() {
+        return "Room{" +
+                "freeService='" + freeService + '\'' +
+                '}';
+    }
+
+
 }

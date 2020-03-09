@@ -1,5 +1,7 @@
 package CaseStudy.Models;
 
+import java.util.Scanner;
+
 public abstract class Service {
 
     private String id;
