@@ -17,14 +17,13 @@ public class MainController {
 
 
     protected static String regexConvenientDescription = "^massage|karaoke|food|drink|car$";
-    protected static String regexNameException = "^([A-Z][a-z]+ ?)+$";
+    protected static String regexNameException = "^([A-Z][a-z]+)( [A-Z][a-z]+)*$";
 //    protected static String regexNameException = "^([A-Z][a-z])( [A-Z][a-z])*$";
     protected static String regexEmailException = "^\\w+@\\w+.\\w+$";
     protected static String regexGenderException = "^(male)|(female)|(unknown)$";
     protected static String regexIDException = "^[0-9]{9}$";
     protected static String regexPhoneNumberException = "^[0-9]{10}$";
     protected static String regexBirthDayException = "^([0-2][0-9]|(3)[0-1])(\\/)((0)[0-9]|((1)[0-2]))(\\/)[1]{1}[9]{1}[3-9]{1}[0-9]{1}|[2]{1}[0]{1}[0-1]{1}[0-9]{1}$";
-//    protected static String regexBirthDayException = "^(3[01]|[12][0-9]|0[1-9])/(1[0-2]|0[1-9])/[0-9]{4}$";
 
 
     private static Scanner scanner;
@@ -67,9 +66,9 @@ public class MainController {
                 break;
             case "8":
                 cinema4D();
-
                 break;
             case "9":
+                fileCabinetEmployee();
                 break;
             case "10":
                 System.exit(0);
@@ -79,6 +78,66 @@ public class MainController {
                 backToMenu();
 
         }
+
+    }
+
+    private static void fileCabinetEmployee() {
+        Stack<Employee> stackEmployee = new Stack<Employee>();
+        ArrayList<Employee> listEmployee;
+
+        listEmployee = FuncFileCSVEmployee.getFileCSVToListEmployee();
+        for (Employee employee : listEmployee) {
+            stackEmployee.push(employee);
+        }
+        System.out.println("Tim kiem theo :" +
+                "\n1. Name" +
+                "\n2. Id");
+        String choose;
+        choose = scanner.nextLine();
+        switch (choose) {
+            case "1":
+                System.out.println("Nhap ten nhan vien can tim");
+                String inputName;
+                inputName = scanner.nextLine();
+                boolean checkName = false;
+                for (int i = 0; i < stackEmployee.size(); i++) {
+                    if (inputName.equals(stackEmployee.get(i).getNameEmployee())) {
+                        System.out.println("Tim thay : ");
+                        System.out.println(stackEmployee.get(i).toString());
+                        checkName = true;
+                    }
+                }
+                if (!checkName) {
+                    System.out.println("Khong tim thay");
+                }
+                System.out.println("Enter to continue");
+                scanner.nextLine();
+
+                break;
+            case "2":
+                boolean checkID = false;
+
+                System.out.println("Nhap ID nhan vien can tim");
+                String inputID;
+                inputID = scanner.nextLine();
+                for (int i = 0; i < stackEmployee.size(); i++) {
+                    if (inputID.equals(stackEmployee.get(i).getIdEmployee())) {
+                        System.out.println("Tim thay : ");
+                        System.out.println(stackEmployee.get(i).toString());
+                        checkID = true;
+                    }
+                }
+                if (!checkID) {
+                    System.out.println("Khong tim thay");
+                }
+                System.out.println("Enter to continue");
+                scanner.nextLine();
+
+                break;
+            default:
+                System.out.println("vui long nhap lai");
+        }
+        displayMainMenu();
 
     }
 
