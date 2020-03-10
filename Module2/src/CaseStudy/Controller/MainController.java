@@ -17,7 +17,7 @@ public class MainController {
 
     protected static String regexConvenientDescription = "^massage|karaoke|food|drink|car$";
     protected static String regexNameException = "^([A-Z][a-z]+)( [A-Z][a-z]+)*$";
-//    protected static String regexNameException = "^([A-Z][a-z])( [A-Z][a-z])*$";
+    //    protected static String regexNameException = "^([A-Z][a-z])( [A-Z][a-z])*$";
     protected static String regexEmailException = "^\\w+@\\w+.\\w+$";
     protected static String regexGenderException = "^(male)|(female)|(unknown)$";
     protected static String regexIDException = "^[0-9]{9}$";
@@ -52,6 +52,8 @@ public class MainController {
                 break;
             case "4":
                 System.out.println(showInformationCustomer());
+                System.out.println("Enter to continue...");
+                scanner.nextLine();
                 displayMainMenu();
                 break;
             case "5":
@@ -139,25 +141,45 @@ public class MainController {
         displayMainMenu();
 
     }
+//    private static void cinema4D() {
+//        int soLuongVe = 3;
+//        Queue<Customer> queue = new LinkedList<>();
+//        ArrayList<Customer> listCustomer = FuncFileCSVCustomer.getFileCSVToListCustomer();
+//
+//
+//
+//    }
+
 
     private static void cinema4D() {
         ArrayList<Customer> listCustomer = FuncFileCSVCustomer.getFileCSVToListCustomer();
         int i = 1;
         for (Customer cus : listCustomer) {
-            System.out.println("\n----------------------------------");
             System.out.println("No: " + i);
             System.out.println(cus.showInfo());
             System.out.println("\n----------------------------------");
             i++;
         }
-        int count = listCustomer.size();
+
         Queue<Customer> queue = new LinkedList<>();
+        int choose;
+        int soLuongVe = 5;
         do {
-            System.out.println("Choose Customer Booking");
-            int choose = scanner.nextInt();
-            count--;
-            queue.add(listCustomer.get(choose-1));
-        } while (count != 0);
+            System.out.println("Con "+soLuongVe +" ve.");
+            System.out.println("Choose Customer Booking, 0 to stop");
+            choose = scanner.nextInt();
+            if (choose == 0) {
+                break;
+            }
+
+            soLuongVe--;
+            queue.add(listCustomer.get(choose - 1));
+
+            if (soLuongVe == 0) {
+                System.out.println("Het ve!!!!");
+                break;
+            }
+        } while (true);
         System.out.println("-------------------------------------");
         System.out.println("Enter to Show information of Customer bought ticket");
         scanner.nextLine();
@@ -180,12 +202,12 @@ public class MainController {
         content = "Enter ID Employee";
         errMes = "Nhap so";
         String regexIDEmployee = "^[0-9]+$";
-        employee.setIdEmployee(FuncValidation.checkValidate(content, errMes, regexIDEmployee,0));
+        employee.setIdEmployee(FuncValidation.checkValidate(content, errMes, regexIDEmployee, 0));
 
         content = "Enter Name Employee";
         errMes = "Nhap Chu Dau Ghi Hoa";
         String regexNameEmployee = "^.+$";
-        employee.setNameEmployee(FuncValidation.checkValidate(content, errMes, regexNameEmployee,0));
+        employee.setNameEmployee(FuncValidation.checkValidate(content, errMes, regexNameEmployee, 0));
 
         content = "Enter Age Employee";
         errMes = "Nhap so";
@@ -228,7 +250,7 @@ public class MainController {
         int i = 1;
         for (Customer customer : listCustomer) {
             System.out.println("-------------------------");
-            System.out.println("Customer " + i +" : ");
+            System.out.println("Customer " + i + " : ");
             System.out.println(customer.showInfo());
             System.out.println("-------------------------");
             i++;
@@ -243,7 +265,7 @@ public class MainController {
         String choose = scanner.nextLine();
         switch (choose) {
             case "1":
-                 i = 1;
+                i = 1;
                 ArrayList<Villa> listVilla = FuncFileCSVVilla.getFileCSVToListVilla();
                 for (Villa villa : listVilla) {
                     System.out.println("-------------------------");
@@ -542,7 +564,7 @@ public class MainController {
         }
         int i = 1;
         for (String s : setRoom) {
-            System.out.println(i+". "+s);
+            System.out.println(i + ". " + s);
             i++;
         }
         System.out.println("Enter to back to menu...");
@@ -560,7 +582,7 @@ public class MainController {
         }
         int i = 1;
         for (String s : setHouse) {
-            System.out.println(i+". "+s);
+            System.out.println(i + ". " + s);
             i++;
         }
         System.out.println("Enter to back to menu...");
@@ -578,7 +600,7 @@ public class MainController {
         }
         int i = 1;
         for (String s : setVilla) {
-            System.out.println(i+". "+s);
+            System.out.println(i + ". " + s);
             i++;
         }
         System.out.println("Enter to back to menu...");
@@ -633,7 +655,6 @@ public class MainController {
 
 
         service.setTypeRent(FuncValidation.checkValidate("Enter Type Rent : ", "Error, please try again", "^[A-Z][a-z]+$"));
-
 
 
         return service;
