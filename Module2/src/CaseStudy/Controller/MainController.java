@@ -4,7 +4,6 @@ import CaseStudy.Commons.*;
 import CaseStudy.Models.*;
 
 import java.util.*;
-import java.util.regex.Pattern;
 
 public class MainController {
 
@@ -166,6 +165,10 @@ public class MainController {
         for (Customer item : queue) {
             System.out.println(item.showInfo());
         }
+        System.out.println("Enter to back to menu...");
+        scanner.nextLine();
+        displayMainMenu();
+
     }
 
     private static void addNewEmployee() {
@@ -212,6 +215,8 @@ public class MainController {
         for (Object key : set) {
             System.out.println(key + " " + mapEmployee.get(key));
         }
+        System.out.println("Enter to back to menu...");
+        scanner.nextLine();
         displayMainMenu();
     }
 
@@ -540,6 +545,10 @@ public class MainController {
             System.out.println(i+". "+s);
             i++;
         }
+        System.out.println("Enter to back to menu...");
+        scanner.nextLine();
+        displayMainMenu();
+
     }
 
     private static void showAllNameHouseNotDuplicate() {
@@ -554,6 +563,10 @@ public class MainController {
             System.out.println(i+". "+s);
             i++;
         }
+        System.out.println("Enter to back to menu...");
+        scanner.nextLine();
+
+        displayMainMenu();
     }
 
     private static void showAllNameVillaNotDuplicate() {
@@ -568,6 +581,9 @@ public class MainController {
             System.out.println(i+". "+s);
             i++;
         }
+        System.out.println("Enter to back to menu...");
+        scanner.nextLine();
+        displayMainMenu();
     }
 
 

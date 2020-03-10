@@ -2,8 +2,7 @@ package Bai_Test.Thread.ThreadTest;
 
 public class Main {
     public static void main(String[] args) {
-        //tu sinh ra Thread Main
-        //Thread main -> luong chinh
+
         System.out.println("Start");
 
         Thread t1 = new Thread(new Runnable() {

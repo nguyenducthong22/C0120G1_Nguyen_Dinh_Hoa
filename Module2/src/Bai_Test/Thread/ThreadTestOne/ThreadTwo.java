@@ -20,10 +20,10 @@ public class ThreadTwo implements Runnable {
             e.printStackTrace();
         }
 
-        for (int i = 11; i < 20; i++) {
+        for (int i = 11; i < 200000; i++) {
             System.out.println("Thread 2 : " + i);
             try {
-                Thread.sleep(400);
+                Thread.sleep(4);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
