@@ -17,7 +17,6 @@ public class MainController {
 
     protected static String regexConvenientDescription = "^massage|karaoke|food|drink|car$";
     protected static String regexNameException = "^([A-Z][a-z]+)( [A-Z][a-z]+)*$";
-    //    protected static String regexNameException = "^([A-Z][a-z])( [A-Z][a-z])*$";
     protected static String regexEmailException = "^\\w+@\\w+.\\w+$";
     protected static String regexGenderException = "^(male)|(female)|(unknown)$";
     protected static String regexIDException = "^[0-9]{9}$";
@@ -136,20 +135,12 @@ public class MainController {
 
                 break;
             default:
-                System.out.println("vui long nhap lai");
+                System.out.println("Nhap khong hop le,enter to back to menu...");
+                scanner.nextLine();
         }
         displayMainMenu();
 
     }
-//    private static void cinema4D() {
-//        int soLuongVe = 3;
-//        Queue<Customer> queue = new LinkedList<>();
-//        ArrayList<Customer> listCustomer = FuncFileCSVCustomer.getFileCSVToListCustomer();
-//
-//
-//
-//    }
-
 
     private static void cinema4D() {
         ArrayList<Customer> listCustomer = FuncFileCSVCustomer.getFileCSVToListCustomer();
@@ -164,22 +155,30 @@ public class MainController {
         Queue<Customer> queue = new LinkedList<>();
         int choose;
         int soLuongVe = 5;
-        do {
-            System.out.println("Con "+soLuongVe +" ve.");
-            System.out.println("Choose Customer Booking, 0 to stop");
-            choose = scanner.nextInt();
-            if (choose == 0) {
-                break;
-            }
+        try {
+            do {
+                System.out.println("Con " + soLuongVe + " ve.");
+                System.out.println("Choose Customer Booking, 0 to stop");
+                choose = scanner.nextInt();
+                if (choose == 0) {
+                    break;
+                }
 
-            soLuongVe--;
-            queue.add(listCustomer.get(choose - 1));
+                soLuongVe--;
+                queue.add(listCustomer.get(choose - 1));
 
-            if (soLuongVe == 0) {
-                System.out.println("Het ve!!!!");
-                break;
-            }
-        } while (true);
+                if (soLuongVe == 0) {
+                    System.out.println("Het ve!!!!");
+                    break;
+                }
+            } while (true);
+        } catch (Exception e) {
+            System.out.println("Nhap khong hop le,Enter to back to menu...");
+            scanner.nextLine();
+            scanner.nextLine();
+            displayMainMenu();
+        }
+
         System.out.println("-------------------------------------");
         System.out.println("Enter to Show information of Customer bought ticket");
         scanner.nextLine();
@@ -451,8 +450,7 @@ public class MainController {
         ((House) house).setRoomStandard(scanner.nextLine());
         System.out.println("Enter Convenient Description : ");
         ((House) house).setConvenientDescription(scanner.nextLine());
-        System.out.println("Enter Number Of Floor : ");
-        ((House) house).setNumberOfFloor(scanner.nextInt());
+        ((House) house).setNumberOfFloor(Integer.parseInt(FuncValidation.checkValidate(("Enter Number Of Floor : "), "Vui long nhap so duong", "^[0-9]+$")));
         listHouse.add(((House) house));
         FuncFileCSVHouse.writeHouseToFileCSV((ArrayList<House>) listHouse);
         System.out.println("----------------------");
