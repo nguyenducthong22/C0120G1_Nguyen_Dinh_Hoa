@@ -3,562 +3,562 @@ drop database if exists furama_resort_hoa1;
 create database furama_resort_hoa1;
 use furama_resort_hoa1;
 
-CREATE TABLE bophan (
-    IDBoPhanNhanVien INT NOT NULL AUTO_INCREMENT,
-    TenBoPhanNhanVien VARCHAR(45) NOT NULL,
-    PRIMARY KEY (IDBoPhanNhanVien),
-    UNIQUE KEY IDBoPhanNhanVien (IDBoPhanNhanVien)
+CREATE TABLE bo_phan (
+    id_bo_phan INT NOT NULL AUTO_INCREMENT,
+    ten_bo_phan VARCHAR(45) NOT NULL,
+    PRIMARY KEY (id_bo_phan),
+    UNIQUE KEY id_bo_phan (id_bo_phan)
 );
-CREATE TABLE vitri (
-    IDViTriNhanVien INT NOT NULL AUTO_INCREMENT,
-    TenViTriNhanVien VARCHAR(45) NOT NULL,
-    PRIMARY KEY (IDViTriNhanVien),
-    UNIQUE KEY IDViTriNhanVien (IDViTriNhanVien)
+CREATE TABLE vi_tri (
+    id_vi_tri INT NOT NULL AUTO_INCREMENT,
+    ten_vi_tri VARCHAR(45) NOT NULL,
+    PRIMARY KEY (id_vi_tri),
+    UNIQUE KEY id_vi_tri (id_vi_tri)
 );
-CREATE TABLE trinhdo (
-    IDTrinhDoNhanVien INT NOT NULL AUTO_INCREMENT,
-    TrinhDoNhanVien VARCHAR(45) NOT NULL,
-    PRIMARY KEY (IDTrinhDoNhanVien),
-    UNIQUE KEY IDTrinhDoNhanVien (IDTrinhDoNhanVien)
+CREATE TABLE trinh_do (
+    id_trinh_do INT NOT NULL AUTO_INCREMENT,
+    trinh_do VARCHAR(45) NOT NULL,
+    PRIMARY KEY (id_trinh_do),
+    UNIQUE KEY id_trinh_do (id_trinh_do)
 );
-CREATE TABLE dichvudikem (
-    IDDichVuDiKem INT NOT NULL AUTO_INCREMENT,
-    TenDichVuDiKem VARCHAR(45) NOT NULL,
-    Gia INT NOT NULL,
-    DonVi INT NOT NULL,
-    TrangThaiKhaDung VARCHAR(45) NOT NULL,
-    PRIMARY KEY (IDDichVuDiKem),
-    UNIQUE KEY IDDichVuDiKem (IDDichVuDiKem)
+CREATE TABLE dich_vu_di_kem (
+    id_dich_vu_di_kem INT NOT NULL AUTO_INCREMENT,
+    ten_dich_vu_di_kem VARCHAR(45) NOT NULL,
+    gia INT NOT NULL,
+    don_vi INT NOT NULL,
+    trang_thai_kha_dung VARCHAR(45) NOT NULL,
+    PRIMARY KEY (id_dich_vu_di_kem),
+    UNIQUE KEY id_dich_vu_di_kem (id_dich_vu_di_kem)
 );
-CREATE TABLE kieuthue (
-    IDKieuThue INT NOT NULL AUTO_INCREMENT,
-    TenKieuThue VARCHAR(45) NOT NULL,
-    Gia INT NOT NULL,
-    PRIMARY KEY (IDKieuThue),
-    UNIQUE KEY IDKieuThue (IDKieuThue)
-);
-
-CREATE TABLE loaidichvu (
-    IDLoaiDichVu INT NOT NULL AUTO_INCREMENT,
-    TenLoaiDichVu VARCHAR(45) NOT NULL,
-    PRIMARY KEY (IDLoaiDichVu),
-    UNIQUE KEY IDLoaiDichVu (IDLoaiDichVu)
+CREATE TABLE kieu_thue (
+    id_kieu_thue INT NOT NULL AUTO_INCREMENT,
+    ten_kieu_thue VARCHAR(45) NOT NULL,
+    gia INT NOT NULL,
+    PRIMARY KEY (id_kieu_thue),
+    UNIQUE KEY id_kieu_thue (id_kieu_thue)
 );
 
-CREATE TABLE loaikhach (
-    IDLoaiKhach INT NOT NULL AUTO_INCREMENT,
-    TenLoaiKhach VARCHAR(45) NOT NULL,
-    PRIMARY KEY (IDLoaiKhach),
-    UNIQUE KEY IDLoaiKhach (IDLoaiKhach)
+CREATE TABLE loai_dich_vu (
+    id_loai_dich_vu INT NOT NULL AUTO_INCREMENT,
+    ten_loai_dich_vu VARCHAR(45) NOT NULL,
+    PRIMARY KEY (id_loai_dich_vu),
+    UNIQUE KEY id_loai_dich_vu (id_loai_dich_vu)
 );
 
-CREATE TABLE dichvu (
-    IDDichVu INT NOT NULL AUTO_INCREMENT,
-    TenDichVu VARCHAR(45) NOT NULL,
-    DienTich INT NOT NULL,
-    SoTang INT NOT NULL,
-    SoNguoiToiDa VARCHAR(45) NOT NULL,
-    ChiPhiThue VARCHAR(45) NOT NULL,
-    IDKieuThue INT NOT NULL,
-    IDLoaiDichVu INT NOT NULL,
-    TrangThai VARCHAR(45) NOT NULL,
-    PRIMARY KEY (IDDichVu),
-    UNIQUE KEY IDDichVu (IDDichVu),
-    KEY IDKieuThue (IDKieuThue),
-    KEY IDLoaiDichVu (IDLoaiDichVu),
-    CONSTRAINT dichvu_ibfk_1 FOREIGN KEY (IDKieuThue)
-        REFERENCES kieuthue (IDKieuThue)
+CREATE TABLE loai_khach (
+    id_loai_khach INT NOT NULL AUTO_INCREMENT,
+    ten_loai_khach VARCHAR(45) NOT NULL,
+    PRIMARY KEY (id_loai_khach),
+    UNIQUE KEY id_loai_khach (id_loai_khach)
+);
+
+CREATE TABLE dich_vu (
+    id_dich_vu INT NOT NULL AUTO_INCREMENT,
+    ten_dich_vu VARCHAR(45) NOT NULL,
+    dien_tich INT NOT NULL,
+    so_tang INT NOT NULL,
+    so_nguoi_toi_da VARCHAR(45) NOT NULL,
+    chi_phi_thue VARCHAR(45) NOT NULL,
+    id_kieu_thue INT NOT NULL,
+    id_loai_dich_vu INT NOT NULL,
+    trang_thai VARCHAR(45) NOT NULL,
+    PRIMARY KEY (id_dich_vu),
+    UNIQUE KEY id_dich_vu (id_dich_vu),
+    KEY id_kieu_thue (id_kieu_thue),
+    KEY id_loai_dich_vu (id_loai_dich_vu),
+    CONSTRAINT dichvu_ibfk_1 FOREIGN KEY (id_kieu_thue)
+        REFERENCES kieu_thue (id_kieu_thue)
         ON DELETE CASCADE,
-    CONSTRAINT dichvu_ibfk_2 FOREIGN KEY (IDLoaiDichVu)
-        REFERENCES loaidichvu (IDLoaiDichVu)
+    CONSTRAINT dichvu_ibfk_2 FOREIGN KEY (id_loai_dich_vu)
+        REFERENCES loai_dich_vu (id_loai_dich_vu)
         ON DELETE CASCADE
 );
 
-CREATE TABLE nhanvien (
-    IDNhanVien INT NOT NULL AUTO_INCREMENT,
-    HoTenNhanVien VARCHAR(45) NOT NULL,
-    IDViTriNhanVien INT NOT NULL,
-    IDTrinhDoNhanVien INT NOT NULL,
-    IDBoPhanNhanVien INT NOT NULL,
-    NgaySinhNhanVien DATE NOT NULL,
-    SoCMTNDNhanVien VARCHAR(45) NOT NULL,
-    LuongNhanVien VARCHAR(45) NOT NULL,
-    SDTNhanVien VARCHAR(45) NOT NULL,
-    EmailNhanVien VARCHAR(45) NOT NULL,
-    DiaChiNhanVien VARCHAR(45) NOT NULL,
-    PRIMARY KEY (IDNhanVien),
-    UNIQUE KEY IDNhanVien (IDNhanVien),
-    UNIQUE KEY IDViTriNhanVien (IDViTriNhanVien),
-    UNIQUE KEY IDTrinhDoNhanVien (IDTrinhDoNhanVien),
-    UNIQUE KEY IDBoPhanNhanVien (IDBoPhanNhanVien),
-    CONSTRAINT nhanvien_ibfk_1 FOREIGN KEY (IDViTriNhanVien)
-        REFERENCES vitri (IDViTriNhanVien)
+CREATE TABLE nhan_vien (
+    id_nhan_vien INT NOT NULL AUTO_INCREMENT,
+    ho_ten VARCHAR(45) NOT NULL,
+    id_vi_tri INT NOT NULL,
+    id_trinh_do INT NOT NULL,
+    id_bo_phan INT NOT NULL,
+    ngay_sinh DATE NOT NULL,
+    so_cmtnd VARCHAR(45) NOT NULL,
+    luong_nhan_vien VARCHAR(45) NOT NULL,
+    sdt VARCHAR(45) NOT NULL,
+    email VARCHAR(45) NOT NULL,
+    dia_chi VARCHAR(45) NOT NULL,
+    PRIMARY KEY (id_nhan_vien),
+    UNIQUE KEY id_nhan_vien (id_nhan_vien),
+    UNIQUE KEY id_vi_tri (id_vi_tri),
+    UNIQUE KEY id_trinh_do (id_trinh_do),
+    UNIQUE KEY id_bo_phan (id_bo_phan),
+    CONSTRAINT nhanvien_ibfk_1 FOREIGN KEY (id_vi_tri)
+        REFERENCES vi_tri (id_vi_tri)
         ON DELETE CASCADE,
-    CONSTRAINT nhanvien_ibfk_2 FOREIGN KEY (IDTrinhDoNhanVien)
-        REFERENCES trinhdo (IDTrinhDoNhanVien)
+    CONSTRAINT nhanvien_ibfk_2 FOREIGN KEY (id_trinh_do)
+        REFERENCES trinh_do (id_trinh_do)
         ON DELETE CASCADE,
-    CONSTRAINT nhanvien_ibfk_3 FOREIGN KEY (IDBoPhanNhanVien)
-        REFERENCES bophan (IDBoPhanNhanVien)
+    CONSTRAINT nhanvien_ibfk_3 FOREIGN KEY (id_bo_phan)
+        REFERENCES bo_phan (id_bo_phan)
         ON DELETE CASCADE
 );
 
-CREATE TABLE khachhang (
-    IDKhachHang INT NOT NULL AUTO_INCREMENT,
-    IDLoaiKhach INT NOT NULL,
-    HoTenKhachHang VARCHAR(45) NOT NULL,
-    NgaySinhKhachHang DATE NOT NULL,
-    SoCMTNDKhachHang VARCHAR(45) NOT NULL,
-    SDTKhachHang VARCHAR(45) NOT NULL,
-    EmailKhachHang VARCHAR(45) NOT NULL,
-    DiaChiKhachHang VARCHAR(45) NOT NULL,
-    PRIMARY KEY (IDKhachHang),
-    UNIQUE KEY IDKhachHang (IDKhachHang),
-    UNIQUE KEY IDLoaiKhach (IDLoaiKhach),
-    CONSTRAINT khachhang_ibfk_1 FOREIGN KEY (IDLoaiKhach)
-        REFERENCES loaikhach (IDLoaiKhach)
+CREATE TABLE khach_hang (
+    id_khach_hang INT NOT NULL AUTO_INCREMENT,
+    id_loai_khach INT NOT NULL,
+    ho_ten VARCHAR(45) NOT NULL,
+    ngay_sinh DATE NOT NULL,
+    so_cmtnd VARCHAR(45) NOT NULL,
+    sdt VARCHAR(45) NOT NULL,
+    email VARCHAR(45) NOT NULL,
+    dia_chi VARCHAR(45) NOT NULL,
+    PRIMARY KEY (id_khach_hang),
+    UNIQUE KEY id_khach_hang (id_khach_hang),
+    UNIQUE KEY id_loai_khach (id_loai_khach),
+    CONSTRAINT khachhang_ibfk_1 FOREIGN KEY (id_loai_khach)
+        REFERENCES loai_khach (id_loai_khach)
         ON DELETE CASCADE
 );
 
-CREATE TABLE hopdong (
-    IDHopDong INT NOT NULL AUTO_INCREMENT,
-    IDNhanVien INT NOT NULL,
-    IDKhachHang INT NOT NULL,
-    IDDichVu INT NOT NULL,
-    NgayLamHopDong DATE NOT NULL,
-    NgayKetThuc DATE NOT NULL,
-    TienDatCoc INT NOT NULL,
-    TongTien INT NOT NULL,
-    PRIMARY KEY (IDHopDong),
-    UNIQUE KEY IDHopDong (IDHopDong),
-    UNIQUE KEY IDNhanVien (IDNhanVien),
-    UNIQUE KEY IDKhachHang (IDKhachHang),
-    UNIQUE KEY IDDichVu (IDDichVu),
-    CONSTRAINT hopdong_ibfk_1 FOREIGN KEY (IDNhanVien)
-        REFERENCES nhanvien (IDNhanVien)
+CREATE TABLE hop_dong (
+    id_hop_dong INT NOT NULL AUTO_INCREMENT,
+    id_nhan_vien INT NOT NULL,
+    id_khach_hang INT NOT NULL,
+    id_dich_vu INT NOT NULL,
+    ngay_lam_hop_dong DATE NOT NULL,
+    ngay_ket_thuc DATE NOT NULL,
+    tien_dat_coc INT NOT NULL,
+    tong_tien INT NOT NULL,
+    PRIMARY KEY (id_hop_dong),
+    UNIQUE KEY id_hop_dong (id_hop_dong),
+    UNIQUE KEY id_nhan_vien (id_nhan_vien),
+    UNIQUE KEY id_khach_hang (id_khach_hang),
+    UNIQUE KEY id_dich_vu (id_dich_vu),
+    CONSTRAINT hopdong_ibfk_1 FOREIGN KEY (id_nhan_vien)
+        REFERENCES nhan_vien (id_nhan_vien)
         ON DELETE CASCADE,
-    CONSTRAINT hopdong_ibfk_2 FOREIGN KEY (IDKhachHang)
-        REFERENCES khachhang (IDKhachHang)
+    CONSTRAINT hopdong_ibfk_2 FOREIGN KEY (id_khach_hang)
+        REFERENCES khach_hang (id_khach_hang)
         ON DELETE CASCADE,
-    CONSTRAINT hopdong_ibfk_3 FOREIGN KEY (IDDichVu)
-        REFERENCES dichvu (IDDichVu)
+    CONSTRAINT hopdong_ibfk_3 FOREIGN KEY (id_dich_vu)
+        REFERENCES dich_vu (id_dich_vu)
         ON DELETE CASCADE
 );
-CREATE TABLE hopdongchitiet (
-    IDHopDongChiTiet INT NOT NULL AUTO_INCREMENT,
-    IDHopDong INT NOT NULL,
-    IDDichVuDiKem INT NOT NULL,
-    SoLuong INT NOT NULL,
-    PRIMARY KEY (IDHopDongChiTiet),
-    UNIQUE KEY IDHopDongChiTiet (IDHopDongChiTiet),
-    UNIQUE KEY IDHopDong (IDHopDong),
-    UNIQUE KEY IDDichVuDiKem (IDDichVuDiKem),
-    CONSTRAINT hopdongchitiet_ibfk_1 FOREIGN KEY (IDHopDong)
-        REFERENCES hopdong (IDHopDong)
+CREATE TABLE hop_dong_chi_tiet (
+    id_hop_dong_chi_tiet INT NOT NULL AUTO_INCREMENT,
+    id_hop_dong INT NOT NULL,
+    id_dich_vu_di_kem INT NOT NULL,
+    so_luong INT NOT NULL,
+    PRIMARY KEY (id_hop_dong_chi_tiet),
+    UNIQUE KEY id_hop_dong_chi_tiet (id_hop_dong_chi_tiet),
+    UNIQUE KEY id_hop_dong (id_hop_dong),
+    UNIQUE KEY id_dich_vu_di_kem (id_dich_vu_di_kem),
+    CONSTRAINT hopdongchitiet_ibfk_1 FOREIGN KEY (id_hop_dong)
+        REFERENCES hop_dong (id_hop_dong)
         ON DELETE CASCADE,
-    CONSTRAINT hopdongchitiet_ibfk_2 FOREIGN KEY (IDDichVuDiKem)
-        REFERENCES dichvudikem (IDDichVuDiKem)
+    CONSTRAINT hopdongchitiet_ibfk_2 FOREIGN KEY (id_dich_vu_di_kem)
+        REFERENCES dich_vu_di_kem (id_dich_vu_di_kem)
         ON DELETE CASCADE
 );
 
 -- them du lieu
 
-INSERT INTO bophan VALUES (1,'bán hàng'),(2,'quản lý'),(3,'bán hàng'),(4,'quản lý'),(5,'quản lý'),(6,'bán hàng'),(7,'bán hàng'),(8,'bảo vệ');
-INSERT INTO vitri VALUES (1,'nhân viên bán hàng'),(2,'giám đốc'),(3,'nhân viên bán hàng'),(4,'giám đốc'),(5,'bảo vệ'),(6,'lao công');
-INSERT INTO trinhdo VALUES (1,'đại học'),(2,'cao đẳng'),(3,'đại học'),(4,'cao đẳng'),(5,'thạc sĩ'),(6,'trung cấp');
-INSERT INTO dichvudikem VALUES (1,'massage',1,1000,'trạng thái không biết'),(2,'karaoke',2,1000,'trạng thái không biết'),(3,'thức ăn',3,1000,'trạng thái không biết'),(4,'nước uống',4,1000,'trạng thái không biết'),(5,'thuê xe di chuyển tham quan resort',5,1000,'trạng thái không biết'),(6,'nothing',6,1000,'trạng thái không biết');
-INSERT INTO kieuthue VALUES (1,'thuê theo năm',3650),(2,'thuê theo tháng',300),(3,'thuê theo ngày',10),(4,'thuê theo giờ',1),(5,'thuê theo  phút',32),(6,'thuê theo giaay',34);
-INSERT INTO loaidichvu VALUES (1,'Villa'),(2,'House'),(3,'Room'),(4,'Nhà nghỉ'),(5,'Khách sạn'),(6,'Hotel');
-INSERT INTO loaikhach VALUES (1,'Diamond'),(2,'Platinium'),(3,'Gold'),(4,'Silver'),(5,'Member'),(6,'Sắt');
-INSERT INTO dichvu VALUES (1,'tên dịch vụ 1',10,5,'1','1',1,1,'trống'),(2,'tên dịch vụ 2',20,10,'2','2',2,2,'trống'),(3,'tên dịch vụ 3',30,15,'3','3',3,3,'trống'),(4,'tên dịch vụ 4',40,4,'4','4',4,4,'trống'),(5,'tên dịch vụ 5',50,7,'5','5',5,5,'trống'),(6,'tên dịch vụ 6',60,9,'6','6',6,6,'trống');
-INSERT INTO nhanvien VALUES (1,'T Văn A',1,1,1,'1990-10-10','123456789','10000000','123456789','nguyenvana@gmail.com','da nang'),(2,'H Văn B',2,2,2,'1995-10-10','123456789','10000000','123456789','nguyenvanb@gmail.com','da nang'),(3,'Nguyễn Văn C',3,3,3,'1985-10-10','123456789','10000000','123456789','nguyenvanc@gmail.com','vinh'),(4,'Nguyễn Văn D',4,4,4,'1992-10-10','123456789','10000000','123456789','nguyenvand@gmail.com','quang ngai'),(5,'K Văn E',5,5,5,'1990-10-10','123123123','20000000','123456789','nguyenvane@gmail.com','da nang'),(6,'H Văn F',6,6,6,'1981-10-10','123123123','22222222','123455454','nguyenvanh@gmail.com','Quang Tri');
-INSERT INTO khachhang VALUES (1,1,'Hồ Văn Quốc A','2010-11-10','123456781','123456781','hovanquoca@gmail.com','da nang'),(2,2,'Hồ Văn Quốc B','1990-11-10','123456721','123456782','hovanquocb@gmail.com','quang tri'),(3,3,'Hồ Văn Quốc C','1900-11-10','123456783','123456783','hovanquocv@gmail.com','da nang'),(4,4,'Hồ Văn E','1990-11-10','123456784','123456784','hovan@gmail.com','quang tri'),(5,5,'Hồ Văn Quốc D','1991-11-10','123456785','123456785','hovanquocd@gmail.com','trần cao vân việt nam'),(6,6,'H Văn A','1994-11-10','123123123','123232321','jdsfhsdfj@gmail.com','đồng nai');
-INSERT INTO hopdong VALUES (1,1,1,1,'2020-03-12','2021-03-12',10,1000),(2,2,2,2,'2019-03-12','2019-04-12',22,1000),(3,3,3,3,'2021-03-12','2019-09-12',23,2000),(4,4,4,4,'2017-03-12','2018-03-12',43,3000),(5,5,5,5,'2018-03-12','2019-04-18',34,3333),(6,6,6,6,'2014-03-12','2015-03-12',43,4444);
-INSERT INTO hopdongchitiet VALUES (1,1,1,2),(2,2,2,4),(3,3,3,2),(4,4,4,3),(5,5,5,4),(6,6,6,6);
+INSERT INTO bo_phan VALUES (1,'bán hàng'),(2,'quản lý'),(3,'bán hàng'),(4,'quản lý'),(5,'quản lý'),(6,'bán hàng'),(7,'bán hàng'),(8,'bảo vệ');
+INSERT INTO vi_tri VALUES (1,'nhân viên bán hàng'),(2,'giám đốc'),(3,'nhân viên bán hàng'),(4,'giám đốc'),(5,'bảo vệ'),(6,'lao công');
+INSERT INTO trinh_do VALUES (1,'đại học'),(2,'cao đẳng'),(3,'đại học'),(4,'cao đẳng'),(5,'thạc sĩ'),(6,'trung cấp');
+INSERT INTO dich_vu_di_kem VALUES (1,'massage',1,1000,'trạng thái không biết'),(2,'karaoke',2,1000,'trạng thái không biết'),(3,'thức ăn',3,1000,'trạng thái không biết'),(4,'nước uống',4,1000,'trạng thái không biết'),(5,'thuê xe di chuyển tham quan resort',5,1000,'trạng thái không biết'),(6,'nothing',6,1000,'trạng thái không biết');
+INSERT INTO kieu_thue VALUES (1,'thuê theo năm',3650),(2,'thuê theo tháng',300),(3,'thuê theo ngày',10),(4,'thuê theo giờ',1),(5,'thuê theo  phút',32),(6,'thuê theo giaay',34);
+INSERT INTO loai_dich_vu VALUES (1,'Villa'),(2,'House'),(3,'Room'),(4,'Nhà nghỉ'),(5,'Khách sạn'),(6,'Hotel');
+INSERT INTO loai_khach VALUES (1,'Diamond'),(2,'Platinium'),(3,'Gold'),(4,'Silver'),(5,'Member'),(6,'Sắt');
+INSERT INTO dich_vu VALUES (1,'tên dịch vụ 1',10,5,'1','1',1,1,'trống'),(2,'tên dịch vụ 2',20,10,'2','2',2,2,'trống'),(3,'tên dịch vụ 3',30,15,'3','3',3,3,'trống'),(4,'tên dịch vụ 4',40,4,'4','4',4,4,'trống'),(5,'tên dịch vụ 5',50,7,'5','5',5,5,'trống'),(6,'tên dịch vụ 6',60,9,'6','6',6,6,'trống');
+INSERT INTO nhan_vien VALUES (1,'T Văn A',1,1,1,'1990-10-10','123456789','10000000','123456789','nguyenvana@gmail.com','da nang'),(2,'H Văn B',2,2,2,'1995-10-10','123456789','10000000','123456789','nguyenvanb@gmail.com','da nang'),(3,'Nguyễn Văn C',3,3,3,'1985-10-10','123456789','10000000','123456789','nguyenvanc@gmail.com','vinh'),(4,'Nguyễn Văn D',4,4,4,'1992-10-10','123456789','10000000','123456789','nguyenvand@gmail.com','quang ngai'),(5,'K Văn E',5,5,5,'1990-10-10','123123123','20000000','123456789','nguyenvane@gmail.com','da nang'),(6,'H Văn F',6,6,6,'1981-10-10','123123123','22222222','123455454','nguyenvanh@gmail.com','Quang Tri');
+INSERT INTO khach_hang VALUES (1,1,'Hồ Văn Quốc A','2010-11-10','123456781','123456781','hovanquoca@gmail.com','da nang'),(2,2,'Hồ Văn Quốc B','1990-11-10','123456721','123456782','hovanquocb@gmail.com','quang tri'),(3,3,'Hồ Văn Quốc C','1900-11-10','123456783','123456783','hovanquocv@gmail.com','da nang'),(4,4,'Hồ Văn E','1990-11-10','123456784','123456784','hovan@gmail.com','quang tri'),(5,5,'Hồ Văn Quốc D','1991-11-10','123456785','123456785','hovanquocd@gmail.com','trần cao vân việt nam'),(6,6,'H Văn A','1994-11-10','123123123','123232321','jdsfhsdfj@gmail.com','đồng nai');
+INSERT INTO hop_dong VALUES (1,1,1,1,'2020-03-12','2021-03-12',10,1000),(2,2,2,2,'2019-03-12','2019-04-12',22,1000),(3,3,3,3,'2021-03-12','2019-09-12',23,2000),(4,4,4,4,'2017-03-12','2018-03-12',43,3000),(5,5,5,5,'2018-03-12','2019-04-18',34,3333),(6,6,6,6,'2014-03-12','2015-03-12',43,4444);
+INSERT INTO hop_dong_chi_tiet VALUES (1,1,1,2),(2,2,2,4),(3,3,3,2),(4,4,4,3),(5,5,5,4),(6,6,6,6);
 
 
 -- task 2
 
--- SELECT 
---     *
--- FROM
---     nhanvien
--- WHERE
---     (HoTenNhanVien LIKE 'H%'
---         OR HoTenNhanVien LIKE 'T%'
---         OR HoTenNhanVien LIKE 'K%')
---         AND LENGTH(HoTenNhanVien) < 15;
+SELECT 
+    *
+FROM
+    nhan_vien
+WHERE
+    (ho_ten LIKE 'H%'
+        OR ho_ten LIKE 'T%'
+        OR ho_ten LIKE 'K%')
+        AND LENGTH(ho_ten) < 15;
         
 -- task 3 -
 
--- SELECT 
---     *
--- FROM
---     khachhang
--- WHERE
---     DiaChiKhachHang IN ('da nang' , 'quang tri')
---         AND (((YEAR(NOW()) - YEAR(khachhang.NgaySinhKhachHang)) > 18)
---         AND ((YEAR(NOW()) - YEAR(khachhang.NgaySinhKhachHang)) < 50));
+SELECT 
+    *
+FROM
+    khach_hang
+WHERE
+    dia_chi IN ('da nang' , 'quang tri')
+        AND (((YEAR(NOW()) - YEAR(khach_hang.ngay_sinh)) > 18)
+        AND ((YEAR(NOW()) - YEAR(khach_hang.ngay_sinh)) < 50));
 
 -- task 4
 
--- SELECT 
---     khachhang.HoTenKhachHang,
---     COUNT(hopdong.IDHopDong) AS solandatphong
--- FROM
---     khachhang
---         INNER JOIN
---     hopdong ON (khachhang.IDKhachHang = hopdong.IDKhachHang)
---         INNER JOIN
---     loaikhach ON (khachhang.IDLoaiKhach = loaikhach.IDLoaiKhach)
--- WHERE
---     loaikhach.TenLoaiKhach = 'Diamond'
--- GROUP BY khachhang.IDKhachHang
--- ORDER BY solandatphong;
+SELECT 
+    khach_hang.ho_ten,
+    COUNT(hop_dong.id_hop_dong) AS so_lan_dat_phong
+FROM
+    khach_hang
+        INNER JOIN
+    hop_dong ON (khach_hang.id_khach_hang = hop_dong.id_khach_hang)
+        INNER JOIN
+    loai_khach ON (khach_hang.id_loai_khach = loai_khach.id_loai_khach)
+WHERE
+    loai_khach.ten_loai_khach = 'Diamond'
+GROUP BY khach_hang.id_khach_hang
+ORDER BY so_lan_dat_phong;
 
 -- task 5 
 
--- SELECT 
---     khachhang.IDKhachHang,
---     khachhang.HoTenKhachHang,
---     loaikhach.TenLoaiKhach,
---     hopdong.IDHopDong,
---     dichvu.TenDichVu,
---     hopdong.NgayLamHopDong,
---     hopdong.NgayKetThuc,
---     dichvu.ChiPhiThue,
---     SUM(dichvu.ChiPhiThue + hopdongchitiet.SoLuong * dichvudikem.Gia) AS 'tong tien'
--- FROM
---     khachhang
---         LEFT JOIN
---     loaikhach ON khachhang.IDLoaiKhach = loaikhach.IDLoaiKhach
---         LEFT JOIN
---     hopdong ON khachhang.IDKhachHang = hopdong.IDKhachHang
---         LEFT JOIN
---     dichvu ON hopdong.IDDichVu = dichvu.IDDichVu
---         LEFT JOIN
---     hopdongchitiet ON hopdong.IDHopDong = hopdongchitiet.IDHopDong
---         LEFT JOIN
---     dichvudikem ON hopdongchitiet.IDDichVuDiKem = dichvudikem.IDDichVuDiKem
--- GROUP BY hopdong.idHopDong;
+SELECT 
+    khach_hang.id_khach_hang,
+    khach_hang.ho_ten,
+    loai_khach.ten_loai_khach,
+    hop_dong.id_hop_dong,
+    dich_vu.ten_dich_vu,
+    hop_dong.ngay_lam_hop_dong,
+    hop_dong.ngay_ket_thuc,
+    dich_vu.chi_phi_thue,
+    SUM(dich_vu.chi_phi_thue + hop_dong_chi_tiet.so_luong * dich_vu_di_kem.gia) AS 'tong tien'
+FROM
+    khach_hang
+        LEFT JOIN
+    loai_khach ON khach_hang.id_loai_khach = loai_khach.id_loai_khach
+        LEFT JOIN
+    hop_dong ON khach_hang.id_khach_hang = hop_dong.id_khach_hang
+        LEFT JOIN
+    dich_vu ON hop_dong.id_dich_vu = dich_vu.id_dich_vu
+        LEFT JOIN
+    hop_dong_chi_tiet ON hop_dong.id_hop_dong = hop_dong_chi_tiet.id_hop_dong
+        LEFT JOIN
+    dich_vu_di_kem ON hop_dong_chi_tiet.id_dich_vu_di_kem = dich_vu_di_kem.id_dich_vu_di_kem
+GROUP BY hop_dong.id_hop_dong;
 
 
 -- Yeu cau 6
 
--- SELECT 
---     dichvu.IDDichvu,
---     dichvu.TenDichVu,
---     dichvu.DienTich,
---     dichvu.SoNguoiToiDa,
---     dichvu.ChiPhiThue,
---     loaidichvu.TenLoaiDichVu
--- FROM
---     dichvu
---         INNER JOIN
---     loaidichvu ON dichvu.IDLoaiDichvu = loaidichvu.IDLoaiDichVu
--- WHERE
---     NOT EXISTS( SELECT 
---             hopdong.IDHopDong
---         FROM
---             hopdong
---         WHERE
---             (hopdong.NgayLamHopDong BETWEEN '2019-01-01' AND '2019-03-31')
---                 AND hopdong.IDDichvu = dichvu.IDDichVu);
---                 
--- SELECT 
---     *
--- FROM
---     furama_resort_hoa1.hopdong;
+SELECT 
+    dich_vu.id_dich_vu,
+    dich_vu.ten_dich_vu,
+    dich_vu.dien_tich,
+    dich_vu.so_nguoi_toi_da,
+    dich_vu.chi_phi_thue,
+    loai_dich_vu.ten_loai_dich_vu
+FROM
+    dich_vu
+        INNER JOIN
+    loai_dich_vu ON dich_vu.id_loai_dich_vu = loai_dich_vu.id_loai_dich_vu
+WHERE
+    NOT EXISTS( SELECT 
+            hop_dong.id_hop_dong
+        FROM
+            hop_dong
+        WHERE
+            (hop_dong.ngay_lam_hop_dong BETWEEN '2019-01-01' AND '2019-03-31')
+                AND hop_dong.id_dich_vu = dich_vu.id_dich_vu);
+                
+SELECT 
+    *
+FROM
+    furama_resort_hoa1.hop_dong;
 
 -- yeu cau 7
 
--- SELECT 
---     dichvu.IDDichvu,
---     dichvu.TenDichVu,
---     dichvu.DienTich,
---     dichvu.SoNguoiToiDa,
---     dichvu.ChiPhiThue,
---     loaidichvu.TenLoaiDichVu
--- FROM
---     dichvu
---         INNER JOIN
---     loaidichvu ON dichvu.IDLoaiDichvu = loaidichvu.IDLoaiDichVu
--- WHERE
---     EXISTS( SELECT 
---             hopdong.IDHopDong
---         FROM
---             hopdong
---         WHERE
---             YEAR(hopdong.NgayLamHopDong) = '2018'
---                 AND hopdong.IDDichVu = dichvu.IDDichVu)
---         AND NOT EXISTS( SELECT 
---             hopdong.IDHopDong
---         FROM
---             hopdong
---         WHERE
---             YEAR(hopdong.NgayLamHopDong) = '2019'
---                 AND hopdong.IDDichVu = dichvu.IDDichVu);
---                 
+SELECT 
+    dich_vu.id_dich_vu,
+    dich_vu.ten_dich_vu,
+    dich_vu.dien_tich,
+    dich_vu.so_nguoi_toi_da,
+    dich_vu.chi_phi_thue,
+    loai_dich_vu.ten_loai_dich_vu
+FROM
+    dich_vu
+        INNER JOIN
+    loai_dich_vu ON dich_vu.id_loai_dich_vu = loai_dich_vu.id_loai_dich_vu
+WHERE
+    EXISTS( SELECT 
+            hop_dong.id_hop_dong
+        FROM
+            hop_dong
+        WHERE
+            YEAR(hop_dong.ngay_lam_hop_dong) = '2018'
+                AND hop_dong.id_dich_vu = dich_vu.id_dich_vu)
+        AND NOT EXISTS( SELECT 
+            hop_dong.id_hop_dong
+        FROM
+            hop_dong
+        WHERE
+            YEAR(hop_dong.ngay_lam_hop_dong) = '2019'
+                AND hop_dong.id_dich_vu = dich_vu.id_dich_vu);
+                
 -- yeu cau 8
 
--- SELECT 
---     khachhang.HoTenKhachHang
--- FROM
---     khachhang
--- GROUP BY khachhang.HoTenKhachHang;
--- SELECT DISTINCT
---     khachhang.HoTenKhachHang
--- FROM
---     khachhang;
--- SELECT 
---     khachhang.HoTenKhachHang
--- FROM
---     khachhang 
--- UNION SELECT 
---     khachhang.HoTenKhachHang
--- FROM
---     khachhang;
+SELECT 
+    khach_hang.ho_ten
+FROM
+    khach_hang
+GROUP BY khach_hang.ho_ten;
+SELECT DISTINCT
+    khach_hang.ho_ten
+FROM
+    khach_hang;
+SELECT 
+    khach_hang.ho_ten
+FROM
+    khach_hang 
+UNION SELECT 
+    khach_hang.ho_ten
+FROM
+    khach_hang;
 
 -- yeu cau 9
 
--- create temporary table Temp
--- select 1 as Month
--- union
--- select 2 as Month
--- union
--- select 3 as Month
--- union
--- select 4 as Month
--- union
--- select 5 as Month
--- union
--- select 6 as Month
--- union
--- select 7 as Month
--- union
--- select 8 as Month
--- union
--- select 9 as Month
--- union
--- select 10 as Month
--- union
--- select 11 as Month
--- union
--- select 12 as Month;
--- SELECT 
---     *
--- FROM
---     Temp;
--- SELECT 
---     Month,
---     COUNT(HD.IdHopDong) AS 'Sô Lần Đặt',
---     SUM(HD.TongTien)
--- FROM
---     Temp
---         LEFT JOIN
---     HopDong HD ON MONTH(HD.NgayLamHopDong) = Month
---         AND YEAR(HD.NgayLamHopDong) = 2019
--- GROUP BY Month
--- ORDER BY Month;
--- -- Xoá bảng tạm
--- drop temporary table Temp;
+create temporary table Temp
+select 1 as Month
+union
+select 2 as Month
+union
+select 3 as Month
+union
+select 4 as Month
+union
+select 5 as Month
+union
+select 6 as Month
+union
+select 7 as Month
+union
+select 8 as Month
+union
+select 9 as Month
+union
+select 10 as Month
+union
+select 11 as Month
+union
+select 12 as Month;
+SELECT 
+    *
+FROM
+    Temp;
+SELECT 
+    Month,
+    COUNT(HD.id_hop_dong) AS 'Sô Lần Đặt',
+    SUM(HD.tong_tien)
+FROM
+    Temp
+        LEFT JOIN
+    hop_dong HD ON MONTH(HD.ngay_lam_hop_dong) = Month
+        AND YEAR(HD.ngay_lam_hop_dong) = 2019
+GROUP BY Month
+ORDER BY Month;
+-- Xoá bảng tạm
+drop temporary table Temp;
 
 -- yeu cau 10
 
--- SELECT 
---     hopdong.IDHopDong,
---     hopdong.NgayLamHopDong,
---     hopdong.NgayKetThuc,
---     hopdong.TienDatCoc,
---     COUNT(hopdongchitiet.IDHopDongChiTiet) AS 'So Luong Dich Vu Di Kem'
--- FROM
---     hopdong
---         INNER JOIN
---     hopdongchitiet ON hopdong.IDHopDong = hopdongchitiet.IDHopDong
--- GROUP BY hopdong.IDHopDong;
+SELECT 
+    hop_dong.id_hop_dong,
+    hop_dong.ngay_lam_hop_dong,
+    hop_dong.ngay_ket_thuc,
+    hop_dong.tien_dat_coc,
+    COUNT(hop_dong_chi_tiet.id_hop_dong_chi_tiet) AS 'So Luong Dich Vu Di Kem'
+FROM
+    hop_dong
+        INNER JOIN
+    hop_dong_chi_tiet ON hop_dong.id_hop_dong = hop_dong_chi_tiet.id_hop_dong
+GROUP BY hop_dong.id_hop_dong;
 
 -- yeu cau 11
 
--- SELECT DISTINCT
---     dichvudikem.TenDichVuDiKem,
---     dichvudikem.Gia,
---     dichvudikem.DonVi
--- FROM
---     hopdong
---         INNER JOIN
---     hopdongchitiet ON hopdong.IDHopDong = hopdongchitiet.IDHopDong
---         INNER JOIN
---     dichvudikem ON hopdongchitiet.IDDichVuDiKem = dichvudikem.IDDichVuDiKem
---         INNER JOIN
---     khachhang ON khachhang.IDKhachHang = hopdong.IDKhachHang
---         INNER JOIN
---     loaikhach ON khachhang.IDLoaiKhach = loaikhach.IDLoaiKhach
--- WHERE
---     loaikhach.TenLoaiKhach = 'Diamond'
---         AND khachhang.DiaChiKhachHang IN ('Da Nang' , 'Quang Tri'); 
---         
+SELECT DISTINCT
+    dich_vu_di_kem.ten_dich_vu_di_kem,
+    dich_vu_di_kem.gia,
+    dich_vu_di_kem.don_vi
+FROM
+    hop_dong
+        INNER JOIN
+    hop_dong_chi_tiet ON hop_dong.id_hop_dong = hop_dong_chi_tiet.id_hop_dong
+        INNER JOIN
+    dich_vu_di_kem ON hop_dong_chi_tiet.id_dich_vu_di_kem = dich_vu_di_kem.id_dich_vu_di_kem
+        INNER JOIN
+    khach_hang ON khach_hang.id_khach_hang = hop_dong.id_khach_hang
+        INNER JOIN
+    loai_khach ON khach_hang.id_loai_khach = loai_khach.id_loai_khach
+WHERE
+    loai_khach.ten_loai_khach = 'Diamond'
+        AND khach_hang.dia_chi IN ('Da Nang' , 'Quang Tri'); 
+        
 -- yeu cau 12
 
--- SELECT 
---     hopdong.IDHopDong,
---     nhanvien.HoTenNhanVien,
---     khachhang.HoTenKhachHang,
---     khachhang.SDTKhachHang,
---     dichvu.TenDichVu,
---     COUNT(hopdongchitiet.IDDichVuDiKem) AS so_lan_su_dung
--- FROM
---     hopdong
---         INNER JOIN
---     nhanvien ON hopdong.IDNhanVien = nhanvien.IDNhanVien
---         INNER JOIN
---     khachhang ON hopdong.IDKhachHang = khachhang.IDKhachHang
---         INNER JOIN
---     dichvu ON hopdong.IDDichVu = dichvu.IDDichVu
---         INNER JOIN
---     hopdongchitiet ON hopdongchitiet.IDHopDong = hopdong.IDHopDong
--- where not exists(select hopdong.IDHopDong where hopdong.NgayLamHopDong between '2019-01-01' and '2019-06-31')
--- and exists(select hopdong.IDHopDong where hopdong.NgayLamHopDong between '2019-09-01' and '2019-12-31');
+SELECT 
+    hop_dong.id_hop_dong,
+    nhan_vien.ho_ten,
+    khach_hang.ho_ten,
+    khach_hang.sdt,
+    dich_vu.ten_dich_vu,
+    COUNT(hop_dong_chi_tiet.id_dich_vu_di_kem) AS so_lan_su_dung
+FROM
+    hop_dong
+        INNER JOIN
+    nhan_vien ON hop_dong.id_nhan_vien = nhan_vien.id_nhan_vien
+        INNER JOIN
+    khach_hang ON hop_dong.id_khach_hang = khach_hang.id_khach_hang
+        INNER JOIN
+    dich_vu ON hop_dong.id_dich_vu = dich_vu.id_dich_vu
+        INNER JOIN
+    hop_dong_chi_tiet ON hop_dong_chi_tiet.id_hop_dong = hop_dong.id_hop_dong
+where not exists(select hop_dong.id_hop_dong where hop_dong.ngay_lam_hop_dong between '2019-01-01' and '2019-06-31')
+and exists(select hop_dong.id_hop_dong where hop_dong.ngay_lam_hop_dong between '2019-09-01' and '2019-12-31');
 
 
 -- yeu cau 13
 
 
--- SELECT 
---     hopdong.IDHopDong,
---     loaidichvu.TenLoaiDichVu,
---     dichvudikem.TenDichVuDiKem,
---     COUNT(hopdongchitiet.IDDichVuDiKem) AS so_lan_su_dung_dich_vu
--- FROM
---     hopdong
---         INNER JOIN
---     dichvu ON dichvu.IDDichvu = hopdong.IDDichVu
---         INNER JOIN
---     loaidichvu ON dichvu.IDLoaiDichVu = loaidichvu.IDLoaiDichVu
---         INNER JOIN
---     hopdongchitiet ON hopdongchitiet.IDHopDong = hopdong.IDHopDong
---         INNER JOIN
---     dichvudikem ON hopdongchitiet.IDDichVuDiKem = dichvudikem.IDDichVuDiKem
--- GROUP BY (dichvudikem.TenDichVuDiKem)
--- HAVING so_lan_su_dung_dich_vu = 1;
+SELECT 
+    hop_dong.id_hop_dong,
+    loai_dich_vu.ten_loai_dich_vu,
+    dich_vu_di_kem.ten_dich_vu_di_kem,
+    COUNT(hop_dong_chi_tiet.id_dich_vu_di_kem) AS so_lan_su_dung_dich_vu
+FROM
+    hop_dong
+        INNER JOIN
+    dich_vu ON dich_vu.id_dich_vu = hop_dong.id_dich_vu
+        INNER JOIN
+    loai_dich_vu ON dich_vu.id_loai_dich_vu = loai_dich_vu.id_loai_dich_vu
+        INNER JOIN
+    hop_dong_chi_tiet ON hop_dong_chi_tiet.id_hop_dong = hop_dong.id_hop_dong
+        INNER JOIN
+    dich_vu_di_kem ON hop_dong_chi_tiet.id_dich_vu_di_kem = dich_vu_di_kem.id_dich_vu_di_kem
+GROUP BY (dich_vu_di_kem.ten_dich_vu_di_kem)
+HAVING so_lan_su_dung_dich_vu = 1;
 
 -- yeu cau 14
 
--- SELECT 
---     hopdong.IDHopDong, loaidichvu.TenLoaiDichVu, TenDichVuDiKem
--- FROM
---     hopdong
---         INNER JOIN
---     dichvu ON hopdong.IDDichVu = dichvu.IDDichVu
---         INNER JOIN
---     loaidichvu ON loaidichvu.IDLoaiDichvu = dichvu.IDLoaiDichVu
---         INNER JOIN
---     hopdongchitiet ON hopdongchitiet.IDHopDong = hopdong.IDHopDong
---         INNER JOIN
---     dichvudikem ON dichvudikem.IDDichVuDiKem = hopdongchitiet.IDDichVuDiKem
--- WHERE
---     hopdongchitiet.IDDichVuDiKem IN (SELECT 
---             IDDichVuDiKem
---         FROM
---             hopdongchitiet
---         GROUP BY IDDichVuDiKem
---         HAVING COUNT(IDDichVuDiKem) = 1)
+SELECT 
+    hop_dong.id_hop_dong, loai_dich_vu.ten_loai_dich_vu, ten_dich_vu_di_kem
+FROM
+    hop_dong
+        INNER JOIN
+    dich_vu ON hop_dong.id_dich_vu = dich_vu.id_dich_vu
+        INNER JOIN
+    loai_dich_vu ON loai_dich_vu.id_loai_dich_vu = dich_vu.id_loai_dich_vu
+        INNER JOIN
+    hop_dong_chi_tiet ON hop_dong_chi_tiet.id_hop_dong = hop_dong.id_hop_dong
+        INNER JOIN
+    dich_vu_di_kem ON dich_vu_di_kem.id_dich_vu_di_kem = hop_dong_chi_tiet.id_dich_vu_di_kem
+WHERE
+    hop_dong_chi_tiet.id_dich_vu_di_kem IN (SELECT 
+            id_dich_vu_di_kem
+        FROM
+            hop_dong_chi_tiet
+        GROUP BY id_dich_vu_di_kem
+        HAVING COUNT(id_dich_vu_di_kem) = 1)
 
 -- yeu cau 15
 
--- SELECT 
---     nhanvien.IDNhanVien,
---     nhanvien.HoTenNhanVien,
---     trinhdo.TrinhDoNhanVien,
---     bophan.TenBoPhanNhanVien,
---     nhanvien.SDTNhanVien,
---     nhanvien.DiaChiNhanVien,
---     COUNT(hopdong.IDNhanVien) AS so_lan_lap_hop_dong
--- FROM
---     nhanvien
---         INNER JOIN
---     bophan ON nhanvien.IDBoPhanNhanVien = bophan.IDBoPhanNhanVien
---         INNER JOIN
---     trinhdo ON nhanvien.IDTrinhDoNhanVien = trinhdo.IDTrinhDoNhanVien
---         INNER JOIN
---     hopdong ON hopdong.IDNhanVien = nhanvien.IDNhanVien
--- WHERE
---     hopdong.NgayLamHopDong BETWEEN '2018-01-01' AND '2019-12-31'
--- GROUP BY nhanvien.HoTenNhanVien
--- HAVING so_lan_lap_hop_dong < 4;
+SELECT 
+    nhan_vien.id_nhan_vien,
+    nhan_vien.ho_ten,
+    trinh_do.trinh_do,
+    bo_phan.ten_bo_phan,
+    nhan_vien.sdt,
+    nhan_vien.dia_chi,
+    COUNT(hop_dong.id_nhan_vien) AS so_lan_lap_hop_dong
+FROM
+    nhan_vien
+        INNER JOIN
+    bo_phan ON nhan_vien.id_bo_phan = bo_phan.id_bo_phan
+        INNER JOIN
+    trinh_do ON nhan_vien.id_trinh_do = trinh_do.id_trinh_do
+        INNER JOIN
+    hop_dong ON hop_dong.id_nhan_vien = nhan_vien.id_nhan_vien
+WHERE
+    hop_dong.ngay_lam_hop_dong BETWEEN '2018-01-01' AND '2019-12-31'
+GROUP BY nhan_vien.ho_ten
+HAVING so_lan_lap_hop_dong < 4;
 
 -- yeu cau 16
 
--- SET SQL_SAFE_UPDATES = 0;
--- DELETE FROM nhanvien 
--- WHERE
---     NOT EXISTS( SELECT 
---         nhanvien.IDNhanVien
---     FROM
---         hopdong
---     
---     WHERE
---         hopdong.NgayLamHopDong BETWEEN '2017-01-01' AND '2019-12-31'
---         AND hopdong.IDNhanVien = nhanvien.IDNhanVien);
---         SET SQL_SAFE_UPDATES=1; 
+SET SQL_SAFE_UPDATES = 0;
+DELETE FROM nhan_vien 
+WHERE
+    NOT EXISTS( SELECT 
+        nhan_vien.id_nhan_vien
+    FROM
+        hop_dong
+    
+    WHERE
+        hop_dong.ngay_lam_hop_dong BETWEEN '2017-01-01' AND '2019-12-31'
+        AND hop_dong.id_nhan_vien = nhan_vien.id_nhan_vien);
+        SET SQL_SAFE_UPDATES=1; 
 
 -- yeu cau 17 
 
--- SET SQL_SAFE_UPDATES=0;
--- DELETE FROM nhanvien 
--- WHERE
---     IDNhanVien NOT IN (SELECT 
---         IDNhanVien
---     FROM
---         hopdong
---     
---     WHERE
---         YEAR(NgayLamHopDong) BETWEEN 2017 AND 2019);
---  SET SQL_SAFE_UPDATES=1; 
+SET SQL_SAFE_UPDATES=0;
+DELETE FROM nhan_vien 
+WHERE
+    id_nhan_vien NOT IN (SELECT 
+        id_nhan_vien
+    FROM
+        hop_dong
+    
+    WHERE
+        YEAR(ngay_lam_hop_dong) BETWEEN 2017 AND 2019);
+ SET SQL_SAFE_UPDATES=1; 
 
 
 -- yeu cau 18
 
--- SET SQL_SAFE_UPDATES = 0;
--- DELETE khachhang,hopdong,hopdongchitiet FROM khachhang inner join hopdong ON khachhang.IDKhachHang = hopdong.IDKhachHang
--- inner join hopdongchitiet on hopdong.IDHopDong = hopdongchitiet.IDHopDong
--- where not exists(
--- select hopdong.IDHopDong where year(hopdong.NgayLamHopDong)>'2016') and khachhang.IDKhachHang = hopdong.IDKhachHang;
---  SET SQL_SAFE_UPDATES=1; 
+SET SQL_SAFE_UPDATES = 0;
+DELETE khach_hang,hop_dong,hop_dong_chi_tiet FROM khach_hang inner join hop_dong ON khach_hang.id_khach_hang = hop_dong.id_khach_hang
+inner join hop_dong_chi_tiet on hop_dong.id_hop_dong = hop_dong_chi_tiet.id_hop_dong
+where not exists(
+select hop_dong.id_hop_dong where year(hop_dong.ngay_lam_hop_dong)>'2016') and khach_hang.id_khach_hang = hop_dong.id_khach_hang;
+ SET SQL_SAFE_UPDATES=1; 
 
 -- yeu cau 19
 
--- SET SQL_SAFE_UPDATES=0;
--- UPDATE dichvudikem 
--- SET 
---     Gia = Gia * 10
--- WHERE
---     IDDichVuDiKem IN (SELECT 
---             IDDichVuDiKem
---         FROM
---             (hopdong hd
---             JOIN hopdongchitiet hdct ON hd.IDHopDong = hdct.IDHopDong)
---         WHERE
---             YEAR(hd.NgayLamHopDong) = 2019
---         GROUP BY IDDichVuDiKem
---         HAVING COUNT(hdct.IDDichVuDiKem) > 3);
---  SET SQL_SAFE_UPDATES=1;
+SET SQL_SAFE_UPDATES=0;
+UPDATE dich_vu_di_kem 
+SET 
+    gia = gia * 10
+WHERE
+    id_dich_vu_di_kem IN (SELECT 
+            id_dich_vu_di_kem
+        FROM
+            (hop_dong hd
+            JOIN hop_dong_chi_tiet hdct ON hd.id_hop_dong = hdct.id_hop_dong)
+        WHERE
+            YEAR(hd.ngay_lam_hop_dong) = 2019
+        GROUP BY id_dich_vu_di_kem
+        HAVING COUNT(hdct.id_dich_vu_di_kem) > 3);
+ SET SQL_SAFE_UPDATES=1;
 
 -- yeu cau 20
 
--- SELECT 
---     IDNhanVien AS ID,
---     HoTenNhanVien,
---     EmailNhanVien,
---     SDTNhanVien,
---     NgaySinhNhanVien,
---     DiaChiNhanVien
--- FROM
---     nhanvien 
--- UNION ALL SELECT 
---     IDKhachHang AS ID,
---     HoTenKhachHang,
---     EmailKhachHang,
---     SDTKhachHang,
---     NgaySinhKhachHang,
---     DiaChiKhachHang
--- FROM
---     khachhang
+SELECT 
+    id_nhan_vien AS ID,
+    ho_ten,
+    email,
+    sdt,
+    ngay_sinh,
+    dia_chi
+FROM
+    nhan_vien 
+UNION ALL SELECT 
+    id_khach_hang AS ID,
+    ho_ten,
+    email,
+    sdt,
+    ngay_sinh,
+    dia_chi
+FROM
+    khach_hang
