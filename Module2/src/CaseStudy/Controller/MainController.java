@@ -13,8 +13,6 @@ public class MainController {
     protected static List<Customer> listCustomer = new ArrayList<Customer>();
     protected static List<Employee> listEmployee = new ArrayList<Employee>();
     protected static final int CASE_INSENSITIVE = 0x02;
-
-
     protected static String regexConvenientDescription = "^massage|karaoke|food|drink|car$";
     protected static String regexNameException = "^([A-Z][a-z]+)( [A-Z][a-z]+)*$";
     protected static String regexEmailException = "^\\w+@\\w+.\\w+$";
