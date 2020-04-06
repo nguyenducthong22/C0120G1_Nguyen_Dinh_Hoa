@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Module2/BaiTap.iml" filepath="$PROJECT_DIR$/Module2/BaiTap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Module2/Bai_1_Ngon_Ngu_Lap_Trinh_Java.iml" filepath="$PROJECT_DIR$/Module2/Bai_1_Ngon_Ngu_Lap_Trinh_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module2Core/BaiTap.iml" filepath="$PROJECT_DIR$/Module2Core/BaiTap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module2Core/Bai_1_Ngon_Ngu_Lap_Trinh_Java.iml" filepath="$PROJECT_DIR$/Module2Core/Bai_1_Ngon_Ngu_Lap_Trinh_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/C0120G1_Nguyen_Dinh_Hoa.iml" filepath="$PROJECT_DIR$/.idea/C0120G1_Nguyen_Dinh_Hoa.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Module2/Module2.iml" filepath="$PROJECT_DIR$/Module2/Module2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Module2Core/Module2Core.iml" filepath="$PROJECT_DIR$/Module2Core/Module2Core.iml" />
     </modules>
   </component>
 </project>
