@@ -411,6 +411,14 @@
       <workItem from="1586146504783" duration="606000" />
       <workItem from="1586147301432" duration="48000" />
       <workItem from="1586157166347" duration="42000" />
+      <workItem from="1586227955884" duration="298000" />
+      <workItem from="1586233338628" duration="21000" />
+      <workItem from="1586233376810" duration="256000" />
+      <workItem from="1586233918578" duration="86000" />
+      <workItem from="1586250551022" duration="171000" />
+      <workItem from="1586314191417" duration="381000" />
+      <workItem from="1586314600063" duration="33000" />
+      <workItem from="1586335748106" duration="1109000" />
     </task>
     <task id="LOCAL-00001" summary="sdsd">
       <created>1578456702555</created>
@@ -456,6 +464,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Glassfish_Server/0.0.1536.824@0.0.1536.824" timestamp="1585897257811" />
+    <state x="361" y="88" key="#HTTP_Proxy" timestamp="1586233613851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="88" key="#HTTP_Proxy/0.0.1536.824@0.0.1536.824" timestamp="1586233613851" />
     <state x="361" y="72" key="#Project_Structure" timestamp="1585558501792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -468,10 +480,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585558856006" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1586157198994">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1586336239147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586157198994" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586336239147" />
     <state width="1464" height="161" key="GridCell.Tab.0.bottom" timestamp="1585558860892">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -528,10 +540,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="444" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585898509638" />
-    <state x="209" y="0" key="new project wizard" timestamp="1586157205966">
+    <state x="209" y="0" key="new project wizard" timestamp="1586336254767">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586157205966" />
+    <state x="209" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586336254767" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1585897941444">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
